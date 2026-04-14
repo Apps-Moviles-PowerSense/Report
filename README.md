@@ -20,16 +20,15 @@
 
 <br>
 
+
 ## Integrantes
--Pastor Napa, Juan Carlos - U202217288
-
--Aquino Solorzano, Daniel Jonatan - U202217678
-
--Ojanama Abanto, Johnny Alexander - U20231F412
-
--Lagos Rivera, Kael Valentino - 
-
--Pelaez Vargas, Giuliano Angel - U20221E121
+| Código | Apellidos y Nombres | Carrera |
+| :--- | :--- | :--- |
+| U202217288 | Pastor Napa, Juan Carlos | Ingeniería de Software |
+| U202217678 | Aquino Solorzano, Daniel Jonatan | Ingeniería de Software |
+| U20231F412 | Ojanama Abanto, Johnny Alexander | Ingeniería de Software |
+|  |  |  |
+| U20221E121 | Pelaez Vargas, Giuliano Angel | Ingeniería de Software |
 
 <br>
 
