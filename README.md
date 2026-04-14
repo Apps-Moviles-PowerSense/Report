@@ -27,7 +27,7 @@
 | U202217288 | Pastor Napa, Juan Carlos | Ingeniería de Software |
 | U202217678 | Aquino Solorzano, Daniel Jonatan | Ingeniería de Software |
 | U20231F412 | Ojanama Abanto, Johnny Alexander | Ingeniería de Software |
-|  |  |  |
+|  | Lagos Rivera, Kael Valentino |  |
 | U20221E121 | Pelaez Vargas, Giuliano Angel | Ingeniería de Software |
 
 <br>
