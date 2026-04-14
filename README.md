@@ -110,6 +110,15 @@
 
 ### 1.1.1. Descripción de la Startup
 ### 1.1.2. Perfiles de integrantes del equipo 
+
+| Integrante                       | Código     | Carrera / Información                                                                 |
+|----------------------------------|------------|----------------------------------------------------------------------------------------|
+| Aquino Solorzano, Daniel Jonatan | u202217678 | Ingeniería de Software. Responsable y puntual. Conocimientos en C++ y Java.            |
+| Lagos Rivera, Kael Valentino |  |  |
+| Ojanama Abanto, Johnny Alexander | u20231f412 | Ingeniería de Software. Responsable y cooperativo. Conocimientos en C++, HTML, CSS y JavaScript |
+| Pastor Napa, Juan Carlos         | u202217288 | Ingenieria de Software. Creativo. Conocimientos en C++, redes, electronica y tecnico.  |
+| Pelaez Vargas, Giuliano Angel    | u20221e121 | Ingeniería de Software. Solidario y enfocado. Conocimientos en C++, Python y Lua. |
+
 ## 1.2. Solution Profile 
 ### 1.2.1. Antecedentes y Problemática
 ### 1.2.2. Lean UX Process
