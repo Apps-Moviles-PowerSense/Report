@@ -1,31 +1,33 @@
-#### UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
-## FACULTAD DE INGENIERÍA
-### Carrera: Ingeniería de Software
-### Aplicaciones para Dispositivos Móviles
+# **Informe Trabajo Final**
 
-**Ciclo:** 2021-1
+<p align="center">
+  <img src="Imagenes/LogoUPC.png" alt="Logo de la UPC" />
+</p>
 
-**Código del curso:** 1ACC0238
+<p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
 
-**NRC:** 2610
+<p align="center"><strong>Ingeniería de Software</strong>
+<br>Aplicaciones Móviles <br>
+<strong>Profesor: Jorge Luis Mayta Guillermo</strong> </p>
 
-**Docente del curso:** Jorge Luis Mayta Guillermo
+<h2 align="center">INFORME</h2>
 
----
-## INFORME DE TRABAJO ()
+<h3 align="center">Nombre del Startup: Nombre aqui</h3>
+<p align="center"><strong>Nombre del producto: Nombre aqui</strong></p>
 
-**Nombre de la Startup:** 
+<p align="center"><strong>Ciclo académico: 2026-01</strong></p>
 
-**Nombre del producto:** 
+<p align="center"><strong>Código del curso: 1ACC0238</strong></p>
+
+<p align="center"><strong>NRC del curso: 2610</strong></p>
 
 <br>
-
 
 ## Integrantes
 | Código | Apellidos y Nombres | Carrera |
 | :--- | :--- | :--- |
 | U202217678 | Aquino Solorzano, Daniel Jonatan | Ingeniería de Software |
-|  | Lagos Rivera, Kael Valentino |  |
+| U202210104 | Lagos Rivera, Kael Valentino | Ingeniería de Software |
 | U20231F412 | Ojanama Abanto, Johnny Alexander | Ingeniería de Software |
 | U202217288 | Pastor Napa, Juan Carlos | Ingeniería de Software |
 | U20221E121 | Pelaez Vargas, Giuliano Angel | Ingeniería de Software |
@@ -39,7 +41,7 @@
 ## Registro de versiones del informe
 | Versión | Fecha | Autor | Descripción de modificación |
 |:---:|:---:|:---:|:---|
-| 1.0 | --.04.2025 | Todo el Equipo | |
+| 1.0 | --.04.2025 | Todo el grupo  | Elaboración de los primeros puntos del informe |
 | 1.1 |  |  |  |
 
 
@@ -111,13 +113,13 @@
 ### 1.1.1. Descripción de la Startup
 ### 1.1.2. Perfiles de integrantes del equipo 
 
-| Integrante                       | Código     | Carrera / Información                                                                 |
-|----------------------------------|------------|----------------------------------------------------------------------------------------|
-| Aquino Solorzano, Daniel Jonatan | u202217678 | Ingeniería de Software. Responsable y puntual. Conocimientos en C++ y Java.            |
-| Lagos Rivera, Kael Valentino |  |  |
-| Ojanama Abanto, Johnny Alexander | u20231f412 | Ingeniería de Software. Responsable y cooperativo. Conocimientos en C++, HTML, CSS y JavaScript |
-| Pastor Napa, Juan Carlos         | u202217288 | Ingenieria de Software. Creativo. Conocimientos en C++, redes, electronica y tecnico.  |
-| Pelaez Vargas, Giuliano Angel    | u20221e121 | Ingeniería de Software. Solidario y enfocado. Conocimientos en C++, Python y Lua. |
+| Foto                                                                                                                             | Alumno                             | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|----------------------------------------------------------------------------------------------------------------------------------|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Foto aqui| Aquino Solorzano, Daniel Jonatan | Descripción aqui                                                                                                                                                                                                                                                                                                                                                |
+| Foto aqui| Ojanama Abanto, Johnny Alexander       | Descripción aqui |
+| ![Kael_Foto](Imagenes/Kael_Foto.jpg)                                                                                             | Kael Valentino, Lagos Rivera | Me llamo Kael Lagos, estudio en la UPC de Monterrico. Tengo muchas ganas de aprender, me considero una persona responsable que busca aprender de sus errores cada vez que puede y tambien me considero alguien que se centra en los detalles. Me comprometo a ayudar a mis compañeros para la elaboración de nuestro trabajo que nos pueda asegurar una buena nota al final.                                                                                                                                                                  |
+| Foto aqui                                                                                   | Pastor Napa, Juan Carlos    | Descripción aqui                                                                                                                                                                                           |
+| Foto aqui | Pelaez Vargas, Giuliano Angel    | Descripción aqui                                                                                                                                                                                                                                                                                                                 |
 
 ## 1.2. Solution Profile 
 ### 1.2.1. Antecedentes y Problemática
