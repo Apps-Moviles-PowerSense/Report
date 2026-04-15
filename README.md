@@ -103,8 +103,8 @@
 # Student Outcome
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Kael Valentino Lagos Rivera**<br>**TB1:** <br><br>**Daniel Jonatan Aquino Solorzano**<br>**TB1:** <br><br>**Johnny Alexander Ojanama Abanto**<br>**TB1:**  |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Giuliano Angel Pelaez Vargas**<br>**TB1:** <br><br>**Juan Carlos Pastor Napa**<br>**TB1:**  |
+|  |   |
+|  |   |
 ---
 
 # Capítulo I: Introducción
