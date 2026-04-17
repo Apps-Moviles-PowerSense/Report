@@ -168,6 +168,9 @@ La solución se plantea mediante la implementación de una plataforma de Interne
 En términos monetarios, el sobreconsumo energético en Lima es significativo. Los 79 kWh adicionales que consume un hogar limeño al mes respecto al promedio nacional equivalen a un gasto de aproximadamente S/ 49,77 adicionales mensuales, es decir, cerca de S/ 600 al año, considerando un costo promedio de S/ 0,63 por kWh en tarifa residencial (OSINERGMIN, 2025). Este monto representa un ahorro potencial tangible que la plataforma IoT podría ofrecer a los usuarios al optimizar su consumo.
 
 ### 1.2.2. Lean UX Process
+
+Para garantizar que nuestra solución tecnológica responda a necesidades reales y no a simples suposiciones, empleamos el proceso Lean UX. Esta metodología nos ayuda a comprender el problema, identificar aquello que damos por cierto y convertirlo en hipótesis que puedan validarse. De este modo, buscamos alinear el desarrollo de nuestro software tanto con los objetivos de los usuarios como con la visión de sostenibilidad que orienta nuestra startup.
+
 #### 1.2.2.1 Lean UX Problem Statements
 #### 1.2.2.2. Lean UX Assumptions
 #### 1.2.2.3. Lean UX Hypothesis Statements
