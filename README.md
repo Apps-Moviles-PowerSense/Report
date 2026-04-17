@@ -110,7 +110,21 @@
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 
+Nuestra startup, con origen en Perú, ofrece una solución tecnológica de vanguardia para que hogares y pequeñas empresas gestionen de manera activa su consumo energético, logrando así una significativa reducción de costos y de su huella de carbono.
+
+Hemos desarrollado un sistema inteligente basado en el Internet de las Cosas (IoT). Este integra sensores y actuadores que permiten:
+-   Monitoreo en tiempo real del gasto de energía.   
+-   Control remoto de dispositivos eléctricos.
+La plataforma incorpora funciones de Inteligencia Artificial (IA) que analizan los patrones de uso, identifican ineficiencias y generan recomendaciones personalizadas para optimizar el consumo. Esto promueve un estilo de vida más sostenible y consciente con el medio ambiente.
+  
+**Visión y Misión**
+
+-   **Visión:** Ser el referente líder en Sudamérica en soluciones de eficiencia energética inteligente, impulsando la transformación de las ciudades hacia modelos más sostenibles y resilientes.
+
+- **Misión:** Empoderar a nuestros usuarios, brindándoles herramientas accesibles y sencillas que les permitan visualizar su consumo instantáneamente, programar el funcionamiento de sus dispositivos y adoptar hábitos responsables. Buscamos impactar positivamente en la economía doméstica, en el crecimiento empresarial y en la conservación del entorno natural, expandiendo nuestra cobertura desde Perú hacia toda la región.
+  
 ### 1.1.1. Descripción de la Startup
+
 ### 1.1.2. Perfiles de integrantes del equipo 
 
 | Foto                                                                                                                             | Alumno                             | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
