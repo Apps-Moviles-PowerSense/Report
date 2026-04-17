@@ -161,3 +161,10 @@
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 ## 2.6. Tactical-Level Domain-Driven Design
+
+
+# Bibliografía
+- Sierra Praeli, Y. (28 de abril de 2024). Territorios contaminados: la transición energética no avanza en la Amazonía de Perú. Mongabay Latam.
+  (https://es.mongabay.com/2024/04/territorios-contaminados-transicion-energetica-no-avanza-amazonia-peru/)
+- AutoSolar Perú. (s. f.). Consumo energético familiar en Perú.
+  (https://autosolar.pe/ahorro-de-energia/consumo-energetico-familiar-en-peru)
