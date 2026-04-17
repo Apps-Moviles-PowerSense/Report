@@ -137,6 +137,11 @@ La plataforma incorpora funciones de Inteligencia Artificial (IA) que analizan l
 
 ## 1.2. Solution Profile 
 ### 1.2.1. Antecedentes y Problemática
+
+El sobreconsumo energético es un problema significativo en el Perú, particularmente en Lima Metropolitana, donde los hogares consumen considerablemente más electricidad que el promedio nacional. Las viviendas limeñas registran un consumo promedio mensual de 172 kWh, casi el doble de los 93 kWh promedio a nivel nacional (Auto Solar, 2025). Esta disparidad no solo se traduce en mayores costos para las familias, sino que también ejerce una presión considerable sobre la infraestructura eléctrica del país. La alta concentración demográfica y el uso intensivo de aparatos eléctricos, sumados a la escasez de prácticas de eficiencia, han convertido a la capital en un foco de consumo excesivo.
+ 
+Esta situación se agrava por la lentitud en la transición energética del país. A pesar del potencial de energías renovables, los avances y los planes estratégicos para un modelo energético más sostenible son inconsistentes (Mongabay Latam, 2024). Por ende, el alto consumo eléctrico doméstico en Lima no solo afecta la economía de los hogares, sino que también incrementa la huella de carbono y retrasa la modernización del sistema. Ante este panorama, es imperativo desarrollar soluciones tecnológicas y accesibles que permitan a los usuarios monitorear y optimizar su consumo de energía, logrando así reducir tanto sus gastos como su impacto ambiental.
+
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1 Lean UX Problem Statements
 #### 1.2.2.2. Lean UX Assumptions
