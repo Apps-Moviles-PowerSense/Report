@@ -25,6 +25,14 @@ En esta sección se detalla el desarrollo del Big Picture Event Storming, una t�
 ### 2.4.3. Product Backlog
 ## 2.5. Strategic-Level Domain-Driven Design
 ### 2.5.1. EventStorming
+
+Tras haber mapeado el flujo macro del negocio, procedemos al Design-Level Event Storming. En esta etapa el enfoque se desplaza hacia el diseño detallado de la solución de software. Aquí expandimos cada Domain Event integrando Commands, Polices, Aggregates y Read Models, permitiendonos visualizar no solo qué sucede, sino cómo interactua el usuario con el sistema y qué reglas de negocio rigen el comportamiento de PowerSense. Este nivel de detalle es fundamental para identificar de forma natural las fronteras del sistema, sirviendo como paso previo y necesario para la delimitación técnica de los Bounded Contexts.
+
+![event storming-1](Imagenes/event-storming/event-storming-1.png)
+![event storming-2](Imagenes/event-storming/event-storming-2.png)
+![event storming-3](Imagenes/event-storming/event-storming-3.png)
+![event storming-4](Imagenes/event-storming/event-storming-4.png)
+
 #### 2.5.1.1. Candidate Context Discovery
 #### 2.5.1.2. Domain Message Flows Modeling
 #### 2.5.1.3. Bounded Context Canvases
