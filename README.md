@@ -172,8 +172,33 @@ En términos monetarios, el sobreconsumo energético en Lima es significativo. L
 Para garantizar que nuestra solución tecnológica responda a necesidades reales y no a simples suposiciones, empleamos el proceso Lean UX. Esta metodología nos ayuda a comprender el problema, identificar aquello que damos por cierto y convertirlo en hipótesis que puedan validarse. De este modo, buscamos alinear el desarrollo de nuestro software tanto con los objetivos de los usuarios como con la visión de sostenibilidad que orienta nuestra startup.
 
 #### 1.2.2.1 Lean UX Problem Statements
+
+Nuestro proyecto ataca la ineficiencia energética en Lima, enfocándose en hogares y PYMEs que sufren el impacto de facturas eléctricas elevadas y la falta de control sobre sus activos. Hemos detectado que el principal punto de dolor es la opacidad del consumo: el usuario paga, pero no entiende en qué gasta.
+
+Existe una brecha crítica en el mercado local por la ausencia de herramientas de monitoreo en tiempo real. Nuestra estrategia consiste en democratizar el uso de tecnología IoT "verde", integrando sensores inteligentes y control remoto para transformar datos en ahorros tangibles mediante recomendaciones automatizadas.
+
 #### 1.2.2.2. Lean UX Assumptions
+
+Al iniciar este proyecto, hemos definido las siguientes hipótesis críticas que requieren validación mediante experimentación y trabajo de campo:
+
+- Interés en la monitorización: Postulamos que el usuario local valora la visibilidad del consumo en tiempo real como un activo para la toma de decisiones informadas.
+
+- Viabilidad económica de la inversión: Suponemos una disposición de compra hacia hardware IoT, condicionada a la percepción de un retorno de inversión (ROI) tangible mediante el ahorro en la facturación mensual.
+
+- Priorización estratégica en PYMEs: Asumimos que la eficiencia energética es un pilar fundamental en la estructura de costos y la sostenibilidad operativa del sector empresarial.
+
+- Preferencia por el minimalismo funcional: Creemos que la adopción tecnológica se ve favorecida por interfaces simplificadas y de alta usabilidad, frente a sistemas con excesiva carga de funciones complejas.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+La base de nuestros supuestos iniciales, hemos definido las siguientes hipótesis experimentales que orientarán las fases de prueba:
+
+- Impacto en la Eficiencia Energética: Postulamos que la implementación de un sistema de monitoreo en tiempo real permitirá a los hogares limeños reducir su consumo mensual en un 10%. Validaremos esta hipótesis si, tras un trimestre de uso, el 70% de la muestra piloto registra una disminución efectiva en su facturación.
+
+- Engagement en el Sector PYME: Proponemos que la integración de recomendaciones automatizadas de ahorro es el principal motor de uso para las pequeñas y medianas empresas. El éxito se medirá cuando el 50% de las empresas piloto realicen consultas semanales al dashboard de gestión.
+
+- Adopción de Funcionalidades de Control: Sostenemos que el uso recurrente de la plataforma por parte de usuarios residenciales depende de herramientas de control directo, como el encendido/apagado remoto y la automatización de horarios. Consideraremos validada esta premisa si más del 60% de los usuarios activos interactúan con estas funciones semanalmente.
+
 #### 1.2.2.4. Lean UX Canvas
 ## 1.3. Segmentos Objetivo
 
