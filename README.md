@@ -34,6 +34,16 @@ Tras haber mapeado el flujo macro del negocio, procedemos al Design-Level Event 
 ![event storming-4](Imagenes/event-storming/event-storming-4.png)
 
 #### 2.5.1.1. Candidate Context Discovery
+
+Una vez detallados los flujos del Design-Level Event Storming, procedemos al Candidate Context Discovery. Esta etapa representa la transición del análisis del flujo a la definición de la arquitectura estratégica. El objetivo es identificar grupos de funcionalidades que comparten un mismo Lenguaje Ubicuo y reglas de negocio cohesivas. Al agrupar estos elementos, emergen de manera natural los límites de los modelos, permitiéndonos proponer contextos candidatos que servirán como base para la descomposición del sistema en módulos independientes y escalables.
+
+![monitoring](Imagenes/candidate-context-discovery/monitoring.png)
+![scheduling](Imagenes/candidate-context-discovery/scheduling.png)
+![enterprise](Imagenes/candidate-context-discovery/enterprise.png)
+![reporting](Imagenes/candidate-context-discovery/reporting.png)
+![alerts](Imagenes/candidate-context-discovery/alerts.png)
+![iam](Imagenes/candidate-context-discovery/iam.png)
+
 #### 2.5.1.2. Domain Message Flows Modeling
 #### 2.5.1.3. Bounded Context Canvases
 ### 2.5.2. Context Mapping
