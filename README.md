@@ -203,6 +203,14 @@ La base de nuestros supuestos iniciales, hemos definido las siguientes hipótesi
 ![Lean UX Canvas](Imagenes/LeanUXCanvas.png)
 ## 1.3. Segmentos Objetivo
 
+### Hogares limeños con recibo de luz
+
+En Lima Metropolitana, casi la totalidad de hogares cuenta con acceso a electricidad (97.6%), lo que los convierte en un segmento consolidado que paga recibo de luz regularmente (INEI, 2021). El jefe de hogar suele ser adulto de mediana edad (~50 años), con un nivel educativo mayor al promedio nacional: cerca del 49% de la población de 18 a 64 años alcanzó educación superior (INEI, 2022). La estructura socioeconómica limeña muestra predominio de la clase media (NSE C: 48% de los hogares), mientras que los hogares promedian 3.5 miembros (APEIM, 2022). En cuanto al consumo energético, Lima registra una mediana de 190 kWh/mes, casi el doble del promedio nacional, lo que se traduce en recibos entre S/60 y S/120 mensuales, dependiendo del equipamiento eléctrico del hogar (Osinergmin, 2023).
+
+### PYMEs limeñas
+
+Lima concentra cerca del 42% de todas las empresas del país, es decir, alrededor de 1.4 millones de unidades económicas, de las cuales más del 99% son micro y pequeñas (SUNAT, 2024). Estas empresas emplean en promedio de 2 a 3 trabajadores y se concentran principalmente en comercio minorista (45%) y servicios (42%), siendo menos frecuente la manufactura (9%) (INEI, 2022). El consumo eléctrico representa un costo fijo relevante: un pequeño negocio limeño puede gastar entre 200 y 300 kWh/mes, lo que equivale a recibos de S/150 a S/250. Estos costos impactan directamente en la rentabilidad, ya que las tarifas comerciales (BT5) no reciben subsidio, lo que hace más crítica la gestión eficiente de la energía en este segmento (Osinergmin, 2023).
+
 # Capítulo II: Requirements Development and Software Solution Design
 
 ## 2.1. Competidores
