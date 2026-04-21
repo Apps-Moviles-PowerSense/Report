@@ -159,7 +159,22 @@ Una vez detallados los flujos del Design-Level Event Storming, procedemos al Can
 ![iam](Imagenes/candidate-context-discovery/iam.png)
 
 #### 2.5.1.2. Domain Message Flows Modeling
+
+A countinuación se presenta el flujo de mensajes para el caso de uso principal o core para el negocio, el cual es el cálculo y exosición de las estadísticas de consumo de enrgía electrica del usuario. El flujo comienza desde que el dispositivo IoT envia los datos crudos, los cuales son procesador ppor el Monitoring Context. Aqui se bifurca el flujo, ya que si se detecta un pico en el umbral de consumo se debe emmitir una alerta de este tipo. El flujo terminaría entonces con la entrega de los datos de consumo asi como el costo promedio de este.
+
+![flow 1](Imagenes/domain-message-flow-modeling/flow-1.png)
+
 #### 2.5.1.3. Bounded Context Canvases
+
+En esta sección se presenta los diferentes Canvas realizados para los contextos que se identificaron, comenzando desde los más importantes para el negocio. Aquí se detalla la información sobre este Bounded Context, así como la comunicación entrante y saliente. Además del lenguaje ubicuo y reglas de negocio que aplican en este contexto.
+
+![monitoring](Imagenes/bounded-context-canvas/monitoring.png)
+![scheduling](Imagenes/bounded-context-canvas/scheduling.png)
+![enterprise](Imagenes/bounded-context-canvas/enterprise.png)
+![reporting](Imagenes/bounded-context-canvas/reporting.png)
+![alerts](Imagenes/bounded-context-canvas/alerts.png)
+![iam](Imagenes/bounded-context-canvas/iam.png)
+
 ### 2.5.2. Context Mapping
 ### 2.5.3. Software Architecture
 #### 2.5.3.1. Software Architecture Context Level Diagrams
