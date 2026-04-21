@@ -200,6 +200,7 @@ La base de nuestros supuestos iniciales, hemos definido las siguientes hipótesi
 - Adopción de Funcionalidades de Control: Sostenemos que el uso recurrente de la plataforma por parte de usuarios residenciales depende de herramientas de control directo, como el encendido/apagado remoto y la automatización de horarios. Consideraremos validada esta premisa si más del 60% de los usuarios activos interactúan con estas funciones semanalmente.
 
 #### 1.2.2.4. Lean UX Canvas
+![Lean UX Canvas](Imagenes/LeanUXCanvas.png)
 ## 1.3. Segmentos Objetivo
 
 # Capítulo II: Requirements Development and Software Solution Design
