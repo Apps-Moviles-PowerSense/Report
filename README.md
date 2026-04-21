@@ -80,7 +80,23 @@ Finaliza expresando interés en una solución que muestre consumo por toma y env
 
 Link de la entrevista:
 
-Entrevista 2 (Nombre aqui)
+Entrevista 2 (Zuriel Rivera) Inicio: 00:00 - Fin: 7:25 - Duración: 7:25
+
+<p align="center">
+  <img src="Imagenes/Imagen_entrevista2.png" alt="Imagen_entrevista2" />
+</p>
+
+- Nombre: Zuriel Rivera
+- Edad: 19 años
+- Distrito de residencia: Surquillo
+
+Resumen de la entrevista: En esta entrevista se le pregunto a Zuriel Andrea Rivera, una residente de Surquillo, que opiniones tenía con respecto al consumo eléctrico que había a nivel de hogar. 
+
+Entre las preguntas que se le hizo, hubieron varias referentes al tipo de dispositivos que se utilizan, el momento del día donde se utilizan más aparatos eléctricos o el impacto económico que llega a tener para los habitantes de la vivienda llegando a señalar puntos como el uso de dispositivos eléctricos esenciales ya sea el microondas, el nodo del internet, la televisión, las diversas computadoras que hay en casa o el cargador de los celulares.
+
+Sus respuestas confirmaron las hipotesis que planteabamos con respecto a ese tipo de problemática, por lo cual tomamos en consideración los diversos puntos que señalo para implementarlos en el producto final del proyecto.
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQB3d49pgoprQZ0Sn74770w4AWW4A5ob_o-Wv5YtxuwFkYQ?e=Xv93lv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 Entrevista 3 (Nombre aqui)
 
