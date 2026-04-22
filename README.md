@@ -1,6 +1,13 @@
 # Capítulo II: Requirements Development and Software Solution Design
 
 ## 2.1. Competidores
+A continuacion, se presenta una tabla que contiene a los competidores mas relevantes para nuestra IoS (IoT + Software/IA para monitoreo y optimización del consumo eléctrico).
+| id | Nombre | Descripcion | Caracteristicas | Distribucion | Logo |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Smelpro |  |  |  |  |
+| 2 | LoraTech |  |  |  |  |
+| 3 | Teca Perú |  |  |  |  |
+
 ### 2.1.1. Análisis competitivo
 ### 2.1.2. Estrategias y tácticas frente a competidores
 ## 2.2. Entrevistas
