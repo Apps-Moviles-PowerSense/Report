@@ -199,6 +199,19 @@ En esta sección se presenta los diferentes Canvas realizados para los contextos
 ![iam](Imagenes/bounded-context-canvas/iam.png)
 
 ### 2.5.2. Context Mapping
+
+Tras la delimitación de los Bounded Context, se procede a realizar el Context Mapping con el objetivo de definir las relaciones de dependencias y los contratos de integración entre los diferentes módulos de la aplicación. Este mapa estratégico no solo visualiza el flujo de información, sino que establece formalmente cómo los cambios en un modelo de dominio afectan a los demás mediante la identificación de roles Upstream (proveedores) y Downstream (consumidores), asegurándonos una arquitectura desacoplada que permite la evolución independiente de cada contexto, garantizando a su vez la consistencia de los datos en toda la plataforma. 
+
+![context mappig](Imagenes/context-mapping.png)
+
+**Justificación de los patrones utilizados**
+
+Por un lado, se definió IAM como un Open Host Service debido a que la identidad del usuario es una necesidad transversal en todo el sistema. En lugar de crear integraciones personalizadas por cada módulo, IAM expone un acceso público y estandarizado que permite a cualquier contexto de tipo Downstream obtener los datos de formma uniforme. 
+
+Por otro lado, la comunicación entre Monitoring y Alerts se basa en un Published Language para facilitar el intercambio de eventos de dominio d forma asíncronica. De esta forma, Monitoring puede publicar eventos específicos utilizando un formato de datos común que el contexto de Alerts puede traducir directamente en notificaciones. 
+
+Para finalizar, se implemento Anti-Corruption Layer en el lado de Monitoring para proteger el diseño del modelo de dominio interno y crear un puente de comunicación entre este contexto con Reporting.
+
 ### 2.5.3. Software Architecture
 #### 2.5.3.1. Software Architecture Context Level Diagrams
 #### 2.5.3.2. Software Architecture Container Level Diagrams
