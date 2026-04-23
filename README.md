@@ -4,7 +4,7 @@
 A continuacion, se presenta una tabla que contiene a los competidores mas relevantes para nuestra IoS (IoT + Software/IA para monitoreo y optimización del consumo eléctrico).
 | id | Nombre | Descripcion | Caracteristicas | Distribucion | Logo |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Smelpro | - Soluciones IoT e Inteligencia Artificial para Industria 4.0. - Aplicaciones energéticas: monitoreo en tiempo real, detección de fallas, optimización de los costos operativos y mantenimiento predictivo.- Sectores: manufactura, logística, minería, energía y agua. | - Monitoreo del consumo electrico en tiempo real- Detección de fallas y mantenimiento predictivo con uso de I.A.- Optimización de los costos operativos- Soporte para LoRaWAN, Sigfox y redes celulares.- Dashboards personalizados| - Ventas B2B directas - Integradores y proyectos llave en mano	 |  |
+| 1 | Smelpro | - Soluciones IoT e Inteligencia Artificial para Industria 4.0.<br> - Aplicaciones energéticas: monitoreo en tiempo real, detección de fallas, optimización de los costos operativos y mantenimiento predictivo.<br> - Sectores: manufactura, logística, minería, energía y agua. | - Monitoreo del consumo electrico en tiempo real.<br> - Detección de fallas y mantenimiento predictivo con uso de I.A.<br> - Optimización de los costos operativos.<br> - Soporte para LoRaWAN, Sigfox y redes celulares.<br> - Dashboards personalizados| - Ventas B2B directas.<br> - Integradores y proyectos llave en mano	 |  |
 | 2 | LoraTech |  |  |  |  |
 | 3 | Teca Perú |  |  |  |  |
 
