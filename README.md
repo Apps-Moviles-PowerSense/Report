@@ -12,8 +12,8 @@
 
 <h2 align="center">INFORME</h2>
 
-<h3 align="center">Nombre del Startup: Nombre aqui</h3>
-<p align="center"><strong>Nombre del producto: Nombre aqui</strong></p>
+<h3 align="center">Nombre del Startup: PowerSense</h3>
+<p align="center"><strong>Nombre del producto: PowerSense</strong></p>
 
 <p align="center"><strong>Ciclo académico: 2026-01</strong></p>
 
