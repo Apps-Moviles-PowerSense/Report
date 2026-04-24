@@ -101,11 +101,6 @@
     - 2.6. [Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
 
 # Student Outcome
-| Criterio específico | Acciones realizadas | Conclusiones |
-| :--- | :--- | :--- |
-|  |   |
-|  |   |
----
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
