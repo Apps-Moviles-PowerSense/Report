@@ -15,11 +15,11 @@
 <h3 align="center">Nombre del Startup: PowerSense</h3>
 <p align="center"><strong>Nombre del producto: PowerSense</strong></p>
 
-<p align="center"><strong>Ciclo académico: 2026-01</strong></p>
+<p align="center"><strong>Ciclo académico: 2026-10</strong></p>
 
 <p align="center"><strong>Código del curso: 1ACC0238</strong></p>
 
-<p align="center"><strong>NRC del curso: 2610</strong></p>
+<p align="center"><strong>NRC del curso: 3646</strong></p>
 
 <br>
 
