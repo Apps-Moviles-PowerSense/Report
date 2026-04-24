@@ -103,8 +103,8 @@
 # Student Outcome
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
-|  |   |
-|  |   |
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software** | **Daniel Aquino** <br> **AV1:** Sesiones de Event Storming para identificar los eventos del dominio, comandos y actores clave. Se delimitaron las fronteras lógicas del sistema, analizando la responsabilidad de cada contexto. Se diseño la interacción detallada entre los agregados y servicios mediante el modelado de flujo de mensajes. Se establecieron los contratos de integración entre los contextos identificados.  |   |
+|  **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software** | **Daniel Aquino** <br> **AV1:** Diagramas de Event Storming. Bounded Context Canvases. Domain Message Flow Modeling. Context Mapping. |  |
 ---
 
 # Capítulo I: Introducción
