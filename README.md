@@ -12,14 +12,14 @@
 
 <h2 align="center">INFORME</h2>
 
-<h3 align="center">Nombre del Startup: PowerSense</h3>
-<p align="center"><strong>Nombre del producto: PowerSense</strong></p>
+<h3 align="center">Nombre del Startup: Nombre aqui</h3>
+<p align="center"><strong>Nombre del producto: Nombre aqui</strong></p>
 
-<p align="center"><strong>Ciclo académico: 2026-10</strong></p>
+<p align="center"><strong>Ciclo académico: 2026-01</strong></p>
 
 <p align="center"><strong>Código del curso: 1ACC0238</strong></p>
 
-<p align="center"><strong>NRC del curso: 3646</strong></p>
+<p align="center"><strong>NRC del curso: 2610</strong></p>
 
 <br>
 
@@ -41,7 +41,7 @@
 ## Registro de versiones del informe
 | Versión | Fecha | Autor | Descripción de modificación |
 |:---:|:---:|:---:|:---|
-| 1.0 | 24.04.2025 | Todo el grupo  | Elaboración de los primeros dos capítulos del informe. |
+| 1.0 | --.04.2025 | Todo el grupo  | Elaboración de los primeros puntos del informe |
 | 1.1 |  |  |  |
 
 
@@ -93,13 +93,19 @@
        		- 2.5.1.1. [Candidate Context Discovery](#2511-candidate-context-discovery)
            	- 2.5.1.2. [Domain Message Flows Modeling](#2512-domain-message-flows-modeling)
            	- 2.5.1.3. [Bounded Context Canvases](#2513-bounded-context-canvases)
+        - 2.5.2. [Context Mapping](#252-context-mapping)
+        - 2.5.3. [Software Architecture](#253-software-architecture)
+      		- 2.5.3.1. [Software Architecture Context Level Diagrams](#2531-software-architecture-context-level-diagrams)
+        	- 2.5.3.2. [Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
+         	- 2.5.3.3. [Software Architecture Deployment Level Diagrams](#2532-software-architecture-container-level-diagrams)
     - 2.6. [Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
 
 # Student Outcome
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software** | **Daniel Aquino** <br> **AV1:** Sesiones de Event Storming para identificar los eventos del dominio, comandos y actores clave. Se delimitaron las fronteras lógicas del sistema, analizando la responsabilidad de cada contexto. Se diseño la interacción detallada entre los agregados y servicios mediante el modelado de flujo de mensajes. Se establecieron los contratos de integración entre los contextos identificados. <br><br> **Giuliano Peláez** <br> **AV1:** Investigación de métricas de consumo eléctrico y normativas de OSINERGMIN. Aplicación del proceso Lean UX para definir el Problem Statement y los Assumptions. Redacción de las Hypothesis Statements para validar el impacto de la solución IoT.<br><br> **Johnny Ojanama**<br> **AV1:** Investigación sobre las distintas competencias que presenta el startup y su análisis competitivo para poder ver sus pros, contras, fuerzas y debilidades. Aplicacion del proceso Lean UX para diseñar y completar el Lean UX Canvas. <br><br> **Kael Lagos** <br> **AV1:** Supervisión del cumplimiento de las indicaciones dadas en el aula virtual, corrección de la estructura inicial del informe, grabación de una de las primeras entrevistas, definición de los segmentos que abarcaremos y diseño de las preguntas para las entrevistas.<br><br> **Juan Carlos Pastor** <br> **AV1:** Supervisión del cumplimiento dentro del grupo, ideas, organizacion, envio, direccion y control. Diseño de web, y aplicacion movil, compliendo heuristicas. | La actualización de los datos e información tomados en cuenta para el desarrollo del proyecto requiere de una extensa investigación tomando en cuenta aspectos como la problemática, las posibles soluciones, las caracteristicas que debe tener el proyecto para cumplir con las espectativas de los usuarios ya sea a nivel de hogar o en un negocio. |
-|  **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software** | **Daniel Aquino** <br> **AV1:** Diagramas de Big Picture Event Storming. Design Level Event Storming. Candidate Context Discovery. Bounded Context Canvases. Domain Message Flow Modeling. Context Mapping. Software Architecture Context Level Diagrams. Software Architecture Container Level Diagrams. Software Architecture Deployment Diagrams. <br><br>**Kael Lagos** <br> **AV1:** Actualización del contenido del proyecto tomando en cuenta la nueva metodología del curso asi como la estructura que debe tener. Documentación de hipotesis ante las problematicas. Revisión de los videos pertenecientes a las entrevistas asegurandose de que la información sea útil y precisa para el desarrollo de los demás puntos del informe referente al proyecto. <br><br> **Giuliano Peláez** <br> **AV1:** Estructuración del Startup Profile, definiendo la misión y visión enfocadas en la eficiencia energética. Documentación de antecedentes y problemática del sector energético en Lima Metropolitana para sustentar la viabilidad del proyecto.<br><br> **Johnny Ojanama**<br> **AV1:** Creación del esqueleto base del proyecto. Lean UX Canvas. Respondiendo y definiendo las 5W y 2 H. Análisis competitivo y Estrategias y tácticas frente a competidores.<br><br> **Juan Carlos Pastor**<br> **AV1:** Creacion y organizacion de archivos y diseño grafico.|  |
+|  |   |
+|  |   |
+---
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
@@ -112,6 +118,8 @@
 | Foto aqui| Aquino Solorzano, Daniel Jonatan | Descripción aqui                                                                                                                                                                                                                                                                                                                                                |
 | Foto aqui| Ojanama Abanto, Johnny Alexander       | Descripción aqui |
 | ![Kael_Foto](Imagenes/Kael_Foto.jpg)                                                                                             | Kael Valentino, Lagos Rivera | Me llamo Kael Lagos, estudio en la UPC de Monterrico. Tengo muchas ganas de aprender, me considero una persona responsable que busca aprender de sus errores cada vez que puede y tambien me considero alguien que se centra en los detalles. Me comprometo a ayudar a mis compañeros para la elaboración de nuestro trabajo que nos pueda asegurar una buena nota al final.                                                                                                                                                                  |
+| Foto aqui                                                                                   | Pastor Napa, Juan Carlos    | Descripción aqui                                                                                                                                                                                           |
+| Foto aqui | Pelaez Vargas, Giuliano Angel    | Descripción aqui                                                                                                                                                                                                                                                                                                                 |
 
 ## 1.2. Solution Profile 
 ### 1.2.1. Antecedentes y Problemática
@@ -121,14 +129,6 @@
 #### 1.2.2.3. Lean UX Hypothesis Statements
 #### 1.2.2.4. Lean UX Canvas
 ## 1.3. Segmentos Objetivo
-
-### Hogares limeños con recibo de luz
-
-En Lima Metropolitana, casi la totalidad de hogares cuenta con acceso a electricidad (97.6%), lo que los convierte en un segmento consolidado que paga recibo de luz regularmente (INEI, 2021). El jefe de hogar suele ser adulto de mediana edad (~50 años), con un nivel educativo mayor al promedio nacional: cerca del 49% de la población de 18 a 64 años alcanzó educación superior (INEI, 2022). La estructura socioeconómica limeña muestra predominio de la clase media (NSE C: 48% de los hogares), mientras que los hogares promedian 3.5 miembros (APEIM, 2022). En cuanto al consumo energético, Lima registra una mediana de 190 kWh/mes, casi el doble del promedio nacional, lo que se traduce en recibos entre S/60 y S/120 mensuales, dependiendo del equipamiento eléctrico del hogar (Osinergmin, 2023).
-
-### PYMEs limeñas
-
-Lima concentra cerca del 42% de todas las empresas del país, es decir, alrededor de 1.4 millones de unidades económicas, de las cuales más del 99% son micro y pequeñas (SUNAT, 2024). Estas empresas emplean en promedio de 2 a 3 trabajadores y se concentran principalmente en comercio minorista (45%) y servicios (42%), siendo menos frecuente la manufactura (9%) (INEI, 2022). El consumo eléctrico representa un costo fijo relevante: un pequeño negocio limeño puede gastar entre 200 y 300 kWh/mes, lo que equivale a recibos de S/150 a S/250. Estos costos impactan directamente en la rentabilidad, ya que las tarifas comerciales (BT5) no reciben subsidio, lo que hace más crítica la gestión eficiente de la energía en este segmento (Osinergmin, 2023).
 
 # Capítulo II: Requirements Development and Software Solution Design
 
