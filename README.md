@@ -237,6 +237,67 @@ Para la representación de la arquitectura de nuestro producto, se ha optado el 
 ## 2.6. Tactical-Level Domain-Driven Design
 
 
+### 2.6.1. Bounded Context: Monitoring
+#### 2.6.1.1. Domain Layer
+#### 2.6.1.2. Interface Layer
+#### 2.6.1.3. Application Layer
+#### 2.6.1.4 Infrastructure Layer
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
+### 2.6.2. Bounded Context: Sheduling
+#### 2.6.2.1. Domain Layer
+#### 2.6.2.2. Interface Layer
+#### 2.6.2.3. Application Layer
+#### 2.6.2.4 Infrastructure Layer
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
+
+### 2.6.3. Bounded Context: Enterprise
+#### 2.6.3.1. Domain Layer
+#### 2.6.3.2. Interface Layer
+#### 2.6.3.3. Application Layer
+#### 2.6.3.4 Infrastructure Layer
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.3.6.2. Bounded Context Database Design Diagram
+
+### 2.6.4. Bounded Context: Reporting
+#### 2.6.4.1. Domain Layer
+#### 2.6.4.2. Interface Layer
+#### 2.6.4.3. Application Layer
+#### 2.6.4.4 Infrastructure Layer
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.4.6.2. Bounded Context Database Design Diagram
+
+### 2.6.5. Bounded Context: Alerts
+#### 2.6.5.1. Domain Layer
+#### 2.6.5.2. Interface Layer
+#### 2.6.5.3. Application Layer
+#### 2.6.5.4 Infrastructure Layer
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.5.6.2. Bounded Context Database Design Diagram
+
+### 2.6.6. Bounded Context: IAM
+#### 2.6.6.1. Domain Layer
+#### 2.6.6.2. Interface Layer
+#### 2.6.6.3. Application Layer
+#### 2.6.6.4 Infrastructure Layer
+#### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.6.6.2. Bounded Context Database Design Diagram
+
+
 # Bibliografía
 - Sierra Praeli, Y. (28 de abril de 2024). Territorios contaminados: la transición energética no avanza en la Amazonía de Perú. Mongabay Latam.
   (https://es.mongabay.com/2024/04/territorios-contaminados-transicion-energetica-no-avanza-amazonia-peru/)
