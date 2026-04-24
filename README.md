@@ -232,8 +232,23 @@ Para finalizar, se implemento Anti-Corruption Layer en el lado de Monitoring par
 Para la representación de la arquitectura de nuestro producto, se ha optado el modelo C4, un enfoque jerárquico que permite visualizar la estructura del sistema a través de múltiples niveles de abstracción. Este modelo es fundamental para comunicar el diseño técnico de manera clara, permitiendo visualizar las interacciones de alto nivel hasta la distribución física de los componentes. A través de los niveles de Contexto, Contenedores y Despliegue se detallará cómo la solución satisface los requerimientos de escalabilidad y mantenibilidad definidos para el monitoreo energético de hogares y MYPES.
 
 #### 2.5.3.1. Software Architecture Context Level Diagrams
+
+El diagrama de contexto representa el punto de partida de la arquitectura de software de la solución. En este nivel el objetivo es delimitar las fronteras de la aplicación, identificando a los actores y su interacción con el sistema propio del producto, así como también las conexiones de este con sistemas externos.
+
+![context level](Imagenes/c4/context.png)
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
+
+EL diagrama de contenedores ilustra la organización interna de PowerSense. En este nivel se mapean la aplicación móvil, aasí como el Landing Page, el Backend y la base de datos. Del mismo modo que se realizan las conexiones entre estos elementos.
+
+![container level](Imagenes/c4/container.png)
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+
+Finalmente en el diagrama de despliegue se describe los servicios en la nuve que se planea utilizar para albergar fisicamente nuestra aplicación. 
+
+![deployment level](Imagenes/c4/deployment.png)
+
 ## 2.6. Tactical-Level Domain-Driven Design
 
 
