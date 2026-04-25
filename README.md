@@ -161,9 +161,51 @@ Aunque hay interés en implementar medidas de eficiencia o generación propia, l
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+
+#### Segmento 1 (Hogares)
+
+<p align="center">
+  <img src="Imagenes/User1.png" alt="User1" />
+</p>
+
+#### Segmento 2 (Negocios)
+
+<p align="center">
+  <img src="Imagenes/User2.png" alt="User2" />
+</p>
+
 ### 2.3.2. User Task Matrix
+
+
+
 ### 2.3.3. User Journey Mapping
+
+#### Journey Map - Segmento 1 (Hogares):
+
+<p align="center">
+  <img src="Imagenes/Journey1.png" alt="Journey1" />
+</p>
+
+#### Journey Map - Segmento 2 (Negocios):
+
+<p align="center">
+  <img src="Imagenes/Journey2.png" alt="Journey2" />
+</p>
+
 ### 2.3.4. Empathy Mapping
+
+#### Empathy Mapping - Segmento 1 (Hogares)
+
+<p align="center">
+  <img src="Imagenes/Map1.png" alt="Map1" />
+</p>
+
+#### Empathy Mapping - Segmento 2 (Negocios)
+
+<p align="center">
+  <img src="Imagenes/Map2.png" alt="Map2" />
+</p>
+
 ### 2.3.5. Big Picture EventStorming
 
 En esta sección se detalla el desarrollo del Big Picture Event Storming, una técnica colaborativa orientada a explorar el dominio de nuestro negocio de manera integral. A través de este proceso identificamos los Domain Events más significativos y los organizamos cronológicamente para visualizar la linea de vida del sistema. Este enfoque no solo nos permitió mapear los flujos de la aplicación, sino también establecer un Lenguaje Ubicuo común entre el equipo y detectar tempranamente cuellos de botella u oportunidades de optimización en la gestión energética de hogares y MYPES.
