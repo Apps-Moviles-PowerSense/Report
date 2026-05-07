@@ -176,7 +176,25 @@ Aunque hay interés en implementar medidas de eficiencia o generación propia, l
 
 ### 2.3.2. User Task Matrix
 
+  **Segmento 1: Hogares** 
+| Tarea principal                                                     | Frecuencia | Importancia |
+|---------------------------------------------------------------------|------------|-------------|
+| Instalar la app de PowerSense de forma rápida y segura y sin complicaciones     | Una vez    | Alta        |
+| Abrir la app y ver el consumo energético en tiempo real      | Frecuente  | Alta        |
+| Recibir alertas de picos/anomalías en el consumo energético y entender qué hacer             | Frecuente  | Alta        |
+| Recibir alertas de sobrecalentamiento de dispositivos y entender qué hacer             | Frecuente  | Alta        |
+| Control remoto de dispositivos para facilitar la activación o desactivación de estos | Frecuente |Media|
 
+---
+
+ **Segmento 2: PYME**
+
+| Tarea principal                                                             | Frecuencia | Importancia |
+|-----------------------------------------------------------------------------|------------|-------------|
+| Desplegar PowerSense fuera de horario sin parar operación                   | Una vez    | Alta        |
+| Monitorear circuitos/equipos críticos en tiempo real (en S/ por hora)       | Frecuente  | Alta        |
+| Revisar reporte mensual sobre el consumo energético calculado para cada departamento (branch)                    | Frecuente  | Alta        |
+| Control remoto de dispositivos dentro de un departamento completo de forma rápida             | Frecuente  | Media|
 
 ### 2.3.3. User Journey Mapping
 
