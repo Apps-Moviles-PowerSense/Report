@@ -213,6 +213,20 @@ En esta sección se detalla el desarrollo del Big Picture Event Storming, una t�
 ![big picture event storming](Imagenes/big-picture-event-storming.png)
 
 ### 2.3.6. Ubiquitous Language
+
+Para esta sección se planteó un diccionario de términos técnicos que son aplicados en el dominio de nuestro proyecto.
+
+| Término | Definición|  
+|---|---|  
+| **Consumo Energético(Energy Consumption)** | Consumo de energía calculado según los parametros de la potencia y el tiempo de uso.|
+| **Usuario (User)** | Persona con una cuenta registrada en la app. Usada para la autenticación. |  
+| **Campo de Especialidad (Branch)** | Área técnica en la que se especializa el trabajador (ej. RR. HH. o TI). |  
+| **Dispositivo (Device)** | Dispositivo IoT conectado a la aplicación para su gestión y monitoreo.| 
+| **Umbral (Treshold)** | Límite de consumo de energía que se tiene previsto según el sistema.| 
+| **Programación (Schedule)** | Horarios predefinidos para la activación y desactivación remota y automática de los dispositivos| 
+| **Reporte (Report)** | Informe que muestra un resumen del consumo energético mediante gráficos o descripciones numéricas.|
+| **Alerta (Alert)** | Notificaciones de alerta cuando se excede el umbral de consumo energético o se detecta el sobrecalentamiento de un dispositivo.|
+
 ## 2.4. Requirements specification
 ### 2.4.1. User Stories
 ### 2.4.2. Impact Mapping
