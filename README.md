@@ -229,8 +229,19 @@ Para esta sección se planteó un diccionario de términos técnicos que son apl
 
 ## 2.4. Requirements specification
 ### 2.4.1. User Stories
+
+
+
+
 ### 2.4.2. Impact Mapping
+
+![impact map](Imagenes/impact-map.png)
+
 ### 2.4.3. Product Backlog
+
+
+
+
 ## 2.5. Strategic-Level Domain-Driven Design
 ### 2.5.1. EventStorming
 
