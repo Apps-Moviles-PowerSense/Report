@@ -670,6 +670,7 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
 
+![iam database diagram](Imagenes/db-diagrams/iam-db-diagram.png)
 
 # Bibliografía
 - Sierra Praeli, Y. (28 de abril de 2024). Territorios contaminados: la transición energética no avanza en la Amazonía de Perú. Mongabay Latam.
