@@ -648,6 +648,13 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 
 
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
+
+**Frontend:**
+![iam frontend component diagram](Imagenes/c4/components/iam-frontend-component-diagram.png)
+
+**Backend:**
+![iam frontend component diagram](Imagenes/c4/components/iam-backend-component-diagram.png)
+
 #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
