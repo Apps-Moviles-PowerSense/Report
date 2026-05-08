@@ -508,10 +508,145 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.6. Bounded Context: IAM
+
+> **Propósito:**  Gestión de identidad, autenticación del usuario.
+
 #### 2.6.6.1. Domain Layer
+
+**Propósitos:** 
+- **User:** Información para la autenticación y verificación de roles.
+- **Email:** Correo electrónico del usuario (debe ser un email válido).
+- **Password:** Contraseña del usuario (se encripta al guardarse en la base de datos).
+- **UserTpye:** Rol del usuario (un Enum con dos valores).
+- **FullName:** Nombre completo del usuario (el lastName puede ser null para usuarios de tipo Company)
+- **UserCommandService:** Repertorio de comandos que involucran la autenticación.
+- **UserQueryService:** Repertorio de solicitudes que involucran al usuario
+
+**A nivel de Frontend**
+---
+ **Aggregate Root**
+ -  **User:**  `id: Int`, `email: String`, `password: String`, `userType: UserType`
+
+**A nivel de Backend**
+---
+
+ **Aggregate Root**
+ -  **User:**  `id: Int`, `email: Email`, `password: Password`, `userType: UserType`
+		
+  **Entities**
+	- *(No se tienen planteados Entities para este bounded context)*
+
+ **Value Objects**
+- **Email:** `value: String`, `validate()`
+- **Password:**  `hashedValue: String`, `encrypt()`, `verify()`
+- **UserType:** `HOME`, `COMPANY`
+- **FullName:** `firstName: String`, `lastName: String?`, `validate()`
+
+**Domain Services**
+- **UserCommandService:** `handle(SignUp)`, `handle(SignIn)`,  `handle(RequestPasswordReset)`, `handle(UpdatePassword)`
+- **UserQueryService:** `handle(GetUserById)`, `handle(GetAllUsers)`
+
 #### 2.6.6.2. Interface Layer
+
+**Propósitos:** 
+- **LogInView:** UI para la vista de inicio de sesión.
+- **RoleSelectionView:** UI para la vista de selección de rol de usuario.
+- **SignUpView:** UI para la vista de registro de usuario.
+- **IamNavHost:** Controlador de rutas de navegación para las diferentes vistas
+- **IamRoutes:** Rutas pra cada vista del bounded context
+- **AuthenticationController:** Endpoints para la información de autenticación.
+- **UsersController:** Enpoints para información de usuario.
+- **UserResourceFromEntityAssembler:** Mapeo de datos para la transformación de Entidad a Recurso.
+-  **AutheticatedUserResourceFromEntityAssembler:** Mapeo de datos para la transformación de Entidad a Recurso.
+- **AuthenticatedUserResource:** Recurso para el usuario autenticado.
+-  **UserResource:** Recurso para el usuario.
+
+
+**A nivel de Frontend (Presentation)**
+---
+**Views**
+- **LogInView**
+- **RoleSelectionView**
+- **SignUpView**
+
+**Navigation**
+- **IamNavHost**
+- **IamRoutes**
+
+**A nivel de Backend (Interfaces)**
+---
+
+ **Controllers**
+ -  **AuthenticationController** 
+ - **UsersController**
+
+**Assemblers**
+- **UserResourceFromEntityAssembler**
+- **AutheticatedUserResourceFromEntityAssembler**
+
+**Resources**
+- **AuthenticatedUserResource**
+- **UserResource**
+
 #### 2.6.6.3. Application Layer
+
+**Propósitos:** 
+- **UserCommandServiceImp:**  Implementación del servicio de comandos para el usuario.
+- **UserQueryServiceImp:** Implementación del servicio de solicitudes para el usuario.
+
+
+**A nivel de Frontend**
+---
+**Use Cases**
+- (No se tienen planteado casos de uso para este contexto)
+
+**A nivel de Backend**
+---
+
+ **CommandServices**
+ -  **UserCommandServiceImp** 
+
+**QueryServices**
+- **UserQueryServiceImp**
+
 #### 2.6.6.4 Infrastructure Layer
+
+**Propósitos:** 
+- **AppDatabase:**  Es el punto de acceso principal a la base de datos local (Room). Se encarga de proveer las instancias de los DAOs y gestionar la persistencia global de la aplicación.
+- **UserDao:** Interfaz de Room que define las operaciones de base de datos (SQL) para el usuario
+-  **UserEntity:** Representa la tabla "users" en la base de datos local. Es un objeto de datos  diseñado específicamente para ser entendido por el motor de persistencia (Room).
+-  **UsersDto:** Data Transfer Object. Es la representación del usuario tal como viene en el JSON de la API externa (Retrofit). Protege al sistema de cambios en los nombres de campos del backend. 
+-  **UserService:** Interfaz de Retrofit donde se definen los endpoints de red relacionados con el usuario.
+-  **UserMapper:** Clase encargada de la traducción entre capas. Convierte, por ejemplo, un UsersDto (red) o un UserEntity (BD) en un objeto User de la capa de Dominio. 
+-  **UserRepository:** Define el contrato (interfaz en Dominio) y la lógica (implementación en Infraestructura) para gestionar usuarios. Decide si los datos se obtienen de la API o del caché local.
+-  **Resource:** Una clase sellada (Sealed Class) genérica que envuelve los datos para informar a la UI sobre el estado de una operación: Loading (cargando), Success (éxito) o Error (fallo).
+
+
+**A nivel de Frontend**
+---
+**Local**
+- **AppDatabase**
+- **UserDao**
+- **UserEntity**
+
+**Remote**
+- **UsersDto**
+- **UserService**
+
+**Mapper**
+- **UserMapper** 
+
+**Repository**
+- **UserRepository**
+- **Resource**
+
+**A nivel de Backend**
+---
+
+ **Repositories**
+ -  **UserRepository** 
+
+
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
