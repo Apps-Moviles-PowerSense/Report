@@ -12,8 +12,8 @@
 
 <h2 align="center">INFORME</h2>
 
-<h3 align="center">Nombre del Startup: Nombre aqui</h3>
-<p align="center"><strong>Nombre del producto: Nombre aqui</strong></p>
+<h3 align="center">Nombre del Startup: 	SODA </h3>
+<p align="center"><strong>Nombre del producto: 	PowerSense</strong></p>
 
 <p align="center"><strong>Ciclo académico: 2026-01</strong></p>
 
@@ -41,8 +41,8 @@
 ## Registro de versiones del informe
 | Versión | Fecha | Autor | Descripción de modificación |
 |:---:|:---:|:---:|:---|
-| 1.0 | --.04.2025 | Todo el grupo  | Elaboración de los primeros puntos del informe |
-| 1.1 |  |  |  |
+| 1.0 | 24.04.2025 | Todo el grupo  | Elaboración de los primeros puntos del informe |
+| 1.1 |  | Todo el grupo |  |
 
 
 ## Project Report Collaboration Insights
