@@ -333,7 +333,7 @@ Señala que la nevera permanece siempre encendida y constituye un consumo base, 
 
 Finaliza expresando interés en una solución que muestre consumo por toma y envíe alertas ante picos inusuales para recuperar control y tranquilidad.
 
-Link de la entrevista:
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQD1M3-yXB2OTZ-OuwVPXOu3AQUv_dqVOUphWuuBfHM-5VI?e=Cx8McB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 Entrevista 2 (Zuriel Rivera) Inicio: 00:00 - Fin: 7:25 - Duración: 7:25
 
@@ -353,11 +353,25 @@ Sus respuestas confirmaron las hipotesis que planteabamos con respecto a ese tip
 
 Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQB3d49pgoprQZ0Sn74770w4AWW4A5ob_o-Wv5YtxuwFkYQ?e=Xv93lv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-Entrevista 3 (Nombre aqui)
+Entrevista 3 (Sebastián Valdivia) Inicio: 00:00 - Fin: 3:29 - Duración: 3:29
+
+<p align="center">
+  <img src="Imagenes/Imagen_entrevista3.png" alt="Imagen_entrevista3" />
+</p>
+
+- Nombre: Sebastián Valdivia
+- Edad: 22 años
+- Distrito de residencia: Miraflores
+
+Resumen de Entrevista : A partir de la entrevista realizada al usuario Sebastián Valdivia, de 22 años y residente de Miraflores, se identificó que percibe un consumo base constante por electrodomésticos esenciales y observa picos y variaciones mensuales en la factura que no logra vincular con cambios en su rutina. 
+
+Reconoce falta de formación técnica para interpretar lecturas y conceptos presentes en la boleta, por lo que sus intentos de ahorro son a veces inconsistentes y sin métricas que confirmen impacto. Valora herramientas que permitan visualizar consumo por hora y por dispositivo para priorizar cambios y justificar medidas ante otros miembros del hogar.
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQB8DGRcS7pTSL7zyiLRvDAUATbpHkaA6sEnYXPZbtYdEkE?e=h7xLDC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ### - Segmento objetivo 2 (Negocios)
 
-Entrevista 4 (Juan Carlos Urdanivia Abad — Premium Cultural Institute) Inicio: 10:13 - Fin: 16:18 - Duración: 6:05
+Entrevista 4 (Juan Carlos Urdanivia Abad — Premium Cultural Institute) Inicio: 00:00 - Fin: 6:05 - Duración: 6:05
 
 <p align="center">
   <img src="Imagenes/Imagen_entrevista4.png" alt="Imagen_entrevista4" />
@@ -372,9 +386,24 @@ Resumen de Entrevista : A partir de la entrevista realizada al usuario Juan Carl
 
 Indica que las vitrinas o equipos que requieren funcionamiento continuo representan la carga base más relevante y que la falta de datos en tiempo real impide identificar con precisión horarios o procesos causantes de incrementos en la factura. Manifiesta interés en monitoreo por circuito, reportes estacionales y en justificar inversiones en eficiencia ante la dirección, pero también subraya la necesidad de garantizar continuidad de servicio y comodidad en el espacio educativo.
 
-Link de la entrevista:
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQC3sjpSkR_DTKzs13MgK3ZqAcD0es7ciW1QUXSyC-iG4Pc?e=ZAcCKx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-Entrevista 5 (Nombre aqui)
+Entrevista 5 (Franco Matías Tico Flores — Minimarket Paco) Inicio: 00:00 - Fin: 4:06 - Duración: 4:06
+
+<p align="center">
+  <img src="Imagenes/Imagen_entrevista5.png" alt="Imagen_entrevista5" />
+</p>
+
+- Nombre: Sebastián Valdivia
+- Edad: 20 años
+- Distrito de residencia: Surco
+- Sector: Tienda de conveniencia.
+
+Resumen de Entrevista : A partir de la entrevista realizada al usuario Franco Matías Tico Flores, de 20 años y residente de Surco, se identificó que el entrevistado, representante del minimarket, atribuye la mayor parte del consumo a equipos de refrigeración y señala picos en días de mayor afluencia.
+
+Comenta que no cuentan con métricas en tiempo real para relacionar ventas y consumo y que les preocupa proteger inventario perecible. Muestra interés en soluciones con monitoreo continuo, alarmas por desviaciones y opciones de control remoto de cargas no críticas, aunque destaca la necesidad de que la inversión tenga un retorno claro.
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQAe5XrMlNv1SapWPSqM0oqpAR5UO10KqfilPZY_GHG5uaY?e=kNgyTY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 Entrevista 6 (Nombre aqui)
 
