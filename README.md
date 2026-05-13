@@ -405,7 +405,20 @@ Comenta que no cuentan con métricas en tiempo real para relacionar ventas y con
 
 Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQAe5XrMlNv1SapWPSqM0oqpAR5UO10KqfilPZY_GHG5uaY?e=kNgyTY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-Entrevista 6 (Nombre aqui)
+Entrevista 6 (Tomas Dextre Sanchez — Beeschurguer Hamburguesa) Inicio: 00:00 - Fin: 3:57 - Duración: 3:57
+
+<p align="center">
+  <img src="Imagenes/Imagen_entrevista6.png" alt="Imagen_entrevista6" />
+</p>
+
+- Nombre: Tomas Tobias Teodoro Dextre Sanchez
+- Edad: 22 años
+- Distrito de residencia: Surco
+- Sector: Comida rapida
+
+A partir de la entrevista realizada al usuario Tomas Tobias Teodoro Dextre Sanchez, de 22 años y residente de Surco, se identificó que el entrevistado, vinculado a un negocio de comida rápida, señala que la principal carga proviene de equipos de frío y de cocina y que existen picos en días de mayor demanda. Expresa que carecen de datos granulares y métricas en tiempo real para relacionar ventas, horarios y consumo, y que valorarían una solución con monitoreo continuo, alarmas tempranas y capacidad para gestionar cargas no críticas en momentos de tensión. Recalca que cualquier inversión debe estar alineada a un retorno razonable y que la protección del inventario es prioritaria.
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQDXR1ZPu2jdS4y8N2hTc8zKAY0l99XSNW8-butaI8-eTzI?e=gfo46m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ### 2.2.3. Análisis de entrevistas
 
