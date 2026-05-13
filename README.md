@@ -472,8 +472,11 @@ A continuacion, se presenta una tabla que contiene a los competidores mas releva
 | 3 | Teca Perú | - Soluciones “llave‑en‑mano” en telemetría y telecontrol con fuerte uso de LoRaWAN.<br><br> - Aplicaciones energéticas: medición en tiempo real de servicios (agua, energía, gas) y despliegues industriales.<br><br> - Casos: edificios inteligentes, minería, agricultura, piscicultura. | - Telemetría y telecontrol llave‑en‑mano.<br><br> - Redes LoRaWAN privadas y gateways.<br><br> - Medición en tiempo real y dashboards industriales.<br><br> - Integración con sistemas SCADA/ERP. | - Ventas B2B directas.<br><br> - Integradores de proyectos y contratos con empresas/municipios. | ![tecaperu](Imagenes/Tecape.PNG) |
 
 ### 2.1.1. Análisis competitivo
-| **Propósito del análisis:** Evaluar la posición de PowerSense frente a sus tres competidores clave del ecosistema IoT/energía (Smelpro, LoraTech y Teca Perú) para identificar ventajas competitivas, riesgos y tácticas prioritarias que permitan ganar cuota en hogares urbanos y PYMEs. |
+| Analisis Competitivo |
+| ------------- |
 | **Pregunta guía:** ¿Cómo se compara PowerSense en oferta, producto, mercado y potencial estratégico frente a Smelpro, LoraTech y Teca Perú, y qué acciones tácticas deben priorizarse para diferenciarse y crecer? |
+| **Propósito del análisis:** Evaluar la posición de PowerSense frente a sus tres competidores clave del ecosistema IoT/energía (Smelpro, LoraTech y Teca Perú) para identificar ventajas competitivas, riesgos y tácticas prioritarias que permitan ganar cuota en hogares urbanos y PYMEs.
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 | Categoría | Detalle | PowerSense (objetivo) | Smelpro | LoraTech | Teca Perú |
 | :--- | :--- | :--- | :--- | :--- | :--- |
