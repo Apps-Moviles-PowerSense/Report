@@ -669,12 +669,12 @@ Tras haber mapeado el flujo macro del negocio, procedemos al Design-Level Event 
 
 Una vez detallados los flujos del Design-Level Event Storming, procedemos al Candidate Context Discovery. Esta etapa representa la transición del análisis del flujo a la definición de la arquitectura estratégica. El objetivo es identificar grupos de funcionalidades que comparten un mismo Lenguaje Ubicuo y reglas de negocio cohesivas. Al agrupar estos elementos, emergen de manera natural los límites de los modelos, permitiéndonos proponer contextos candidatos que servirán como base para la descomposición del sistema en módulos independientes y escalables.
 
-![monitoring](Imagenes/candidate-context-discovery/monitoring.png)
+![dashboard](Imagenes/candidate-context-discovery/dashboard.png)
+![devices](Imagenes/candidate-context-discovery/devices.png)
 ![scheduling](Imagenes/candidate-context-discovery/scheduling.png)
-![enterprise](Imagenes/candidate-context-discovery/enterprise.png)
-![reporting](Imagenes/candidate-context-discovery/reporting.png)
+![reports](Imagenes/candidate-context-discovery/reports.png)
 ![alerts](Imagenes/candidate-context-discovery/alerts.png)
-![iam](Imagenes/candidate-context-discovery/iam.png)
+![auth](Imagenes/candidate-context-discovery/auth.png)
 
 #### 2.5.1.2. Domain Message Flows Modeling
 
@@ -686,12 +686,12 @@ A countinuación se presenta el flujo de mensajes para el caso de uso principal 
 
 En esta sección se presenta los diferentes Canvas realizados para los contextos que se identificaron, comenzando desde los más importantes para el negocio. Aquí se detalla la información sobre este Bounded Context, así como la comunicación entrante y saliente. Además del lenguaje ubicuo y reglas de negocio que aplican en este contexto.
 
-![monitoring](Imagenes/bounded-context-canvas/monitoring.png)
+![dashboard](Imagenes/bounded-context-canvas/dashboard.png)
+![devices](Imagenes/bounded-context-canvas/devices.png)
 ![scheduling](Imagenes/bounded-context-canvas/scheduling.png)
-![enterprise](Imagenes/bounded-context-canvas/enterprise.png)
-![reporting](Imagenes/bounded-context-canvas/reporting.png)
+![reports](Imagenes/bounded-context-canvas/reports.png)
 ![alerts](Imagenes/bounded-context-canvas/alerts.png)
-![iam](Imagenes/bounded-context-canvas/iam.png)
+![auth](Imagenes/bounded-context-canvas/auth.png)
 
 ### 2.5.2. Context Mapping
 
@@ -732,7 +732,7 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 ## 2.6. Tactical-Level Domain-Driven Design
 
 
-### 2.6.1. Bounded Context: Monitoring
+### 2.6.1. Bounded Context: Dashboard
 #### 2.6.1.1. Domain Layer
 #### 2.6.1.2. Interface Layer
 #### 2.6.1.3. Application Layer
@@ -752,7 +752,7 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
-### 2.6.3. Bounded Context: Enterprise
+### 2.6.3. Bounded Context: Devices
 #### 2.6.3.1. Domain Layer
 #### 2.6.3.2. Interface Layer
 #### 2.6.3.3. Application Layer
@@ -762,7 +762,7 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
-### 2.6.4. Bounded Context: Reporting
+### 2.6.4. Bounded Context: Reports
 #### 2.6.4.1. Domain Layer
 #### 2.6.4.2. Interface Layer
 #### 2.6.4.3. Application Layer
@@ -782,7 +782,7 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
-### 2.6.6. Bounded Context: IAM
+### 2.6.6. Bounded Context: Auth
 
 > **Propósito:**  Gestión de identidad, autenticación del usuario.
 
@@ -792,34 +792,33 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 - **User:** Información para la autenticación y verificación de roles.
 - **Email:** Correo electrónico del usuario (debe ser un email válido).
 - **Password:** Contraseña del usuario (se encripta al guardarse en la base de datos).
-- **UserTpye:** Rol del usuario (un Enum con dos valores).
-- **FullName:** Nombre completo del usuario (el lastName puede ser null para usuarios de tipo Company)
 - **UserCommandService:** Repertorio de comandos que involucran la autenticación.
 - **UserQueryService:** Repertorio de solicitudes que involucran al usuario
 
 **A nivel de Frontend**
 ---
  **Aggregate Root**
- -  **User:**  `id: Int`, `email: String`, `password: String`, `userType: UserType`
+ -  **User:**  `id: Int`, `email: String`, `passwordHash: String`, `name: String`, `avatarUrl: String`, `isActive: Boolean`
+
+**Repositories**
+- **UserRepository:**  `getUsers()`, `syncUsers()`
 
 **A nivel de Backend**
 ---
 
  **Aggregate Root**
- -  **User:**  `id: Int`, `email: Email`, `password: Password`, `userType: UserType`
+ -  **User:**  `id: UserId`, `email: Email`, `passwordHash: String`, `name: String`, `avatarUrl: String`, `isActive: Boolean`, `createdAt: LocalDateTime`, `UpdatedAt: LocalDateTime`
 		
   **Entities**
 	- *(No se tienen planteados Entities para este bounded context)*
 
  **Value Objects**
-- **Email:** `value: String`, `validate()`
-- **Password:**  `hashedValue: String`, `encrypt()`, `verify()`
-- **UserType:** `HOME`, `COMPANY`
-- **FullName:** `firstName: String`, `lastName: String?`, `validate()`
+- **Email:** `value: String`, `validate()`, `getValue()`, `toString()`
+- **Password:**  `value: String`,`validate()`, `getValue()`, 
 
 **Domain Services**
-- **UserCommandService:** `handle(SignUp)`, `handle(SignIn)`,  `handle(RequestPasswordReset)`, `handle(UpdatePassword)`
-- **UserQueryService:** `handle(GetUserById)`, `handle(GetAllUsers)`
+- **UserCommandService:** `handle(RegisterUserCommand)`, `handle(UpdateUserProfileCommand)`
+- **UserQueryService:** `handle(GetUserByIdQuery)`, `handle(GetUserByEmailQuery)`
 
 #### 2.6.6.2. Interface Layer
 
@@ -869,12 +868,6 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 - **UserCommandServiceImp:**  Implementación del servicio de comandos para el usuario.
 - **UserQueryServiceImp:** Implementación del servicio de solicitudes para el usuario.
 
-
-**A nivel de Frontend**
----
-**Use Cases**
-- (No se tienen planteado casos de uso para este contexto)
-
 **A nivel de Backend**
 ---
 
@@ -897,7 +890,7 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 -  **Resource:** Una clase sellada (Sealed Class) genérica que envuelve los datos para informar a la UI sobre el estado de una operación: Loading (cargando), Success (éxito) o Error (fallo).
 
 
-**A nivel de Frontend**
+**A nivel de Frontend (Data Layer)**
 ---
 **Local**
 - **AppDatabase**
