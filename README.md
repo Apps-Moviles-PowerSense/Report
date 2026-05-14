@@ -905,6 +905,85 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 
 ![iam database diagram](Imagenes/db-diagrams/iam-db-diagram.png)
 
+# Capítulo III: Solution UI/UX Design
+
+## 3.1. Product design
+
+### 3.1.1. Style Guidelines
+
+#### 3.1.1.1. General Style Guidelines
+
+### 3.1.2. Information Architecture
+
+#### 3.1.2.1. Organization Systems
+
+#### 3.1.2.2. Labelling Systems
+
+#### 3.1.2.3. SEO Tags and Meta Tags
+
+#### 3.1.2.4. Searching Systems
+
+#### 3.1.2.5. Navigation Systems
+
+### 3.1.3. Landing Page UI Design
+
+#### 3.1.3.1. Landing Page Wireframe
+
+#### 3.1.3.2. Landing Page Mock-up
+
+### 3.1.4. Mobile Applications UX/UI Design
+
+#### 3.1.4.1. Mobile Applications Wireframes
+
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+#### 3.1.4.3. Mobile Applications Mock-ups
+
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+#### 3.1.4.5. Mobile Applications Prototyping
+
+# Capítulo IV: Product Implementation & Validation
+
+## 4. Product Implementation & Validation
+
+## 4.1. Software Configuration Management
+
+### 4.1.1. Software Development Environment Configuration
+
+### 4.1.2. Source Code Management
+
+### 4.1.3. Source Code Style Guide & Conventions
+
+### 4.1.4. Software Deployment Configuration
+
+## 4.2. Landing Page & Mobile Application Implementation
+
+### 4.2.1. Sprint n
+
+#### 4.2.1.1. Sprint Planning n
+
+#### 4.2.1.2. Sprint Backlog n
+
+#### 4.2.1.3. Development Evidence for Sprint Review
+
+#### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+#### 4.2.1.5. Execution Evidence for Sprint Review
+
+#### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+#### 4.2.1.8. Team Collaboration Insights during Sprint
+
+## 4.3. Validation Interviews
+
+### 4.3.1. Diseño de Entrevistas
+
+### 4.3.2. Registro de Entrevistas
+
+### 4.3.3. Evaluaciones según heurísticas
 # Bibliografía
 - Sierra Praeli, Y. (28 de abril de 2024). Territorios contaminados: la transición energética no avanza en la Amazonía de Perú. Mongabay Latam.
   (https://es.mongabay.com/2024/04/territorios-contaminados-transicion-energetica-no-avanza-amazonia-peru/)
