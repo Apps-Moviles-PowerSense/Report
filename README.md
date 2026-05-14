@@ -750,6 +750,11 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+**Backend:**
+
+![scheduling frontend class diagram](Imagenes/class-diagrams/scheduling-backend-class-diagram.png)
+
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.3. Bounded Context: Devices
@@ -760,6 +765,11 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+**Backend:**
+
+![devices frontend class diagram](Imagenes/class-diagrams/devices-backend-class-diagram.png)
+
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.4. Bounded Context: Reports
@@ -770,6 +780,8 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.5. Bounded Context: Alerts
@@ -780,6 +792,11 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+**Backend:**
+
+![alerts frontend class diagram](Imagenes/class-diagrams/alerts-backend-class-diagram.png)
+
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.6. Bounded Context: Auth
@@ -930,15 +947,15 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 
 **Frontend:**
 
-![iam frontend class diagram](Imagenes/class-diagrams/iam-frontend-class-diagram.png)
+![auth frontend class diagram](Imagenes/class-diagrams/auth-frontend-class-diagram.png)
 
 **Backend:**
 
-![iam frontend class diagram](Imagenes/class-diagrams/iam-backend-class-diagram.png)
+![auth frontend class diagram](Imagenes/class-diagrams/auth-backend-class-diagram.png)
 
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
 
-![iam database diagram](Imagenes/db-diagrams/iam-db-diagram.png)
+![auth database diagram](Imagenes/db-diagrams/auth-db-diagram.png)
 
 # Bibliografía
 - Sierra Praeli, Y. (28 de abril de 2024). Territorios contaminados: la transición energética no avanza en la Amazonía de Perú. Mongabay Latam.
