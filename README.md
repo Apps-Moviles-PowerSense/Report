@@ -949,12 +949,69 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 
 ## 4.1. Software Configuration Management
 
+Para garantizar la consistencia durante todo el ciclo de vida del proyecto PowerSense, nuestra startup SODA ha definido convenciones de código, gestión de versiones y configuración de entornos de desarrollo y despliegue.
+
 ### 4.1.1. Software Development Environment Configuration
+
+Se especifican las herramientas utilizadas por los miembros del equipo para cubrir todas las actividades del ciclo de vida del software, cumpliendo con las restricciones del proyecto:
+
+### Product UX/UI Design
+- **Figma:** Herramienta para diseñar los Wireframes, Mock-ups y Prototipos navegables de la app móvil y Landing Page.  
+
+- **UXPressia:** Utilizado para los artefactos de Needfinding (User Personas, Journey Maps).  
+
+### Software Development
+- **Android Studio:** IDE oficial para el desarrollo de la aplicación móvil nativa utilizando Kotlin.  
+
+- **IntelliJ IDEA :** IDE para el desarrollo del Backend RESTful API utilizando Spring Boot (Java).  
+
+- **MySQL Workbench :** Cliente para la gestión y modelado de la base de datos relacional MySQL.
+
+### Software Documentation & API
+- **Swagger :** Herramienta para documentar y probar los endpoints del Backend de PowerSense.  
+
+### Software Deployment
+- **Android Studio:** Utilizado para la distribución y validación de las versiones de prueba de la aplicación móvil.
+
+- **Microsoft Azure:** Proveedor Cloud para el despliegue del Backend (Azure App Services) y base de datos (Azure Database for MySQL).
 
 ### 4.1.2. Source Code Management
 
+El equipo de SODA utiliza Git como sistema de control de versiones centralizado en GitHub. 
+Los repositorios oficiales del proyecto son:
+
+- **Landing Page:**  
+  https://github.com/Apps-Moviles-PowerSense/Landing-Page
+
+- **Backend (Web Services):**  
+  https://github.com/Apps-Moviles-PowerSense/Backend
+
+- **Frontend Web Application:**  
+  https://github.com/Apps-Moviles-PowerSense/Frontend
+
+### Flujo de Trabajo (GitFlow)
+
+Se aplico estrictamente el modelo GitFlow. Las ramas principales y convenciones son:
+
+#### Ramas principales
+- **main:** Contiene el informe de producción estable. Cada commit aquí es un release.
+- **develop:** Rama de integración donde se unen las funcionalidades en desarrollo.
+
+#### Ramas de apoyo
+- **feature/<nombre-funcionalidad>:**  
+  Creadas a partir de **develop** para desarrollar cada capitulo.
+
 ### 4.1.3. Source Code Style Guide & Conventions
 
+Para asegurar la legibilidad, mantenibilidad e integración fluida del código entre los desarrolladores, hemos adoptado guías de estilo reconocidas para cada tecnología aplicada.
+
+### Mobile (Kotlin)
+- Se utiliza el lenguage de programación **Kotlin Style Guide** recomendada por Android.
+
+### Backend (Java/Spring Boot)
+- Se aplica la **Google Java Style Guide**.
+- Los endpoints REST siguen una nomenclatura en inglés y sustantivos plurales.
+  
 ### 4.1.4. Software Deployment Configuration
 
 ## 4.2. Landing Page & Mobile Application Implementation
