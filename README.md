@@ -1014,6 +1014,12 @@ Para asegurar la legibilidad, mantenibilidad e integración fluida del código e
   
 ### 4.1.4. Software Deployment Configuration
 
+El despliegue de PowerSense se orquesta de la siguiente manera, garantizando la disponibilidad de todos los componentes:
+- **Backend & Database:** El código de Spring Boot se despliega en Azure App Services, conectado a un servidor Azure Database for MySQL administrado.
+- **Mobile Application:** Los APKs generados se despliegan para testing utilizando Firebase App Distribution, lo que permite a los evaluadores (usuarios de hogar y PYMES) descargar e interactuar con el prototipo final.
+- **Landing Page:** Los archivos estáticos se despliegan automáticamente desde GitHub utilizando servicios como GitHub Pages o Vercel.
+
+
 ## 4.2. Landing Page & Mobile Application Implementation
 
 ### 4.2.1. Sprint 1
