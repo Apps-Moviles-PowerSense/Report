@@ -1016,11 +1016,42 @@ Para asegurar la legibilidad, mantenibilidad e integración fluida del código e
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
-### 4.2.1. Sprint n
+### 4.2.1. Sprint 1
 
-#### 4.2.1.1. Sprint Planning n
+En este primer Sprint, el equipo se enfocó en el desarrollo y despliegue del Landing Page estático para presentar el modelo de negocio al público, así como en la configuración inicial de la arquitectura del Backend y la implementación de los servicios base de seguridad y autenticación.
 
-#### 4.2.1.2. Sprint Backlog n
+#### 4.2.1.1. Sprint Planning 1
+
+A continuación, se resumen los detalles y objetivos definidos durante la reunión de planificación del Sprint 1.
+
+| Campo | Descripción |
+|-------|-------------|
+| **Sprint #** | Sprint 1 |
+| **Date** | 2026-04-26 |
+| **Time** | 10:00 AM |
+| **Location** | Microsoft Teams (Reunión Virtual) |
+| **Prepared By** | Pastor Napa, Juan Carlos |
+| **Attendees** | Aquino Solorzano, Daniel / Lagos Rivera, Kael / Ojanama Abanto, Johnny / Pastor Napa, Juan Carlos / Pelaez Vargas, Giuliano |
+| **Sprint n – 1 Review Summary** | N/A  |
+| **Sprint n – 1 Retrospective Summary** | N/A |
+|  Sprint Goal & User Stories |        |
+| Sprint Goal | Nuestro objetivo es lanzar la página de inicio estática principal y establecer los puntos de acceso básicos para la autenticación y el registro.Creemos que esto brinda visibilidad temprana del producto a potenciales usuarios de Home y PYME, y una base segura para la aplicación.Esto se confirmará cuando los visitantes puedan navegar por las secciones de la página de inicio y los usuarios puedan registrarse correctamente y generar un token JWT válido a través de la API.
+| Sprint Velocity |  20 Story Points |
+| Sum of Story Points | HU1,HU2,HU3,HU4,HU7,HU35 |
+
+#### 4.2.1.2. Sprint Backlog 1
+
+El siguiente cuadro detalla las tareas asignadas para cumplir con el Sprint Goal.
+
+| User Story | Work-Item / Task | Description | Estimation (Hours) | Assigned To |
+|---|---|---|---|---|
+| **HU1 - Información general del producto** | **TS1.1 - Maquetación HTML/CSS Hero Section** | Desarrollar la estructura base y estilos de la sección principal del Landing Page. | 4 | Pastor, Juan Carlos |
+| **HU2 - Casos de éxito** | **TS2.1 - Diseño UI/UX y HTML de Casos de Éxito** | Implementar la sección de testimonios de hogares. | 3 | Ojanama, Johnny |
+| **HU3 - Comparativa de planes** | **TS3.1 - Implementar Pricing Table** | Construir la tabla responsiva comparando los planes. | 5 | Pelaez, Giuliano |
+| **HU4 - Contacto** | **TS4.1 - Formulario de contacto estático** | Crear el formulario HTML de contacto con validaciones JS. | 3 | Lagos, Kael |
+| **HU5 - Registro de cuenta** | **TS5.1 - UI Móvil de Registro** | Implementar la pantalla de registro en Android con Kotlin. | 6 | Pastor, Juan Carlos |
+| **HU7 - Inicio de sesión** | **TS7.1 - UI Móvil de Login** | Implementar la pantalla de inicio de sesión en Android. | 5 | Lagos, Kael |
+| **HU35 - Endpoint de autenticación** | **TS35.1 - Configurar Spring Security y JWT** | Configurar el backend para generar y validar tokens JWT y registrar usuarios. | 8 | Aquino, Daniel |
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
@@ -1028,7 +1059,19 @@ Para asegurar la legibilidad, mantenibilidad e integración fluida del código e
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
+Durante este Sprint se alcanzó el despliegue del Landing Page con sus secciones informativas y el desarrollo de las pantallas iniciales en la app móvil.
+
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+| Endpoint | Verbo HTTP | Parámetros / Request Body | Response de Ejemplo |
+|---|---|---|---|
+| `/api/auth/login` | POST | `{"email": "...", "password": "..."}` | `200 OK: {"token": "eyJhbGci..."}` |
+| `/api/auth/register` | POST | `{"firstName": "...", "email": "...", "password": "..."}` | `201 Created: {"message": "User registered"}` |
+| `/api/auth/me` | GET | Token JWT en Authorization Header | `200 OK: {"id": 1, "firstName": "Juan", "email": "juan@example.com"}` |
+| `/api/auth/profile` | PUT | `{"firstName": "...", "lastName": "...", "phone": "..."}` + JWT | `200 OK: {"id": 1, "firstName": "Juan Updated"}` |
+| `/api/auth/verify` | GET | Token JWT en Authorization Header | `200 OK: {"valid": true}` |
+| `/api/auth/refresh` | POST | Token JWT en Authorization Header | `200 OK: {"token": "new_jwt_token..."}` |
+| `/api/auth/logout` | POST | Token JWT en Authorization Header | `200 OK` |
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
