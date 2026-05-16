@@ -913,6 +913,7 @@ Estos lineamientos establecen la identidad visual de PowerSense, una plataforma 
 #### 3.1.1.1. General Style Guidelines
 ##### a. Branding
 - Al buscar dar una identidad visual amigable e intuitiva sobre lo que ofrece PowerSenes, se decidio por hacer un logotipo de un foco verde con una hoja dentro, representando la energia con el foco y el ahorro con la hoja y el color verde.
+
 ![LogoChapter3](Imagenes/Logo.jpg)
 ##### b. Typography
 - Se utilizan fuentes como Inter en todo el proyecto con diversos tamaños ya que su estilo sencillo transmite una vibra sencilla y minimalista.
