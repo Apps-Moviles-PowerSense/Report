@@ -1555,6 +1555,8 @@ Durante este Sprint se alcanzó el despliegue del Landing Page con sus secciones
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
+![deplyment evidence sprint 1](Imagenes/deployment-evidence-sprint-1.png)
+
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
 ## 4.3. Validation Interviews
