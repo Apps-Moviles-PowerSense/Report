@@ -1357,21 +1357,115 @@ La solución incluye metadatos esenciales para el posicionamiento y la accesibil
 
 ## 4.1. Software Configuration Management
 
+Para garantizar la consistencia durante todo el ciclo de vida del proyecto PowerSense, nuestra startup SODA ha definido convenciones de código, gestión de versiones y configuración de entornos de desarrollo y despliegue.
+
 ### 4.1.1. Software Development Environment Configuration
+
+Se especifican las herramientas utilizadas por los miembros del equipo para cubrir todas las actividades del ciclo de vida del software, cumpliendo con las restricciones del proyecto:
+
+### Product UX/UI Design
+- **Figma:** Herramienta para diseñar los Wireframes, Mock-ups y Prototipos navegables de la app móvil y Landing Page.  
+
+- **UXPressia:** Utilizado para los artefactos de Needfinding (User Personas, Journey Maps).  
+
+### Software Development
+- **Android Studio:** IDE oficial para el desarrollo de la aplicación móvil nativa utilizando Kotlin.  
+
+- **IntelliJ IDEA :** IDE para el desarrollo del Backend RESTful API utilizando Spring Boot (Java).  
+
+- **MySQL Workbench :** Cliente para la gestión y modelado de la base de datos relacional MySQL.
+
+### Software Documentation & API
+- **Swagger :** Herramienta para documentar y probar los endpoints del Backend de PowerSense.  
+
+### Software Deployment
+- **Android Studio:** Utilizado para la distribución y validación de las versiones de prueba de la aplicación móvil.
+
+- **Microsoft Azure:** Proveedor Cloud para el despliegue del Backend (Azure App Services) y base de datos (Azure Database for MySQL).
 
 ### 4.1.2. Source Code Management
 
+El equipo de SODA utiliza Git como sistema de control de versiones centralizado en GitHub. 
+Los repositorios oficiales del proyecto son:
+
+- **Landing Page:**  
+  https://github.com/Apps-Moviles-PowerSense/Landing-Page
+
+- **Backend (Web Services):**  
+  https://github.com/Apps-Moviles-PowerSense/Backend
+
+- **Frontend Web Application:**  
+  https://github.com/Apps-Moviles-PowerSense/Frontend
+
+### Flujo de Trabajo (GitFlow)
+
+Se aplico estrictamente el modelo GitFlow. Las ramas principales y convenciones son:
+
+#### Ramas principales
+- **main:** Contiene el informe de producción estable. Cada commit aquí es un release.
+- **develop:** Rama de integración donde se unen las funcionalidades en desarrollo.
+
+#### Ramas de apoyo
+- **feature/<nombre-funcionalidad>:**  
+  Creadas a partir de **develop** para desarrollar cada capitulo.
+
 ### 4.1.3. Source Code Style Guide & Conventions
 
+Para asegurar la legibilidad, mantenibilidad e integración fluida del código entre los desarrolladores, hemos adoptado guías de estilo reconocidas para cada tecnología aplicada.
+
+### Mobile (Kotlin)
+- Se utiliza el lenguage de programación **Kotlin Style Guide** recomendada por Android.
+
+### Backend (Java/Spring Boot)
+- Se aplica la **Google Java Style Guide**.
+- Los endpoints REST siguen una nomenclatura en inglés y sustantivos plurales.
+  
 ### 4.1.4. Software Deployment Configuration
+
+El despliegue de PowerSense se orquesta de la siguiente manera, garantizando la disponibilidad de todos los componentes:
+- **Backend & Database:** El código de Spring Boot se despliega en Azure App Services, conectado a un servidor Azure Database for MySQL administrado.
+- **Mobile Application:** Los APKs generados se despliegan para testing utilizando Firebase App Distribution, lo que permite a los evaluadores (usuarios de hogar y PYMES) descargar e interactuar con el prototipo final.
+- **Landing Page:** Los archivos estáticos se despliegan automáticamente desde GitHub utilizando servicios como GitHub Pages o Vercel.
+
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
-### 4.2.1. Sprint n
+### 4.2.1. Sprint 1
 
-#### 4.2.1.1. Sprint Planning n
+En este primer Sprint, el equipo se enfocó en el desarrollo y despliegue del Landing Page estático para presentar el modelo de negocio al público, así como en la configuración inicial de la arquitectura del Backend y la implementación de los servicios base de seguridad y autenticación.
 
-#### 4.2.1.2. Sprint Backlog n
+#### 4.2.1.1. Sprint Planning 1
+
+A continuación, se resumen los detalles y objetivos definidos durante la reunión de planificación del Sprint 1.
+
+| Campo | Descripción |
+|-------|-------------|
+| **Sprint #** | Sprint 1 |
+| **Date** | 2026-04-26 |
+| **Time** | 10:00 AM |
+| **Location** | Microsoft Teams (Reunión Virtual) |
+| **Prepared By** | Pastor Napa, Juan Carlos |
+| **Attendees** | Aquino Solorzano, Daniel / Lagos Rivera, Kael / Ojanama Abanto, Johnny / Pastor Napa, Juan Carlos / Pelaez Vargas, Giuliano |
+| **Sprint n – 1 Review Summary** | N/A  |
+| **Sprint n – 1 Retrospective Summary** | N/A |
+|  Sprint Goal & User Stories |        |
+| Sprint Goal | Nuestro objetivo es lanzar la página de inicio estática principal y establecer los puntos de acceso básicos para la autenticación y el registro.Creemos que esto brinda visibilidad temprana del producto a potenciales usuarios de Home y PYME, y una base segura para la aplicación.Esto se confirmará cuando los visitantes puedan navegar por las secciones de la página de inicio y los usuarios puedan registrarse correctamente y generar un token JWT válido a través de la API.
+| Sprint Velocity |  20 Story Points |
+| Sum of Story Points | HU1,HU2,HU3,HU4,HU7,HU35 |
+
+#### 4.2.1.2. Sprint Backlog 1
+
+El siguiente cuadro detalla las tareas asignadas para cumplir con el Sprint Goal.
+
+| User Story | Work-Item / Task | Description | Estimation (Hours) | Assigned To |
+|---|---|---|---|---|
+| **HU1 - Información general del producto** | **TS1.1 - Maquetación HTML/CSS Hero Section** | Desarrollar la estructura base y estilos de la sección principal del Landing Page. | 4 | Pastor, Juan Carlos |
+| **HU2 - Casos de éxito** | **TS2.1 - Diseño UI/UX y HTML de Casos de Éxito** | Implementar la sección de testimonios de hogares. | 3 | Ojanama, Johnny |
+| **HU3 - Comparativa de planes** | **TS3.1 - Implementar Pricing Table** | Construir la tabla responsiva comparando los planes. | 5 | Pelaez, Giuliano |
+| **HU4 - Contacto** | **TS4.1 - Formulario de contacto estático** | Crear el formulario HTML de contacto con validaciones JS. | 3 | Lagos, Kael |
+| **HU5 - Registro de cuenta** | **TS5.1 - UI Móvil de Registro** | Implementar la pantalla de registro en Android con Kotlin. | 6 | Pastor, Juan Carlos |
+| **HU7 - Inicio de sesión** | **TS7.1 - UI Móvil de Login** | Implementar la pantalla de inicio de sesión en Android. | 5 | Lagos, Kael |
+| **HU35 - Endpoint de autenticación** | **TS35.1 - Configurar Spring Security y JWT** | Configurar el backend para generar y validar tokens JWT y registrar usuarios. | 8 | Aquino, Daniel |
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
@@ -1379,7 +1473,19 @@ La solución incluye metadatos esenciales para el posicionamiento y la accesibil
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
+Durante este Sprint se alcanzó el despliegue del Landing Page con sus secciones informativas y el desarrollo de las pantallas iniciales en la app móvil.
+
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+| Endpoint | Verbo HTTP | Parámetros / Request Body | Response de Ejemplo |
+|---|---|---|---|
+| `/api/auth/login` | POST | `{"email": "...", "password": "..."}` | `200 OK: {"token": "eyJhbGci..."}` |
+| `/api/auth/register` | POST | `{"firstName": "...", "email": "...", "password": "..."}` | `201 Created: {"message": "User registered"}` |
+| `/api/auth/me` | GET | Token JWT en Authorization Header | `200 OK: {"id": 1, "firstName": "Juan", "email": "juan@example.com"}` |
+| `/api/auth/profile` | PUT | `{"firstName": "...", "lastName": "...", "phone": "..."}` + JWT | `200 OK: {"id": 1, "firstName": "Juan Updated"}` |
+| `/api/auth/verify` | GET | Token JWT en Authorization Header | `200 OK: {"valid": true}` |
+| `/api/auth/refresh` | POST | Token JWT en Authorization Header | `200 OK: {"token": "new_jwt_token..."}` |
+| `/api/auth/logout` | POST | Token JWT en Authorization Header | `200 OK` |
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
@@ -1397,4 +1503,12 @@ La solución incluye metadatos esenciales para el posicionamiento y la accesibil
   (https://es.mongabay.com/2024/04/territorios-contaminados-transicion-energetica-no-avanza-amazonia-peru/)
 - AutoSolar Perú. (s. f.). Consumo energético familiar en Perú.
   (https://autosolar.pe/ahorro-de-energia/consumo-energetico-familiar-en-peru)
+
+# Anexos
+- Organización en Github: https://github.com/Apps-Moviles-PowerSense
+- Report: https://github.com/Apps-Moviles-PowerSense/Report
+- Landing: https://github.com/Apps-Moviles-PowerSense/Landing-Page
+- Frontend: https://github.com/Apps-Moviles-PowerSense/Frontend
+- Backend: https://github.com/Apps-Moviles-PowerSense/Backend
+- Swagger: https://powersense.azurewebsites.net/swagger-ui/index.html 
 
