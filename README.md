@@ -1396,22 +1396,39 @@ La solución incluye metadatos esenciales para el posicionamiento y la accesibil
 
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
+
+![landing wireframe](Imagenes/wireframes/landing.png)
+
 #### 3.1.3.2. Landing Page Mock-up
+
+![landing mockup](Imagenes/mockups/landing.png)
+
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
-- Dashboard
-![WireframeDash](Imagenes/wireframe1.jpg)
-- Dispositivos
-![WireframeDis](Imagenes/wireframeDispo.jpg)
-- Programar
-![WireframeProg](Imagenes/wireframeProg.jpg)
-- Reporte
-![WireframeRep](Imagenes/wireframeRep.jpg)
-- Alerta
-![WireframeAler](Imagenes/wireframeAler.jpg)
+
+![wireframe1](Imagenes/wireframes/wireframe-1.png)
+![wireframe2](Imagenes/wireframes/wireframe-2.png)
+![wireframe3](Imagenes/wireframes/wireframe-3.png)
+![wireframe4](Imagenes/wireframes/wireframe-4.png)
+![wireframe5](Imagenes/wireframes/wireframe-5.png)
+
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
+![wireflow 1](Imagenes/wireflow-diagrams/wireflow-1.jpg)
+
 #### 3.1.4.3. Mobile Applications Mock-ups
+
+- Dashboard
+![MockupDash](Imagenes/mockups/mockup1.jpg)
+- Dispositivos
+![MockupDis](Imagenes/mockups/mockupDispo.jpg)
+- Programar
+![MockupProg](Imagenes/mockups/mockupProg.jpg)
+- Reporte
+![MockupRep](Imagenes/mockups/mockupRep.jpg)
+- Alerta
+![MockupAler](Imagenes/mockups/mockupAler.jpg)
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
