@@ -333,7 +333,7 @@ Señala que la nevera permanece siempre encendida y constituye un consumo base, 
 
 Finaliza expresando interés en una solución que muestre consumo por toma y envíe alertas ante picos inusuales para recuperar control y tranquilidad.
 
-Link de la entrevista:
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQD1M3-yXB2OTZ-OuwVPXOu3AQUv_dqVOUphWuuBfHM-5VI?e=Cx8McB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 Entrevista 2 (Zuriel Rivera) Inicio: 00:00 - Fin: 7:25 - Duración: 7:25
 
@@ -353,11 +353,25 @@ Sus respuestas confirmaron las hipotesis que planteabamos con respecto a ese tip
 
 Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQB3d49pgoprQZ0Sn74770w4AWW4A5ob_o-Wv5YtxuwFkYQ?e=Xv93lv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-Entrevista 3 (Nombre aqui)
+Entrevista 3 (Sebastián Valdivia) Inicio: 00:00 - Fin: 3:29 - Duración: 3:29
+
+<p align="center">
+  <img src="Imagenes/Imagen_entrevista3.png" alt="Imagen_entrevista3" />
+</p>
+
+- Nombre: Sebastián Valdivia
+- Edad: 22 años
+- Distrito de residencia: Miraflores
+
+Resumen de Entrevista : A partir de la entrevista realizada al usuario Sebastián Valdivia, de 22 años y residente de Miraflores, se identificó que percibe un consumo base constante por electrodomésticos esenciales y observa picos y variaciones mensuales en la factura que no logra vincular con cambios en su rutina. 
+
+Reconoce falta de formación técnica para interpretar lecturas y conceptos presentes en la boleta, por lo que sus intentos de ahorro son a veces inconsistentes y sin métricas que confirmen impacto. Valora herramientas que permitan visualizar consumo por hora y por dispositivo para priorizar cambios y justificar medidas ante otros miembros del hogar.
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQB8DGRcS7pTSL7zyiLRvDAUATbpHkaA6sEnYXPZbtYdEkE?e=h7xLDC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ### - Segmento objetivo 2 (Negocios)
 
-Entrevista 4 (Juan Carlos Urdanivia Abad — Premium Cultural Institute) Inicio: 10:13 - Fin: 16:18 - Duración: 6:05
+Entrevista 4 (Juan Carlos Urdanivia Abad — Premium Cultural Institute) Inicio: 00:00 - Fin: 6:05 - Duración: 6:05
 
 <p align="center">
   <img src="Imagenes/Imagen_entrevista4.png" alt="Imagen_entrevista4" />
@@ -372,11 +386,39 @@ Resumen de Entrevista : A partir de la entrevista realizada al usuario Juan Carl
 
 Indica que las vitrinas o equipos que requieren funcionamiento continuo representan la carga base más relevante y que la falta de datos en tiempo real impide identificar con precisión horarios o procesos causantes de incrementos en la factura. Manifiesta interés en monitoreo por circuito, reportes estacionales y en justificar inversiones en eficiencia ante la dirección, pero también subraya la necesidad de garantizar continuidad de servicio y comodidad en el espacio educativo.
 
-Link de la entrevista:
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQC3sjpSkR_DTKzs13MgK3ZqAcD0es7ciW1QUXSyC-iG4Pc?e=ZAcCKx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-Entrevista 5 (Nombre aqui)
+Entrevista 5 (Franco Matías Tico Flores — Minimarket Paco) Inicio: 00:00 - Fin: 4:06 - Duración: 4:06
 
-Entrevista 6 (Nombre aqui)
+<p align="center">
+  <img src="Imagenes/Imagen_entrevista5.png" alt="Imagen_entrevista5" />
+</p>
+
+- Nombre: Sebastián Valdivia
+- Edad: 20 años
+- Distrito de residencia: Surco
+- Sector: Tienda de conveniencia.
+
+Resumen de Entrevista : A partir de la entrevista realizada al usuario Franco Matías Tico Flores, de 20 años y residente de Surco, se identificó que el entrevistado, representante del minimarket, atribuye la mayor parte del consumo a equipos de refrigeración y señala picos en días de mayor afluencia.
+
+Comenta que no cuentan con métricas en tiempo real para relacionar ventas y consumo y que les preocupa proteger inventario perecible. Muestra interés en soluciones con monitoreo continuo, alarmas por desviaciones y opciones de control remoto de cargas no críticas, aunque destaca la necesidad de que la inversión tenga un retorno claro.
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQAe5XrMlNv1SapWPSqM0oqpAR5UO10KqfilPZY_GHG5uaY?e=kNgyTY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+Entrevista 6 (Tomas Dextre Sanchez — Beeschurguer Hamburguesa) Inicio: 00:00 - Fin: 3:57 - Duración: 3:57
+
+<p align="center">
+  <img src="Imagenes/Imagen_entrevista6.png" alt="Imagen_entrevista6" />
+</p>
+
+- Nombre: Tomas Tobias Teodoro Dextre Sanchez
+- Edad: 22 años
+- Distrito de residencia: Surco
+- Sector: Comida rapida
+
+A partir de la entrevista realizada al usuario Tomas Tobias Teodoro Dextre Sanchez, de 22 años y residente de Surco, se identificó que el entrevistado, vinculado a un negocio de comida rápida, señala que la principal carga proviene de equipos de frío y de cocina y que existen picos en días de mayor demanda. Expresa que carecen de datos granulares y métricas en tiempo real para relacionar ventas, horarios y consumo, y que valorarían una solución con monitoreo continuo, alarmas tempranas y capacidad para gestionar cargas no críticas en momentos de tensión. Recalca que cualquier inversión debe estar alineada a un retorno razonable y que la protección del inventario es prioritaria.
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQDXR1ZPu2jdS4y8N2hTc8zKAY0l99XSNW8-butaI8-eTzI?e=gfo46m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -627,12 +669,12 @@ Tras haber mapeado el flujo macro del negocio, procedemos al Design-Level Event 
 
 Una vez detallados los flujos del Design-Level Event Storming, procedemos al Candidate Context Discovery. Esta etapa representa la transición del análisis del flujo a la definición de la arquitectura estratégica. El objetivo es identificar grupos de funcionalidades que comparten un mismo Lenguaje Ubicuo y reglas de negocio cohesivas. Al agrupar estos elementos, emergen de manera natural los límites de los modelos, permitiéndonos proponer contextos candidatos que servirán como base para la descomposición del sistema en módulos independientes y escalables.
 
-![monitoring](Imagenes/candidate-context-discovery/monitoring.png)
+![dashboard](Imagenes/candidate-context-discovery/dashboard.png)
+![devices](Imagenes/candidate-context-discovery/devices.png)
 ![scheduling](Imagenes/candidate-context-discovery/scheduling.png)
-![enterprise](Imagenes/candidate-context-discovery/enterprise.png)
-![reporting](Imagenes/candidate-context-discovery/reporting.png)
+![reports](Imagenes/candidate-context-discovery/reports.png)
 ![alerts](Imagenes/candidate-context-discovery/alerts.png)
-![iam](Imagenes/candidate-context-discovery/iam.png)
+![auth](Imagenes/candidate-context-discovery/auth.png)
 
 #### 2.5.1.2. Domain Message Flows Modeling
 
@@ -644,12 +686,12 @@ A countinuación se presenta el flujo de mensajes para el caso de uso principal 
 
 En esta sección se presenta los diferentes Canvas realizados para los contextos que se identificaron, comenzando desde los más importantes para el negocio. Aquí se detalla la información sobre este Bounded Context, así como la comunicación entrante y saliente. Además del lenguaje ubicuo y reglas de negocio que aplican en este contexto.
 
-![monitoring](Imagenes/bounded-context-canvas/monitoring.png)
+![dashboard](Imagenes/bounded-context-canvas/dashboard.png)
+![devices](Imagenes/bounded-context-canvas/devices.png)
 ![scheduling](Imagenes/bounded-context-canvas/scheduling.png)
-![enterprise](Imagenes/bounded-context-canvas/enterprise.png)
-![reporting](Imagenes/bounded-context-canvas/reporting.png)
+![reports](Imagenes/bounded-context-canvas/reports.png)
 ![alerts](Imagenes/bounded-context-canvas/alerts.png)
-![iam](Imagenes/bounded-context-canvas/iam.png)
+![auth](Imagenes/bounded-context-canvas/auth.png)
 
 ### 2.5.2. Context Mapping
 
@@ -690,11 +732,101 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 ## 2.6. Tactical-Level Domain-Driven Design
 
 
-### 2.6.1. Bounded Context: Monitoring
+### 2.6.1. Bounded Context: Dashboard
 #### 2.6.1.1. Domain Layer
+
+Esta capa contiene el núcleo del negocio para el monitoreo y gestión de energía.
+
+## Aggregate Roots
+
+### Device
+Representa al dispositivo IoT.
+
+**Atributos:**
+- id
+- name
+- status
+- state
+
+### EnergyConsumption
+Representa el registro de consumo.
+
+**Atributos:**
+- id
+- deviceId
+- userId
+- consumptionValue
+
+## Value Objects
+
+### EnergyPulse
+Representa la cantidad de consumo de energía que se registra para el dispositivo.
+
+### ThresholdValue
+Límite de consumo establecido.
+
+## Domain Services
+
+### DeviceCommandService
+Procesa comandos como:
+- link device
+- send device remote command
+
+### EnergyQueryService
+Gestiona la obtención de estadísticas.
+
+## Business Policies
+
+### Check Threshold Policy
+Regla que evalúa si el consumo supera el límite para disparar el evento de exceso.
+
 #### 2.6.1.2. Interface Layer
+## Frontend (Mobile)
+
+### DashboardView
+UI principal para visualizar estadísticas y el consumo.
+
+### DeviceStatusView
+UI para ver el estado de los dispositivos.
+
+## Backend (API)
+
+### MonitoringController
+Endpoints REST para ingesta de datos y control de dispositivos.
+
+### DeviceResource / EnergyConsumptionResource
+Representación de los datos que se envían al cliente.
+
 #### 2.6.1.3. Application Layer
+
+Coordina los casos de uso a través de comandos y eventos.
+
+## Command Handlers
+
+- DeliverEnergyConsumptionPulseHandler
+- LinkDeviceHandler
+- UnlinkDeviceHandler
+- UpdateDeviceHandler
+- SendDeviceRemoteCommandHandler
+- ChangeDeviceStateHandler
+
+## Event Handlers
+
+- EnergyConsumptionPulseReceivedHandler
+- EnergyConsumptionMeasuredHandler
+- DeviceStateChangedHandler
+- DeviceLinkedHandler
+  
 #### 2.6.1.4 Infrastructure Layer
+
+En esta capa se implementan los medios de acceso a servicios externos y la persistencia de datos del dominio.  
+
+**IoTGatewayAdapter:** Clase responsable de la comunicación técnica con los sensores y actuadores físicos, traduciendo señales de hardware a eventos de software.
+
+**DeviceRepositoryImpl:** Implementación del repositorio definido en la capa de dominio que gestiona el acceso a la base de datos MySQL para el almacenamiento de dispositivos.  
+
+**EnergyConsumptionRepositoryImpl:** Gestiona la persistencia de los registros históricos de consumo energético
+
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
@@ -702,45 +834,303 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 
 ### 2.6.2. Bounded Context: Sheduling
 #### 2.6.2.1. Domain Layer
+
+## Aggregate Root
+
+### Schedule
+Entidad principal que guarda el estado deseado para un dispositivo en un rango de tiempo.
+
+**Atributos:**
+- id
+- deviceId
+- startTime 
+- endTime
+- action (ON/OFF)
+- isActive
+
+## Value Objects
+
+### TimeRange
+Representa el bloque de tiempo de la programación.
+
+### Trigger
+El activador que dispara el cambio de estado.
+
+## Domain Services
+
+### ScheduleCommandService
+Procesa las peticiones del usuario sobre sus calendarios.
+
+## Business Policies
+
+### Overlap Prevention
+Regla de negocio que evita que dos programaciones para un mismo dispositivo tengan conflictos de horarios.
+
 #### 2.6.2.2. Interface Layer
+
+## Frontend (Mobile)
+
+### ScheduleView
+UI donde el usuario puede visualizar, crear y modificar sus calendarios inteligentes.
+
+## Backend (API)
+
 #### 2.6.2.3. Application Layer
+
+Gestión de los flujos de trabajo de los horarios.
+
+## Command Handlers
+
+- CreateScheduleHandler
+- UpdateScheduleHandler
+- DeleteScheduleHandler
+- ActivateScheduleHandler
+- DeactivateScheduleHandler
+- TriggerScheduleHandler
+
+## Event Handlers
+
+- ScheduleCreatedHandler
+- ScheduleActivatedHandler
+- ScheduleTriggeredHandler
+
+
 #### 2.6.2.4 Infrastructure Layer
+
+Esta capa soporta la persistencia de las reglas de automatización temporal.  
+
+**ScheduleRepositoryImpl:** Implementación encargada de persistir los horarios de encendido y apagado en el servidor central.  
+
+**ScheduleDao / ScheduleEntity:** Clases de persistencia local utilizando la biblioteca Room para permitir la visualización de calendarios sin conexión en la aplicación móvil.
+
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+**Backend:**
+
+![scheduling frontend class diagram](Imagenes/class-diagrams/scheduling-backend-class-diagram.png)
+
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
-### 2.6.3. Bounded Context: Enterprise
+### 2.6.3. Bounded Context: Devices
 #### 2.6.3.1. Domain Layer
+
+Define el modelo estructural para las empresas y sus sedes dentro del sistema.
+
+## Aggregate Root
+
+### CompanyBranch
+Representación virtual de un departamento de una MYPE donde se encuentran instalados uno o más dispositivos IoT.
+
+**Atributos:**
+- id
+- companyId
+- branchName
+- location
+
+## Domain Services
+
+### EnterpriseCommandService
+Gestiona la lógica para agregar, actualizar o eliminar sedes empresariales.
+
+## Business Policies
+
+### Uniqueness Rule
+Regla de negocio que asegura que no puedan existir dos departamentos/sedes con el mismo nombre exacto dentro de una misma MYPE.
+
 #### 2.6.3.2. Interface Layer
+
+## Frontend (Mobile/Web)
+
+### ConfigurationView
+Interfaz de usuario donde el administrador de la MYPE gestiona las sedes de su empresa.
+
+## Backend (API)
+
+### EnterpriseController
+Endpoints REST para administrar los departamentos de la compañía.
+
 #### 2.6.3.3. Application Layer
+
+Orquesta las operaciones sobre los departamentos de la empresa.
+
+## Command Handlers
+
+- AddCompanyBranchHandler
+- UpdateCompanyBranchHandler
+- DeleteCompanyBranchHandler
+
+## Event Handlers
+
+- CompanyBranchAddedHandler
+- CompanyBranchUpdatedHandler
+- CompanyBranchDeletedHandler
+
+
 #### 2.6.3.4 Infrastructure Layer
+
+**CompanyBranchRepositoryImpl:** Gestiona la persistencia de la estructura organizacional (sedes/departamentos) en la base de datos relacional.
+
+**BranchMapper:** Clase encargada de la traducción entre las entidades de base de datos y los objetos de dominio.
+
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+**Backend:**
+
+![devices frontend class diagram](Imagenes/class-diagrams/devices-backend-class-diagram.png)
+
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
-### 2.6.4. Bounded Context: Reporting
+### 2.6.4. Bounded Context: Reports
 #### 2.6.4.1. Domain Layer
+
+Núcleo que consolida métricas para el análisis de consumo.
+
+## Aggregate Root
+
+### Report
+Documento digital que consolida las métricas de consumo, costos y ahorros en un periodo determinado.
+
+**Atributos:**
+- id
+- userId
+- periodStart
+- periodEnd
+- totalConsumption
+- totalCost
+
+## Value Objects
+
+### ExportFormat
+Representa el formato externo (ej. PDF o CSV) para uso administrativo.
+
+## Domain Services
+
+### ReportGenerationService
+Servicio que agrupa las estadísticas consolidadas y construye el reporte.
+
+## Business Policies
+
+### Access Control
+Regla que asegura que un usuario o MYPE solo pueda generar y exportar reportes de sus propios dispositivos o sedes.
+
 #### 2.6.4.2. Interface Layer
+
+## Frontend
+
+### DashboardView
+Vista que resume datos estadísticos rápidos.
+
+### ReportsView
+UI dedicada a la solicitud, visualización y exportación detallada de reportes.
+
+## Backend
+
+### ReportingController
+Endpoints REST para solicitar la creación y exportación de reportes.
+
 #### 2.6.4.3. Application Layer
+
+## Command Handlers
+
+- CreateReportHandler
+- ExportReportHandler
+
+## Event Handlers
+
+- ReportCreatedHandler
+- ReportExportedHandler
+
 #### 2.6.4.4 Infrastructure Layer
+
+**FileExportAdapter:** Adaptador encargado de la lógica técnica para transformar datos de dominio en archivos físicos exportables como PDF o CSV.
+
+**ReportRepositoryImpl:** Repositorio para la gestión de metadatos de reportes generados anteriormente.
+
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.5. Bounded Context: Alerts
 #### 2.6.5.1. Domain Layer
+
+Define las notificaciones críticas de seguridad y consumo del sistema.
+
+## Aggregate Root
+
+### Alert
+Entidad principal de la notificación.
+
+**Atributos:**
+- id
+- deviceId
+- message
+- timestamp
+- isRead
+
+## Value Objects / Context-specific terminology
+
+### ThresholdExcess
+Estado en el que el consumo registrado supera el límite definido por el usuario para un periodo o dispositivo.
+
+### OverheatingWarning
+Alerta crítica de seguridad que indica que un dispositivo ha superado su temperatura operativa segura.
+
+## Business Policies
+
+### Deduplication Rule
+Regla de negocio que evita el envío de alertas duplicadas o spam.
+
+> Ejemplo: no enviar 10 alertas de sobrecalentamiento por minuto al mismo dispositivo.
+
 #### 2.6.5.2. Interface Layer
+
+## Frontend
+
+### AlertsView y DashboardView
+Interfaz donde el usuario visualiza, lee y elimina las alertas entrantes.
+
+## Backend
+
+### AlertsController
+Endpoints REST para consultar el historial de alertas, marcarlas como leídas o eliminarlas.
+
+
 #### 2.6.5.3. Application Layer
+
+## Command Handlers
+
+- IssueAlertHandler (desencadenado internamente)
+- DeleteAlertHandler (acción del usuario)
+
+## Event Handlers
+
+- AlertIssuedHandler
+- AlertDeletedHandler
+
 #### 2.6.5.4 Infrastructure Layer
+
+**NotificationServiceAdapter:** Adaptador para la integración con servicios externos como Firebase Cloud Messaging para el envío de alertas push.  
+
+**AlertRepositoryImpl:** Implementación que registra el historial de alertas emitidas y gestiona su estado de lectura en la base de datos.
+
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+**Backend:**
+
+![alerts frontend class diagram](Imagenes/class-diagrams/alerts-backend-class-diagram.png)
+
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
-### 2.6.6. Bounded Context: IAM
+### 2.6.6. Bounded Context: Auth
 
 > **Propósito:**  Gestión de identidad, autenticación del usuario.
 
@@ -750,34 +1140,33 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 - **User:** Información para la autenticación y verificación de roles.
 - **Email:** Correo electrónico del usuario (debe ser un email válido).
 - **Password:** Contraseña del usuario (se encripta al guardarse en la base de datos).
-- **UserTpye:** Rol del usuario (un Enum con dos valores).
-- **FullName:** Nombre completo del usuario (el lastName puede ser null para usuarios de tipo Company)
 - **UserCommandService:** Repertorio de comandos que involucran la autenticación.
 - **UserQueryService:** Repertorio de solicitudes que involucran al usuario
 
 **A nivel de Frontend**
 ---
  **Aggregate Root**
- -  **User:**  `id: Int`, `email: String`, `password: String`, `userType: UserType`
+ -  **User:**  `id: Int`, `email: String`, `passwordHash: String`, `name: String`, `avatarUrl: String`, `isActive: Boolean`
+
+**Repositories**
+- **UserRepository:**  `getUsers()`, `syncUsers()`
 
 **A nivel de Backend**
 ---
 
  **Aggregate Root**
- -  **User:**  `id: Int`, `email: Email`, `password: Password`, `userType: UserType`
+ -  **User:**  `id: UserId`, `email: Email`, `passwordHash: String`, `name: String`, `avatarUrl: String`, `isActive: Boolean`, `createdAt: LocalDateTime`, `UpdatedAt: LocalDateTime`
 		
   **Entities**
 	- *(No se tienen planteados Entities para este bounded context)*
 
  **Value Objects**
-- **Email:** `value: String`, `validate()`
-- **Password:**  `hashedValue: String`, `encrypt()`, `verify()`
-- **UserType:** `HOME`, `COMPANY`
-- **FullName:** `firstName: String`, `lastName: String?`, `validate()`
+- **Email:** `value: String`, `validate()`, `getValue()`, `toString()`
+- **Password:**  `value: String`,`validate()`, `getValue()`, 
 
 **Domain Services**
-- **UserCommandService:** `handle(SignUp)`, `handle(SignIn)`,  `handle(RequestPasswordReset)`, `handle(UpdatePassword)`
-- **UserQueryService:** `handle(GetUserById)`, `handle(GetAllUsers)`
+- **UserCommandService:** `handle(RegisterUserCommand)`, `handle(UpdateUserProfileCommand)`
+- **UserQueryService:** `handle(GetUserByIdQuery)`, `handle(GetUserByEmailQuery)`
 
 #### 2.6.6.2. Interface Layer
 
@@ -827,12 +1216,6 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 - **UserCommandServiceImp:**  Implementación del servicio de comandos para el usuario.
 - **UserQueryServiceImp:** Implementación del servicio de solicitudes para el usuario.
 
-
-**A nivel de Frontend**
----
-**Use Cases**
-- (No se tienen planteado casos de uso para este contexto)
-
 **A nivel de Backend**
 ---
 
@@ -855,7 +1238,7 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 -  **Resource:** Una clase sellada (Sealed Class) genérica que envuelve los datos para informar a la UI sobre el estado de una operación: Loading (cargando), Success (éxito) o Error (fallo).
 
 
-**A nivel de Frontend**
+**A nivel de Frontend (Data Layer)**
 ---
 **Local**
 - **AppDatabase**
@@ -895,15 +1278,15 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 
 **Frontend:**
 
-![iam frontend class diagram](Imagenes/class-diagrams/iam-frontend-class-diagram.png)
+![auth frontend class diagram](Imagenes/class-diagrams/auth-frontend-class-diagram.png)
 
 **Backend:**
 
-![iam frontend class diagram](Imagenes/class-diagrams/iam-backend-class-diagram.png)
+![auth frontend class diagram](Imagenes/class-diagrams/auth-backend-class-diagram.png)
 
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
 
-![iam database diagram](Imagenes/db-diagrams/iam-db-diagram.png)
+![auth database diagram](Imagenes/db-diagrams/auth-db-diagram.png)
 
 # Capítulo III: Solution UI/UX Design
 
