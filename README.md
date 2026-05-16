@@ -1096,3 +1096,11 @@ Durante este Sprint se alcanzó el despliegue del Landing Page con sus secciones
 - AutoSolar Perú. (s. f.). Consumo energético familiar en Perú.
   (https://autosolar.pe/ahorro-de-energia/consumo-energetico-familiar-en-peru)
 
+# Anexos
+- Organización en Github: https://github.com/Apps-Moviles-PowerSense
+- Report: https://github.com/Apps-Moviles-PowerSense/Report
+- Landing: https://github.com/Apps-Moviles-PowerSense/Landing-Page
+- Frontend: https://github.com/Apps-Moviles-PowerSense/Frontend
+- Backend: https://github.com/Apps-Moviles-PowerSense/Backend
+- Swagger: https://powersense.azurewebsites.net/swagger-ui/index.html 
+
