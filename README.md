@@ -503,7 +503,7 @@ Aunque hay interés en implementar medidas de eficiencia o generación propia, l
 
 En esta sección se detalla el desarrollo del Big Picture Event Storming, una técnica colaborativa orientada a explorar el dominio de nuestro negocio de manera integral. A través de este proceso identificamos los Domain Events más significativos y los organizamos cronológicamente para visualizar la linea de vida del sistema. Este enfoque no solo nos permitió mapear los flujos de la aplicación, sino también establecer un Lenguaje Ubicuo común entre el equipo y detectar tempranamente cuellos de botella u oportunidades de optimización en la gestión energética de hogares y MYPES.
 
-![big picture event storming](Imagenes/big-picture-event-storming.png)
+![big picture event storming](Imagenes/bp-es/big-picture-event-storming.png)
 
 ### 2.3.6. Ubiquitous Language
 
