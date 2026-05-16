@@ -734,9 +734,96 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 
 ### 2.6.1. Bounded Context: Dashboard
 #### 2.6.1.1. Domain Layer
+
+Esta capa contiene el núcleo del negocio para el monitoreo y gestión de energía.
+
+## Aggregate Roots
+
+### Device
+Representa al dispositivo IoT.
+
+**Atributos:**
+- id
+- name
+- status
+- state
+
+### EnergyConsumption
+Representa el registro de consumo.
+
+**Atributos:**
+- id
+- deviceId
+- userId
+- consumptionValue
+
+## Value Objects
+
+### EnergyPulse
+Representa la cantidad de consumo de energía que se registra para el dispositivo.
+
+### ThresholdValue
+Límite de consumo establecido.
+
+## Domain Services
+
+### DeviceCommandService
+Procesa comandos como:
+- link device
+- send device remote command
+
+### EnergyQueryService
+Gestiona la obtención de estadísticas.
+
+## Business Policies
+
+### Check Threshold Policy
+Regla que evalúa si el consumo supera el límite para disparar el evento de exceso.
+
 #### 2.6.1.2. Interface Layer
+## Frontend (Mobile)
+
+### DashboardView
+UI principal para visualizar estadísticas y el consumo.
+
+### DeviceStatusView
+UI para ver el estado de los dispositivos.
+
+## Backend (API)
+
+### MonitoringController
+Endpoints REST para ingesta de datos y control de dispositivos.
+
+### DeviceResource / EnergyConsumptionResource
+Representación de los datos que se envían al cliente.
+
 #### 2.6.1.3. Application Layer
+
+Coordina los casos de uso a través de comandos y eventos.
+
+## Command Handlers
+
+- DeliverEnergyConsumptionPulseHandler
+- LinkDeviceHandler
+- UnlinkDeviceHandler
+- UpdateDeviceHandler
+- SendDeviceRemoteCommandHandler
+- ChangeDeviceStateHandler
+
+## Event Handlers
+
+- EnergyConsumptionPulseReceivedHandler
+- EnergyConsumptionMeasuredHandler
+- DeviceStateChangedHandler
+- DeviceLinkedHandler
+  
 #### 2.6.1.4 Infrastructure Layer
+
+## Gateways / Adapters
+
+### IoTGatewayAdapter
+Permite la comunicación con los actuadores físicos.
+
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
@@ -744,8 +831,67 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 
 ### 2.6.2. Bounded Context: Sheduling
 #### 2.6.2.1. Domain Layer
+
+## Aggregate Root
+
+### Schedule
+Entidad principal que guarda el estado deseado para un dispositivo en un rango de tiempo.
+
+**Atributos:**
+- id
+- deviceId
+- startTime 
+- endTime
+- action (ON/OFF)
+- isActive
+
+## Value Objects
+
+### TimeRange
+Representa el bloque de tiempo de la programación.
+
+### Trigger
+El activador que dispara el cambio de estado.
+
+## Domain Services
+
+### ScheduleCommandService
+Procesa las peticiones del usuario sobre sus calendarios.
+
+## Business Policies
+
+### Overlap Prevention
+Regla de negocio que evita que dos programaciones para un mismo dispositivo tengan conflictos de horarios.
+
 #### 2.6.2.2. Interface Layer
+
+## Frontend (Mobile)
+
+### ScheduleView
+UI donde el usuario puede visualizar, crear y modificar sus calendarios inteligentes.
+
+## Backend (API)
+
 #### 2.6.2.3. Application Layer
+
+Gestión de los flujos de trabajo de los horarios.
+
+## Command Handlers
+
+- CreateScheduleHandler
+- UpdateScheduleHandler
+- DeleteScheduleHandler
+- ActivateScheduleHandler
+- DeactivateScheduleHandler
+- TriggerScheduleHandler
+
+## Event Handlers
+
+- ScheduleCreatedHandler
+- ScheduleActivatedHandler
+- ScheduleTriggeredHandler
+
+
 #### 2.6.2.4 Infrastructure Layer
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
