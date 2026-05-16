@@ -949,7 +949,16 @@ La solución incluye metadatos esenciales para el posicionamiento y la accesibil
 #### 3.1.3.2. Landing Page Mock-up
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
-
+- Dashboard
+![WireframeDash](Imagenes/wireframe1.jpg)
+- Dispositivos
+![WireframeDis](Imagenes/wireframeDispo.jpg)
+- Programar
+![WireframeProg](Imagenes/wireframeProg.jpg)
+- Reporte
+![WireframeRep](Imagenes/wireframeRep.jpg)
+- Alerta
+![WireframeAler](Imagenes/wireframeAler.jpg)
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
 #### 3.1.4.3. Mobile Applications Mock-ups
