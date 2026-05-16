@@ -925,9 +925,13 @@ Backend:
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
+**Frontend:**
+
+![scheduling frontend class diagram](Imagenes/class-diagrams/frontend/scheduling.png)
+
 **Backend:**
 
-![scheduling frontend class diagram](Imagenes/class-diagrams/scheduling-backend-class-diagram.png)
+![scheduling backend class diagram](Imagenes/class-diagrams/backend/scheduling.png)
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
@@ -1005,9 +1009,13 @@ Backend:
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
 
+**Frontend:**
+
+![devices frontend class diagram](Imagenes/class-diagrams/frontend/devices.png)
+
 **Backend:**
 
-![devices frontend class diagram](Imagenes/class-diagrams/devices-backend-class-diagram.png)
+![devices backend class diagram](Imagenes/class-diagrams/backend/devices.png)
 
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
@@ -1169,9 +1177,13 @@ Backend:
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
 
+**Frontend:**
+
+![alerts frontend class diagram](Imagenes/class-diagrams/frontend/alerts.png)
+
 **Backend:**
 
-![alerts frontend class diagram](Imagenes/class-diagrams/alerts-backend-class-diagram.png)
+![alerts backend class diagram](Imagenes/class-diagrams/backend/alerts.png)
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
@@ -1323,11 +1335,11 @@ Backend:
 
 **Frontend:**
 
-![auth frontend class diagram](Imagenes/class-diagrams/auth-frontend-class-diagram.png)
+![auth frontend class diagram](Imagenes/class-diagrams/frontend/auth.png)
 
 **Backend:**
 
-![auth frontend class diagram](Imagenes/class-diagrams/auth-backend-class-diagram.png)
+![auth backend class diagram](Imagenes/class-diagrams/backend/auth.png)
 
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
 
