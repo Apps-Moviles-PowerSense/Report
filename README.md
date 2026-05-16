@@ -962,6 +962,8 @@ La solución incluye metadatos esenciales para el posicionamiento y la accesibil
 ![WireframeAler](Imagenes/wireframeAler.jpg)
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
+![wireflow 1](Imagenes/wireflow-diagrams/wireflow-1.jpg)
+
 #### 3.1.4.3. Mobile Applications Mock-ups
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
