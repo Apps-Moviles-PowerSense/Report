@@ -908,31 +908,46 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 # Capítulo III: Solution UI/UX Design
 
 ## 3.1. Product design
-
 ### 3.1.1. Style Guidelines
-
+Estos lineamientos establecen la identidad visual de PowerSense, una plataforma diseñada para el monitoreo inteligente de energía. La estética busca transmitir eficiencia, modernidad y claridad, facilitando la interpretación de datos complejos a través de una interfaz limpia y profesional.
 #### 3.1.1.1. General Style Guidelines
-
+##### a. Branding
+- Al buscar dar una identidad visual amigable e intuitiva sobre lo que ofrece PowerSenes, se decidio por hacer un logotipo de un foco verde con una hoja dentro, representando la energia con el foco y el ahorro con la hoja y el color verde.
+![LogoChapter3](Imagenes/Logo.jpg)
+##### b. Typography
+- Se utilizan fuentes como Inter en todo el proyecto con diversos tamaños ya que su estilo sencillo transmite una vibra sencilla y minimalista.
+##### c. Colors
+- Se utilizan distintos colores, teniendo como principales el verde (48AF6A) y blanco. El verde porque representa el objetivo del aplicativo
 ### 3.1.2. Information Architecture
-
 #### 3.1.2.1. Organization Systems
+- **Jerarquía Visual:** En la aplicación móvil, el Dashboard prioriza el consumo total y el costo estimado en la parte superior, relegando el detalle de los dispositivos individuales a una sección inferior.
+- **Organización Secuencial:** La Landing Page presenta la información en un flujo narrativo lógico: Inicio (Hero) -> Funcionamiento -> Planes de Servicio -> Casos de Éxito -> Contacto.
+- **Organización Matricial:** Se utiliza en la sección de planes de la web para permitir al usuario comparar características y precios de forma paralela.
 
-#### 3.1.2.2. Labelling Systems
+#### 3.1.2.2. Labeling Systems
+Se aplican etiquetas bilingües claras y minimalistas para evitar confusiones en la navegación:
+- **Navegación Web:** "Home", "How it works", "Plans" y "Success cases".
+- **Acciones:** "Get Started", "Go to App" y "Learn More".
+- **Dominio Energético:** "Total Consumption", "Smart Schedules", "Energy Usage" y "Peak Hours".
 
 #### 3.1.2.3. SEO Tags and Meta Tags
+La solución incluye metadatos esenciales para el posicionamiento y la accesibilidad:
+- **Título:** PowerSense - Monitoreo Energético Inteligente.
+- **Descripción:** Plataforma IoT para la gestión eficiente del consumo eléctrico y automatización del hogar.
+- **Internacionalización:** Configuración dinámica de etiquetas de idioma para soportar inglés y español, mejorando el alcance en motores de búsqueda.
 
 #### 3.1.2.4. Searching Systems
+- **Navegación por Anclas:** Dada la estructura de una sola página del sitio web, se utilizan identificadores únicos para que el menú global dirija al usuario a secciones específicas instantáneamente.
+- **Filtros de Datos:** En el módulo de reportes de la aplicación, se implementan filtros por nombre de dispositivo, categoría y rangos de fecha para facilitar la localización de datos históricos.
 
 #### 3.1.2.5. Navigation Systems
+- **Global Navigation:** Un encabezado persistente en la web permite el acceso constante a la propuesta de valor y al portal de la aplicación.
+- **Bottom Navigation Bar:** La aplicación móvil utiliza una barra de navegación inferior con acceso a las cuatro áreas core: Home (Métricas), Devices (Control), Reports (Análisis) y Profile (Configuración).
 
 ### 3.1.3. Landing Page UI Design
-
 #### 3.1.3.1. Landing Page Wireframe
-
 #### 3.1.3.2. Landing Page Mock-up
-
 ### 3.1.4. Mobile Applications UX/UI Design
-
 #### 3.1.4.1. Mobile Applications Wireframes
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
