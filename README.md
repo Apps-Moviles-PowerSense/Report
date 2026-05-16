@@ -1510,5 +1510,6 @@ Durante este Sprint se alcanzó el despliegue del Landing Page con sus secciones
 - Landing: https://github.com/Apps-Moviles-PowerSense/Landing-Page
 - Frontend: https://github.com/Apps-Moviles-PowerSense/Frontend
 - Backend: https://github.com/Apps-Moviles-PowerSense/Backend
-- Swagger: https://powersense.azurewebsites.net/swagger-ui/index.html 
+- Swagger: https://powersense.azurewebsites.net/swagger-ui/index.html
+- Figma: https://www.figma.com/design/gpIV82TEIiyByP47cZEcAG/Figma-basics?node-id=1825-2&t=YWosvdlbsaAKIkGm-1
 
