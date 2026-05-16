@@ -362,53 +362,53 @@ Para evaluar el atractivo y la practicidad de el servicio y producto PowerSense 
 
 ### Diseño de entrevista – Primer segmento objetivo (Hogar):
 
-¿En qué momentos del día suele usar más electricidad?
+1.- ¿En qué momentos del día suele usar más electricidad?
 
-¿Qué dispositivos eléctricos son indispensables en su hogar y por qué?
+2.- ¿Qué dispositivos eléctricos son indispensables en su hogar y por qué?
 
-¿Ha sentido que paga más luz de lo que debería? ¿Cómo lo percibe?
+3.- ¿Ha sentido que paga más luz de lo que debería? ¿Cómo lo percibe?
 
-¿Suele comparar el monto de su recibo actual con el de meses anteriores? ¿Qué observa en esas comparaciones?
+4.- ¿Suele comparar el monto de su recibo actual con el de meses anteriores? ¿Qué observa en esas comparaciones?
 
-¿En su hogar suelen hablar o discutir sobre el gasto en electricidad?
+5.- ¿En su hogar suelen hablar o discutir sobre el gasto en electricidad?
 
-¿Ha tenido que limitar el uso de algún aparato eléctrico por el costo de la electricidad?
+6.- ¿Ha tenido que limitar el uso de algún aparato eléctrico por el costo de la electricidad?
 
-¿Qué estrategias usa actualmente para intentar reducir el gasto en electricidad?
+7.- ¿Qué estrategias usa actualmente para intentar reducir el gasto en electricidad?
 
-¿Cómo se informa (si es que lo hace) sobre su consumo eléctrico?
+8.- ¿Cómo se informa (si es que lo hace) sobre su consumo eléctrico?
 
-¿Qué impacto tiene el gasto en electricidad dentro del presupuesto familiar?
+9.- ¿Qué impacto tiene el gasto en electricidad dentro del presupuesto familiar?
 
 ### Diseño de entrevista – Segundo segmento objetivo (Negocios):
 
-¿Cuál es su nombre y cargo dentro de la empresa?
+1.- ¿Cuál es su nombre y cargo dentro de la empresa?
 
-¿Cómo se llama su negocio y a qué rubro se dedica (ej. comercio, gastronomía, servicios, manufactura, etc.)?
+2.- ¿Cómo se llama su negocio y a qué rubro se dedica (ej. comercio, gastronomía, servicios, manufactura, etc.)?
 
-¿En qué distrito o zona se encuentra ubicada su empresa?
+3.- ¿En qué distrito o zona se encuentra ubicada su empresa?
 
-¿Cuántos años tiene funcionando su negocio?
+4.- ¿Cuántos años tiene funcionando su negocio?
 
-¿Cuál es el horario de funcionamiento habitual de su negocio?
+5.- ¿Cuál es el horario de funcionamiento habitual de su negocio?
 
-¿En qué meses del año siente que gasta más electricidad? ¿Por qué cree que ocurre eso?
+6.- ¿En qué meses del año siente que gasta más electricidad? ¿Por qué cree que ocurre eso?
 
-¿Qué equipos o procesos consumen más energía en su operación diaria?
+7.- ¿Qué equipos o procesos consumen más energía en su operación diaria?
 
-¿Qué equipos, maquinarias o procesos son más indispensables para su negocio?
+8.- ¿Qué equipos, maquinarias o procesos son más indispensables para su negocio?
 
-¿Qué equipos cree que consumen más energía?
+9.- ¿Qué equipos cree que consumen más energía?
 
-¿Han tenido fallas en los equipos o servicios debido a picos de consumo eléctrico?
+10.- ¿Han tenido fallas en los equipos o servicios debido a picos de consumo eléctrico?
 
-¿Qué estrategias o medidas ha probado para reducir el gasto en electricidad?
+11.- ¿Qué estrategias o medidas ha probado para reducir el gasto en electricidad?
 
-¿Cómo afecta el pago de la electricidad en su rentabilidad mensual o anual?
+12.- ¿Cómo afecta el pago de la electricidad en su rentabilidad mensual o anual?
 
-¿Considera que sus clientes valoran si su empresa adopta prácticas sostenibles?
+13.- ¿Considera que sus clientes valoran si su empresa adopta prácticas sostenibles?
 
-¿Qué impacto tendría en su negocio poder optimizar los recursos energéticos sin sacrificar productividad?
+14.- ¿Qué impacto tendría en su negocio poder optimizar los recursos energéticos sin sacrificar productividad?
 
 ### 2.2.2. Registro de entrevistas
 
