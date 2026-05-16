@@ -828,6 +828,15 @@ En esta capa se implementan los medios de acceso a servicios externos y la persi
 **EnergyConsumptionRepositoryImpl:** Gestiona la persistencia de los registros históricos de consumo energético
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+Frontend:
+
+![dashboard frontend component](Imagenes/c4/components/frontend/dashboard.png)
+
+Backend:
+
+![dashboard backend component](Imagenes/c4/components/backend/dashboard.png)
+
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
@@ -904,6 +913,15 @@ Esta capa soporta la persistencia de las reglas de automatización temporal.
 **ScheduleDao / ScheduleEntity:** Clases de persistencia local utilizando la biblioteca Room para permitir la visualización de calendarios sin conexión en la aplicación móvil.
 
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+Frontend:
+
+![scheduling frontend component](Imagenes/c4/components/frontend/scheduling.png)
+
+Backend:
+
+![scheduling backend component](Imagenes/c4/components/backend/scheduling.png)
+
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
@@ -975,6 +993,15 @@ Orquesta las operaciones sobre los departamentos de la empresa.
 **BranchMapper:** Clase encargada de la traducción entre las entidades de base de datos y los objetos de dominio.
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+Frontend:
+
+![devices frontend component](Imagenes/c4/components/frontend/devices.png)
+
+Backend:
+
+![devices backend component](Imagenes/c4/components/backend/devices.png)
+
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
 
@@ -1051,6 +1078,15 @@ Endpoints REST para solicitar la creación y exportación de reportes.
 **ReportRepositoryImpl:** Repositorio para la gestión de metadatos de reportes generados anteriormente.
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+Frontend:
+
+![reports frontend component](Imagenes/c4/components/frontend/reports.png)
+
+Backend:
+
+![reports backend component](Imagenes/c4/components/backend/reports.png)
+
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
@@ -1121,6 +1157,15 @@ Endpoints REST para consultar el historial de alertas, marcarlas como leídas o 
 **AlertRepositoryImpl:** Implementación que registra el historial de alertas emitidas y gestiona su estado de lectura en la base de datos.
 
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+Frontend:
+
+![alerts frontend component](Imagenes/c4/components/frontend/alerts.png)
+
+Backend:
+
+![alerts backend component](Imagenes/c4/components/backend/alerts.png)
+
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
 
@@ -1265,13 +1310,13 @@ Endpoints REST para consultar el historial de alertas, marcarlas como leídas o 
 
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
 
-**Frontend:**
+Frontend:
 
-![iam frontend component diagram](Imagenes/c4/components/iam-frontend-component-diagram.png)
+![auth frontend component](Imagenes/c4/components/frontend/auth.png)
 
-**Backend:**
+Backend:
 
-![iam frontend component diagram](Imagenes/c4/components/iam-backend-component-diagram.png)
+![auth backend component](Imagenes/c4/components/backend/auth.png)
 
 #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
