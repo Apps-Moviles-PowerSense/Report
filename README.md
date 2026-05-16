@@ -947,7 +947,13 @@ La solución incluye metadatos esenciales para el posicionamiento y la accesibil
 
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
+
+![landing wireframe](Imagenes/wireframes/landing.png)
+
 #### 3.1.3.2. Landing Page Mock-up
+
+![landing mockup](Imagenes/mockups/landing.png)
+
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
 
