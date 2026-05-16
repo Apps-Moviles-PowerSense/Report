@@ -19,7 +19,7 @@
 
 <p align="center"><strong>Código del curso: 1ACC0238</strong></p>
 
-<p align="center"><strong>NRC del curso: 2610</strong></p>
+<p align="center"><strong>NRC del curso: 3646</strong></p>
 
 <br>
 
