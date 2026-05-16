@@ -819,10 +819,13 @@ Coordina los casos de uso a través de comandos y eventos.
   
 #### 2.6.1.4 Infrastructure Layer
 
-## Gateways / Adapters
+En esta capa se implementan los medios de acceso a servicios externos y la persistencia de datos del dominio.  
 
-### IoTGatewayAdapter
-Permite la comunicación con los actuadores físicos.
+**IoTGatewayAdapter:** Clase responsable de la comunicación técnica con los sensores y actuadores físicos, traduciendo señales de hardware a eventos de software.
+
+**DeviceRepositoryImpl:** Implementación del repositorio definido en la capa de dominio que gestiona el acceso a la base de datos MySQL para el almacenamiento de dispositivos.  
+
+**EnergyConsumptionRepositoryImpl:** Gestiona la persistencia de los registros históricos de consumo energético
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
@@ -893,6 +896,13 @@ Gestión de los flujos de trabajo de los horarios.
 
 
 #### 2.6.2.4 Infrastructure Layer
+
+Esta capa soporta la persistencia de las reglas de automatización temporal.  
+
+**ScheduleRepositoryImpl:** Implementación encargada de persistir los horarios de encendido y apagado en el servidor central.  
+
+**ScheduleDao / ScheduleEntity:** Clases de persistencia local utilizando la biblioteca Room para permitir la visualización de calendarios sin conexión en la aplicación móvil.
+
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
@@ -959,6 +969,11 @@ Orquesta las operaciones sobre los departamentos de la empresa.
 
 
 #### 2.6.3.4 Infrastructure Layer
+
+**CompanyBranchRepositoryImpl:** Gestiona la persistencia de la estructura organizacional (sedes/departamentos) en la base de datos relacional.
+
+**BranchMapper:** Clase encargada de la traducción entre las entidades de base de datos y los objetos de dominio.
+
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
@@ -1030,6 +1045,11 @@ Endpoints REST para solicitar la creación y exportación de reportes.
 - ReportExportedHandler
 
 #### 2.6.4.4 Infrastructure Layer
+
+**FileExportAdapter:** Adaptador encargado de la lógica técnica para transformar datos de dominio en archivos físicos exportables como PDF o CSV.
+
+**ReportRepositoryImpl:** Repositorio para la gestión de metadatos de reportes generados anteriormente.
+
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
@@ -1095,6 +1115,11 @@ Endpoints REST para consultar el historial de alertas, marcarlas como leídas o 
 - AlertDeletedHandler
 
 #### 2.6.5.4 Infrastructure Layer
+
+**NotificationServiceAdapter:** Adaptador para la integración con servicios externos como Firebase Cloud Messaging para el envío de alertas push.  
+
+**AlertRepositoryImpl:** Implementación que registra el historial de alertas emitidas y gestiona su estado de lectura en la base de datos.
+
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
