@@ -41,8 +41,8 @@
 ## Registro de versiones del informe
 | Versión | Fecha | Autor | Descripción de modificación |
 |:---:|:---:|:---:|:---|
-| 1.0 | 24.04.2025 | Todo el grupo  | Elaboración de los primeros puntos del informe |
-| 1.1 |  | Todo el grupo |  |
+| 1.0 | 24.04.2026 | Todo el grupo  | Elaboración de los primeros puntos del informe |
+| 1.1 | 16.05.2026  | Todo el grupo | Elaboracion del Frontend y Backend más documentación adicional en el informe  |
 
 
 ## Project Report Collaboration Insights
@@ -103,8 +103,8 @@
 # Student Outcome
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software** | <br>**Daniel Aquino AV1:**<br> Sesiones de Event Storming para identificar los eventos del dominio, comandos y actores clave. Se delimitaron las fronteras lógicas del sistema, analizando la responsabilidad de cada contexto. Se diseño la interacción detallada entre los agregados y servicios mediante el modelado de flujo de mensajes. Se establecieron los contratos de integración entre los contextos identificados.<br> <br> **Giuliano Peláez AV1:** <br>Investigación de métricas de consumo eléctrico y normativas de OSINERGMIN. Aplicación del proceso Lean UX para definir el Problem Statement y los Assumptions. Redacción de las Hypothesis Statements para validar el impacto de la solución IoT. <br> <br> **Johnny Ojanama AV1:** <br> Investigación sobre las distintas competencias que presenta el startup y su análisis competitivo para poder ver sus pros, contras, fuerzas y debilidades. Aplicación del proceso Lean UX para diseñar y completar el Lean UX Canvas. <br> <br> **Kael Lagos AV1:** <br> Supervisión del cumplimiento de las indicaciones dadas en el aula virtual, corrección de la estructura inicial del informe, grabación de una de las primeras entrevistas, definición de los segmentos que abarcaremos y diseño de las preguntas para las entrevistas. <br> <br> **Juan Carlos Pastor AV1:** <br> Supervisión del cumplimiento dentro del grupo, ideas, organización, envio, dirección y control. Diseño de web, y aplicación móvil, cumpliendo heurísticas. <br> | La actualización de los datos e información tomados en cuenta para el desarrollo del proyecto requiere de una extensa investigación tomando en cuenta aspectos como la problemática, las posibles soluciones, las caracteristicas que debe tener el proyecto para cumplir con las expectativas de los usuarios ya sea a nivel de hogar o en un negocio.
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software** |  <br>**Daniel Aquino AV1:**<br> SDiagramas de Big Picture Event Storming. Design Level Event Storming. Candidate Context Discovery. Bounded Context Canvases. Domain Message Flow Modeling. Context Mapping. Software Architecture Context Level Diagrams. Software Architecture Container Level Diagrams. Software Architecture Deployment Diagram.<br> <br> **Giuliano Peláez AV1:** <br> Estructuración del Startup Profile, definiendo la misión y visión enfocadas en la eficiencia energética. Documentación de antecedentes y problemática del sector energético en Lima Metropolitana para sustentar la viabilidad del proyecto. <br> <br> **Johnny Ojanama AV1:** <br> Creación del esqueleto base del proyecto. Lean UX Canvas. Respondiendo y definiendo las 5W y 2 H. Análisis competitivo y Estrategias y tácticas frente a competidores. <br> <br> **Kael Lagos AV1:** <br> Actualización del contenido del proyecto tomando en cuenta la nueva metodología del curso asi como la estructura que debe tener. Documentación de hipotesis ante las problematicas. Revisión de los videos pertenecientes a las entrevistas asegurandose de que la información sea útil y precisa para el desarrollo de los demás puntos del informe referente al proyecto. <br> <br> **Juan Carlos Pastor AV1:** <br> Creación y organización de archivos y diseño gráfico.  |La elaboración de este primer avance representa la etapa de planteamiento del problema así como de las posibles soluciones que pueden a ver con tal de resolver la problematica, en ese sentido debemos plantear correctamente la situación para así tener una buena base con la cual empezar a desarrollar lo demás.|
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software** | <br>**Daniel Aquino AV1:**<br> Sesiones de Event Storming para identificar los eventos del dominio, comandos y actores clave. Se delimitaron las fronteras lógicas del sistema, analizando la responsabilidad de cada contexto. Se diseño la interacción detallada entre los agregados y servicios mediante el modelado de flujo de mensajes. Se establecieron los contratos de integración entre los contextos identificados. <br>**Daniel Aquino TB1:**<br> Sesiones de desarrollo de backend y despliegue de este con servicion de Azure. Sesiones para el desarrollo del diagrama de componentes clase y base de datos de diferentes bounde context <br> <br> **Giuliano Peláez AV1:** <br>Investigación de métricas de consumo eléctrico y normativas de OSINERGMIN. Aplicación del proceso Lean UX para definir el Problem Statement y los Assumptions. Redacción de las Hypothesis Statements para validar el impacto de la solución IoT. <br> <br> **Johnny Ojanama AV1:** <br> Investigación sobre las distintas competencias que presenta el startup y su análisis competitivo para poder ver sus pros, contras, fuerzas y debilidades. Aplicación del proceso Lean UX para diseñar y completar el Lean UX Canvas. <br> <br> **Kael Lagos AV1:** <br> Supervisión del cumplimiento de las indicaciones dadas en el aula virtual, corrección de la estructura inicial del informe, grabación de una de las primeras entrevistas, definición de los segmentos que abarcaremos y diseño de las preguntas para las entrevistas. <br> <br> **Juan Carlos Pastor AV1:** <br> Supervisión del cumplimiento dentro del grupo, ideas, organización, envio, dirección y control. Diseño de web, y aplicación móvil, cumpliendo heurísticas. <br> | La actualización de los datos e información tomados en cuenta para el desarrollo del proyecto requiere de una extensa investigación tomando en cuenta aspectos como la problemática, las posibles soluciones, las caracteristicas que debe tener el proyecto para cumplir con las expectativas de los usuarios ya sea a nivel de hogar o en un negocio.
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software** |  <br>**Daniel Aquino AV1:**<br> Diagramas de Big Picture Event Storming. Design Level Event Storming. Candidate Context Discovery. Bounded Context Canvases. Domain Message Flow Modeling. Context Mapping. Software Architecture Context Level Diagrams. Software Architecture Container Level Diagrams. Software Architecture Deployment Diagram.  <br>**Daniel Aquino TB1:**<br> Diagrama de clase de capa dominio de diferentes bounded context, tanto para backend como firnted. Diagrama C4 de componentes para los bounded context. Subida del Backend al repositorio de la organización. Despligue del Backend usando los servicios de Azure mediante Web Apps y MySQL Flexible Server  <br> <br> **Giuliano Peláez AV1:** <br> Estructuración del Startup Profile, definiendo la misión y visión enfocadas en la eficiencia energética. Documentación de antecedentes y problemática del sector energético en Lima Metropolitana para sustentar la viabilidad del proyecto. <br> <br> **Johnny Ojanama AV1:** <br> Creación del esqueleto base del proyecto. Lean UX Canvas. Respondiendo y definiendo las 5W y 2 H. Análisis competitivo y Estrategias y tácticas frente a competidores. <br> <br> **Kael Lagos AV1:** <br> Actualización del contenido del proyecto tomando en cuenta la nueva metodología del curso asi como la estructura que debe tener. Documentación de hipotesis ante las problematicas. Revisión de los videos pertenecientes a las entrevistas asegurandose de que la información sea útil y precisa para el desarrollo de los demás puntos del informe referente al proyecto. <br> <br> **Juan Carlos Pastor AV1:** <br> Creación y organización de archivos y diseño gráfico.  |La elaboración de este primer avance representa la etapa de planteamiento del problema así como de las posibles soluciones que pueden a ver con tal de resolver la problematica, en ese sentido debemos plantear correctamente la situación para así tener una buena base con la cual empezar a desarrollar lo demás.|
 ---
 
 # Capítulo I: Introducción
@@ -333,7 +333,7 @@ Señala que la nevera permanece siempre encendida y constituye un consumo base, 
 
 Finaliza expresando interés en una solución que muestre consumo por toma y envíe alertas ante picos inusuales para recuperar control y tranquilidad.
 
-Link de la entrevista:
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQD1M3-yXB2OTZ-OuwVPXOu3AQUv_dqVOUphWuuBfHM-5VI?e=Cx8McB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 Entrevista 2 (Zuriel Rivera) Inicio: 00:00 - Fin: 7:25 - Duración: 7:25
 
@@ -353,11 +353,25 @@ Sus respuestas confirmaron las hipotesis que planteabamos con respecto a ese tip
 
 Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQB3d49pgoprQZ0Sn74770w4AWW4A5ob_o-Wv5YtxuwFkYQ?e=Xv93lv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-Entrevista 3 (Nombre aqui)
+Entrevista 3 (Sebastián Valdivia) Inicio: 00:00 - Fin: 3:29 - Duración: 3:29
+
+<p align="center">
+  <img src="Imagenes/Imagen_entrevista3.png" alt="Imagen_entrevista3" />
+</p>
+
+- Nombre: Sebastián Valdivia
+- Edad: 22 años
+- Distrito de residencia: Miraflores
+
+Resumen de Entrevista : A partir de la entrevista realizada al usuario Sebastián Valdivia, de 22 años y residente de Miraflores, se identificó que percibe un consumo base constante por electrodomésticos esenciales y observa picos y variaciones mensuales en la factura que no logra vincular con cambios en su rutina. 
+
+Reconoce falta de formación técnica para interpretar lecturas y conceptos presentes en la boleta, por lo que sus intentos de ahorro son a veces inconsistentes y sin métricas que confirmen impacto. Valora herramientas que permitan visualizar consumo por hora y por dispositivo para priorizar cambios y justificar medidas ante otros miembros del hogar.
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQB8DGRcS7pTSL7zyiLRvDAUATbpHkaA6sEnYXPZbtYdEkE?e=h7xLDC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ### - Segmento objetivo 2 (Negocios)
 
-Entrevista 4 (Juan Carlos Urdanivia Abad — Premium Cultural Institute) Inicio: 10:13 - Fin: 16:18 - Duración: 6:05
+Entrevista 4 (Juan Carlos Urdanivia Abad — Premium Cultural Institute) Inicio: 00:00 - Fin: 6:05 - Duración: 6:05
 
 <p align="center">
   <img src="Imagenes/Imagen_entrevista4.png" alt="Imagen_entrevista4" />
@@ -372,11 +386,39 @@ Resumen de Entrevista : A partir de la entrevista realizada al usuario Juan Carl
 
 Indica que las vitrinas o equipos que requieren funcionamiento continuo representan la carga base más relevante y que la falta de datos en tiempo real impide identificar con precisión horarios o procesos causantes de incrementos en la factura. Manifiesta interés en monitoreo por circuito, reportes estacionales y en justificar inversiones en eficiencia ante la dirección, pero también subraya la necesidad de garantizar continuidad de servicio y comodidad en el espacio educativo.
 
-Link de la entrevista:
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQC3sjpSkR_DTKzs13MgK3ZqAcD0es7ciW1QUXSyC-iG4Pc?e=ZAcCKx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-Entrevista 5 (Nombre aqui)
+Entrevista 5 (Franco Matías Tico Flores — Minimarket Paco) Inicio: 00:00 - Fin: 4:06 - Duración: 4:06
 
-Entrevista 6 (Nombre aqui)
+<p align="center">
+  <img src="Imagenes/Imagen_entrevista5.png" alt="Imagen_entrevista5" />
+</p>
+
+- Nombre: Sebastián Valdivia
+- Edad: 20 años
+- Distrito de residencia: Surco
+- Sector: Tienda de conveniencia.
+
+Resumen de Entrevista : A partir de la entrevista realizada al usuario Franco Matías Tico Flores, de 20 años y residente de Surco, se identificó que el entrevistado, representante del minimarket, atribuye la mayor parte del consumo a equipos de refrigeración y señala picos en días de mayor afluencia.
+
+Comenta que no cuentan con métricas en tiempo real para relacionar ventas y consumo y que les preocupa proteger inventario perecible. Muestra interés en soluciones con monitoreo continuo, alarmas por desviaciones y opciones de control remoto de cargas no críticas, aunque destaca la necesidad de que la inversión tenga un retorno claro.
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQAe5XrMlNv1SapWPSqM0oqpAR5UO10KqfilPZY_GHG5uaY?e=kNgyTY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+Entrevista 6 (Tomas Dextre Sanchez — Beeschurguer Hamburguesa) Inicio: 00:00 - Fin: 3:57 - Duración: 3:57
+
+<p align="center">
+  <img src="Imagenes/Imagen_entrevista6.png" alt="Imagen_entrevista6" />
+</p>
+
+- Nombre: Tomas Tobias Teodoro Dextre Sanchez
+- Edad: 22 años
+- Distrito de residencia: Surco
+- Sector: Comida rapida
+
+A partir de la entrevista realizada al usuario Tomas Tobias Teodoro Dextre Sanchez, de 22 años y residente de Surco, se identificó que el entrevistado, vinculado a un negocio de comida rápida, señala que la principal carga proviene de equipos de frío y de cocina y que existen picos en días de mayor demanda. Expresa que carecen de datos granulares y métricas en tiempo real para relacionar ventas, horarios y consumo, y que valorarían una solución con monitoreo continuo, alarmas tempranas y capacidad para gestionar cargas no críticas en momentos de tensión. Recalca que cualquier inversión debe estar alineada a un retorno razonable y que la protección del inventario es prioritaria.
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQDXR1ZPu2jdS4y8N2hTc8zKAY0l99XSNW8-butaI8-eTzI?e=gfo46m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -461,7 +503,7 @@ Aunque hay interés en implementar medidas de eficiencia o generación propia, l
 
 En esta sección se detalla el desarrollo del Big Picture Event Storming, una técnica colaborativa orientada a explorar el dominio de nuestro negocio de manera integral. A través de este proceso identificamos los Domain Events más significativos y los organizamos cronológicamente para visualizar la linea de vida del sistema. Este enfoque no solo nos permitió mapear los flujos de la aplicación, sino también establecer un Lenguaje Ubicuo común entre el equipo y detectar tempranamente cuellos de botella u oportunidades de optimización en la gestión energética de hogares y MYPES.
 
-![big picture event storming](Imagenes/big-picture-event-storming.png)
+![big picture event storming](Imagenes/bp-es/big-picture-event-storming.png)
 
 ### 2.3.6. Ubiquitous Language
 
@@ -627,12 +669,12 @@ Tras haber mapeado el flujo macro del negocio, procedemos al Design-Level Event 
 
 Una vez detallados los flujos del Design-Level Event Storming, procedemos al Candidate Context Discovery. Esta etapa representa la transición del análisis del flujo a la definición de la arquitectura estratégica. El objetivo es identificar grupos de funcionalidades que comparten un mismo Lenguaje Ubicuo y reglas de negocio cohesivas. Al agrupar estos elementos, emergen de manera natural los límites de los modelos, permitiéndonos proponer contextos candidatos que servirán como base para la descomposición del sistema en módulos independientes y escalables.
 
-![monitoring](Imagenes/candidate-context-discovery/monitoring.png)
+![dashboard](Imagenes/candidate-context-discovery/dashboard.png)
+![devices](Imagenes/candidate-context-discovery/devices.png)
 ![scheduling](Imagenes/candidate-context-discovery/scheduling.png)
-![enterprise](Imagenes/candidate-context-discovery/enterprise.png)
-![reporting](Imagenes/candidate-context-discovery/reporting.png)
+![reports](Imagenes/candidate-context-discovery/reports.png)
 ![alerts](Imagenes/candidate-context-discovery/alerts.png)
-![iam](Imagenes/candidate-context-discovery/iam.png)
+![auth](Imagenes/candidate-context-discovery/auth.png)
 
 #### 2.5.1.2. Domain Message Flows Modeling
 
@@ -644,12 +686,12 @@ A countinuación se presenta el flujo de mensajes para el caso de uso principal 
 
 En esta sección se presenta los diferentes Canvas realizados para los contextos que se identificaron, comenzando desde los más importantes para el negocio. Aquí se detalla la información sobre este Bounded Context, así como la comunicación entrante y saliente. Además del lenguaje ubicuo y reglas de negocio que aplican en este contexto.
 
-![monitoring](Imagenes/bounded-context-canvas/monitoring.png)
+![dashboard](Imagenes/bounded-context-canvas/dashboard.png)
+![devices](Imagenes/bounded-context-canvas/devices.png)
 ![scheduling](Imagenes/bounded-context-canvas/scheduling.png)
-![enterprise](Imagenes/bounded-context-canvas/enterprise.png)
-![reporting](Imagenes/bounded-context-canvas/reporting.png)
+![reports](Imagenes/bounded-context-canvas/reports.png)
 ![alerts](Imagenes/bounded-context-canvas/alerts.png)
-![iam](Imagenes/bounded-context-canvas/iam.png)
+![auth](Imagenes/bounded-context-canvas/auth.png)
 
 ### 2.5.2. Context Mapping
 
@@ -690,57 +732,470 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 ## 2.6. Tactical-Level Domain-Driven Design
 
 
-### 2.6.1. Bounded Context: Monitoring
+### 2.6.1. Bounded Context: Dashboard
 #### 2.6.1.1. Domain Layer
+
+Esta capa contiene el núcleo del negocio para el monitoreo y gestión de energía.
+
+## Aggregate Roots
+
+### Device
+Representa al dispositivo IoT.
+
+**Atributos:**
+- id
+- name
+- status
+- state
+
+### EnergyConsumption
+Representa el registro de consumo.
+
+**Atributos:**
+- id
+- deviceId
+- userId
+- consumptionValue
+
+## Value Objects
+
+### EnergyPulse
+Representa la cantidad de consumo de energía que se registra para el dispositivo.
+
+### ThresholdValue
+Límite de consumo establecido.
+
+## Domain Services
+
+### DeviceCommandService
+Procesa comandos como:
+- link device
+- send device remote command
+
+### EnergyQueryService
+Gestiona la obtención de estadísticas.
+
+## Business Policies
+
+### Check Threshold Policy
+Regla que evalúa si el consumo supera el límite para disparar el evento de exceso.
+
 #### 2.6.1.2. Interface Layer
+## Frontend (Mobile)
+
+### DashboardView
+UI principal para visualizar estadísticas y el consumo.
+
+### DeviceStatusView
+UI para ver el estado de los dispositivos.
+
+## Backend (API)
+
+### MonitoringController
+Endpoints REST para ingesta de datos y control de dispositivos.
+
+### DeviceResource / EnergyConsumptionResource
+Representación de los datos que se envían al cliente.
+
 #### 2.6.1.3. Application Layer
+
+Coordina los casos de uso a través de comandos y eventos.
+
+## Command Handlers
+
+- DeliverEnergyConsumptionPulseHandler
+- LinkDeviceHandler
+- UnlinkDeviceHandler
+- UpdateDeviceHandler
+- SendDeviceRemoteCommandHandler
+- ChangeDeviceStateHandler
+
+## Event Handlers
+
+- EnergyConsumptionPulseReceivedHandler
+- EnergyConsumptionMeasuredHandler
+- DeviceStateChangedHandler
+- DeviceLinkedHandler
+  
 #### 2.6.1.4 Infrastructure Layer
+
+En esta capa se implementan los medios de acceso a servicios externos y la persistencia de datos del dominio.  
+
+**IoTGatewayAdapter:** Clase responsable de la comunicación técnica con los sensores y actuadores físicos, traduciendo señales de hardware a eventos de software.
+
+**DeviceRepositoryImpl:** Implementación del repositorio definido en la capa de dominio que gestiona el acceso a la base de datos MySQL para el almacenamiento de dispositivos.  
+
+**EnergyConsumptionRepositoryImpl:** Gestiona la persistencia de los registros históricos de consumo energético
+
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+Frontend:
+
+![dashboard frontend component](Imagenes/c4/components/frontend/dashboard.png)
+
+Backend:
+
+![dashboard backend component](Imagenes/c4/components/backend/dashboard.png)
+
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.2. Bounded Context: Sheduling
 #### 2.6.2.1. Domain Layer
+
+## Aggregate Root
+
+### Schedule
+Entidad principal que guarda el estado deseado para un dispositivo en un rango de tiempo.
+
+**Atributos:**
+- id
+- deviceId
+- startTime 
+- endTime
+- action (ON/OFF)
+- isActive
+
+## Value Objects
+
+### TimeRange
+Representa el bloque de tiempo de la programación.
+
+### Trigger
+El activador que dispara el cambio de estado.
+
+## Domain Services
+
+### ScheduleCommandService
+Procesa las peticiones del usuario sobre sus calendarios.
+
+## Business Policies
+
+### Overlap Prevention
+Regla de negocio que evita que dos programaciones para un mismo dispositivo tengan conflictos de horarios.
+
 #### 2.6.2.2. Interface Layer
+
+## Frontend (Mobile)
+
+### ScheduleView
+UI donde el usuario puede visualizar, crear y modificar sus calendarios inteligentes.
+
+## Backend (API)
+
 #### 2.6.2.3. Application Layer
+
+Gestión de los flujos de trabajo de los horarios.
+
+## Command Handlers
+
+- CreateScheduleHandler
+- UpdateScheduleHandler
+- DeleteScheduleHandler
+- ActivateScheduleHandler
+- DeactivateScheduleHandler
+- TriggerScheduleHandler
+
+## Event Handlers
+
+- ScheduleCreatedHandler
+- ScheduleActivatedHandler
+- ScheduleTriggeredHandler
+
+
 #### 2.6.2.4 Infrastructure Layer
+
+Esta capa soporta la persistencia de las reglas de automatización temporal.  
+
+**ScheduleRepositoryImpl:** Implementación encargada de persistir los horarios de encendido y apagado en el servidor central.  
+
+**ScheduleDao / ScheduleEntity:** Clases de persistencia local utilizando la biblioteca Room para permitir la visualización de calendarios sin conexión en la aplicación móvil.
+
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+Frontend:
+
+![scheduling frontend component](Imagenes/c4/components/frontend/scheduling.png)
+
+Backend:
+
+![scheduling backend component](Imagenes/c4/components/backend/scheduling.png)
+
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+**Frontend:**
+
+![scheduling frontend class diagram](Imagenes/class-diagrams/frontend/scheduling.png)
+
+**Backend:**
+
+![scheduling backend class diagram](Imagenes/class-diagrams/backend/scheduling.png)
+
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
-### 2.6.3. Bounded Context: Enterprise
+![scheduling database diagram](Imagenes/db-diagrams/scheduling.png)
+
+
+### 2.6.3. Bounded Context: Devices
 #### 2.6.3.1. Domain Layer
+
+Define el modelo estructural para las empresas y sus sedes dentro del sistema.
+
+## Aggregate Root
+
+### CompanyBranch
+Representación virtual de un departamento de una MYPE donde se encuentran instalados uno o más dispositivos IoT.
+
+**Atributos:**
+- id
+- companyId
+- branchName
+- location
+
+## Domain Services
+
+### EnterpriseCommandService
+Gestiona la lógica para agregar, actualizar o eliminar sedes empresariales.
+
+## Business Policies
+
+### Uniqueness Rule
+Regla de negocio que asegura que no puedan existir dos departamentos/sedes con el mismo nombre exacto dentro de una misma MYPE.
+
 #### 2.6.3.2. Interface Layer
+
+## Frontend (Mobile/Web)
+
+### ConfigurationView
+Interfaz de usuario donde el administrador de la MYPE gestiona las sedes de su empresa.
+
+## Backend (API)
+
+### EnterpriseController
+Endpoints REST para administrar los departamentos de la compañía.
+
 #### 2.6.3.3. Application Layer
+
+Orquesta las operaciones sobre los departamentos de la empresa.
+
+## Command Handlers
+
+- AddCompanyBranchHandler
+- UpdateCompanyBranchHandler
+- DeleteCompanyBranchHandler
+
+## Event Handlers
+
+- CompanyBranchAddedHandler
+- CompanyBranchUpdatedHandler
+- CompanyBranchDeletedHandler
+
+
 #### 2.6.3.4 Infrastructure Layer
+
+**CompanyBranchRepositoryImpl:** Gestiona la persistencia de la estructura organizacional (sedes/departamentos) en la base de datos relacional.
+
+**BranchMapper:** Clase encargada de la traducción entre las entidades de base de datos y los objetos de dominio.
+
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+Frontend:
+
+![devices frontend component](Imagenes/c4/components/frontend/devices.png)
+
+Backend:
+
+![devices backend component](Imagenes/c4/components/backend/devices.png)
+
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+**Frontend:**
+
+![devices frontend class diagram](Imagenes/class-diagrams/frontend/devices.png)
+
+**Backend:**
+
+![devices backend class diagram](Imagenes/class-diagrams/backend/devices.png)
+
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
-### 2.6.4. Bounded Context: Reporting
+![devices database diagram](Imagenes/db-diagrams/devices.png)
+
+### 2.6.4. Bounded Context: Reports
 #### 2.6.4.1. Domain Layer
+
+Núcleo que consolida métricas para el análisis de consumo.
+
+## Aggregate Root
+
+### Report
+Documento digital que consolida las métricas de consumo, costos y ahorros en un periodo determinado.
+
+**Atributos:**
+- id
+- userId
+- periodStart
+- periodEnd
+- totalConsumption
+- totalCost
+
+## Value Objects
+
+### ExportFormat
+Representa el formato externo (ej. PDF o CSV) para uso administrativo.
+
+## Domain Services
+
+### ReportGenerationService
+Servicio que agrupa las estadísticas consolidadas y construye el reporte.
+
+## Business Policies
+
+### Access Control
+Regla que asegura que un usuario o MYPE solo pueda generar y exportar reportes de sus propios dispositivos o sedes.
+
 #### 2.6.4.2. Interface Layer
+
+## Frontend
+
+### DashboardView
+Vista que resume datos estadísticos rápidos.
+
+### ReportsView
+UI dedicada a la solicitud, visualización y exportación detallada de reportes.
+
+## Backend
+
+### ReportingController
+Endpoints REST para solicitar la creación y exportación de reportes.
+
 #### 2.6.4.3. Application Layer
+
+## Command Handlers
+
+- CreateReportHandler
+- ExportReportHandler
+
+## Event Handlers
+
+- ReportCreatedHandler
+- ReportExportedHandler
+
 #### 2.6.4.4 Infrastructure Layer
+
+**FileExportAdapter:** Adaptador encargado de la lógica técnica para transformar datos de dominio en archivos físicos exportables como PDF o CSV.
+
+**ReportRepositoryImpl:** Repositorio para la gestión de metadatos de reportes generados anteriormente.
+
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+Frontend:
+
+![reports frontend component](Imagenes/c4/components/frontend/reports.png)
+
+Backend:
+
+![reports backend component](Imagenes/c4/components/backend/reports.png)
+
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.5. Bounded Context: Alerts
 #### 2.6.5.1. Domain Layer
+
+Define las notificaciones críticas de seguridad y consumo del sistema.
+
+## Aggregate Root
+
+### Alert
+Entidad principal de la notificación.
+
+**Atributos:**
+- id
+- deviceId
+- message
+- timestamp
+- isRead
+
+## Value Objects / Context-specific terminology
+
+### ThresholdExcess
+Estado en el que el consumo registrado supera el límite definido por el usuario para un periodo o dispositivo.
+
+### OverheatingWarning
+Alerta crítica de seguridad que indica que un dispositivo ha superado su temperatura operativa segura.
+
+## Business Policies
+
+### Deduplication Rule
+Regla de negocio que evita el envío de alertas duplicadas o spam.
+
+> Ejemplo: no enviar 10 alertas de sobrecalentamiento por minuto al mismo dispositivo.
+
 #### 2.6.5.2. Interface Layer
+
+## Frontend
+
+### AlertsView y DashboardView
+Interfaz donde el usuario visualiza, lee y elimina las alertas entrantes.
+
+## Backend
+
+### AlertsController
+Endpoints REST para consultar el historial de alertas, marcarlas como leídas o eliminarlas.
+
+
 #### 2.6.5.3. Application Layer
+
+## Command Handlers
+
+- IssueAlertHandler (desencadenado internamente)
+- DeleteAlertHandler (acción del usuario)
+
+## Event Handlers
+
+- AlertIssuedHandler
+- AlertDeletedHandler
+
 #### 2.6.5.4 Infrastructure Layer
+
+**NotificationServiceAdapter:** Adaptador para la integración con servicios externos como Firebase Cloud Messaging para el envío de alertas push.  
+
+**AlertRepositoryImpl:** Implementación que registra el historial de alertas emitidas y gestiona su estado de lectura en la base de datos.
+
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+Frontend:
+
+![alerts frontend component](Imagenes/c4/components/frontend/alerts.png)
+
+Backend:
+
+![alerts backend component](Imagenes/c4/components/backend/alerts.png)
+
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+**Frontend:**
+
+![alerts frontend class diagram](Imagenes/class-diagrams/frontend/alerts.png)
+
+**Backend:**
+
+![alerts backend class diagram](Imagenes/class-diagrams/backend/alerts.png)
+
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
-### 2.6.6. Bounded Context: IAM
+![alerts database diagram](Imagenes/db-diagrams/alerts.png)
+
+
+### 2.6.6. Bounded Context: Auth
 
 > **Propósito:**  Gestión de identidad, autenticación del usuario.
 
@@ -750,34 +1205,33 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 - **User:** Información para la autenticación y verificación de roles.
 - **Email:** Correo electrónico del usuario (debe ser un email válido).
 - **Password:** Contraseña del usuario (se encripta al guardarse en la base de datos).
-- **UserTpye:** Rol del usuario (un Enum con dos valores).
-- **FullName:** Nombre completo del usuario (el lastName puede ser null para usuarios de tipo Company)
 - **UserCommandService:** Repertorio de comandos que involucran la autenticación.
 - **UserQueryService:** Repertorio de solicitudes que involucran al usuario
 
 **A nivel de Frontend**
 ---
  **Aggregate Root**
- -  **User:**  `id: Int`, `email: String`, `password: String`, `userType: UserType`
+ -  **User:**  `id: Int`, `email: String`, `passwordHash: String`, `name: String`, `avatarUrl: String`, `isActive: Boolean`
+
+**Repositories**
+- **UserRepository:**  `getUsers()`, `syncUsers()`
 
 **A nivel de Backend**
 ---
 
  **Aggregate Root**
- -  **User:**  `id: Int`, `email: Email`, `password: Password`, `userType: UserType`
+ -  **User:**  `id: UserId`, `email: Email`, `passwordHash: String`, `name: String`, `avatarUrl: String`, `isActive: Boolean`, `createdAt: LocalDateTime`, `UpdatedAt: LocalDateTime`
 		
   **Entities**
 	- *(No se tienen planteados Entities para este bounded context)*
 
  **Value Objects**
-- **Email:** `value: String`, `validate()`
-- **Password:**  `hashedValue: String`, `encrypt()`, `verify()`
-- **UserType:** `HOME`, `COMPANY`
-- **FullName:** `firstName: String`, `lastName: String?`, `validate()`
+- **Email:** `value: String`, `validate()`, `getValue()`, `toString()`
+- **Password:**  `value: String`,`validate()`, `getValue()`, 
 
 **Domain Services**
-- **UserCommandService:** `handle(SignUp)`, `handle(SignIn)`,  `handle(RequestPasswordReset)`, `handle(UpdatePassword)`
-- **UserQueryService:** `handle(GetUserById)`, `handle(GetAllUsers)`
+- **UserCommandService:** `handle(RegisterUserCommand)`, `handle(UpdateUserProfileCommand)`
+- **UserQueryService:** `handle(GetUserByIdQuery)`, `handle(GetUserByEmailQuery)`
 
 #### 2.6.6.2. Interface Layer
 
@@ -827,12 +1281,6 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 - **UserCommandServiceImp:**  Implementación del servicio de comandos para el usuario.
 - **UserQueryServiceImp:** Implementación del servicio de solicitudes para el usuario.
 
-
-**A nivel de Frontend**
----
-**Use Cases**
-- (No se tienen planteado casos de uso para este contexto)
-
 **A nivel de Backend**
 ---
 
@@ -855,7 +1303,7 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 -  **Resource:** Una clase sellada (Sealed Class) genérica que envuelve los datos para informar a la UI sobre el estado de una operación: Loading (cargando), Success (éxito) o Error (fallo).
 
 
-**A nivel de Frontend**
+**A nivel de Frontend (Data Layer)**
 ---
 **Local**
 - **AppDatabase**
@@ -882,59 +1330,85 @@ Finalmente en el diagrama de despliegue se describe los servicios en la nuve que
 
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
 
-**Frontend:**
+Frontend:
 
-![iam frontend component diagram](Imagenes/c4/components/iam-frontend-component-diagram.png)
+![auth frontend component](Imagenes/c4/components/frontend/auth.png)
 
-**Backend:**
+Backend:
 
-![iam frontend component diagram](Imagenes/c4/components/iam-backend-component-diagram.png)
+![auth backend component](Imagenes/c4/components/backend/auth.png)
 
 #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
 
 **Frontend:**
 
-![iam frontend class diagram](Imagenes/class-diagrams/iam-frontend-class-diagram.png)
+![auth frontend class diagram](Imagenes/class-diagrams/frontend/auth.png)
 
 **Backend:**
 
-![iam frontend class diagram](Imagenes/class-diagrams/iam-backend-class-diagram.png)
+![auth backend class diagram](Imagenes/class-diagrams/backend/auth.png)
 
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
 
-![iam database diagram](Imagenes/db-diagrams/iam-db-diagram.png)
+![auth database diagram](Imagenes/db-diagrams/auth.png)
+
 
 # Capítulo III: Solution UI/UX Design
 
 ## 3.1. Product design
-
 ### 3.1.1. Style Guidelines
-
+Estos lineamientos establecen la identidad visual de PowerSense, una plataforma diseñada para el monitoreo inteligente de energía. La estética busca transmitir eficiencia, modernidad y claridad, facilitando la interpretación de datos complejos a través de una interfaz limpia y profesional.
 #### 3.1.1.1. General Style Guidelines
+##### a. Branding
+- Al buscar dar una identidad visual amigable e intuitiva sobre lo que ofrece PowerSenes, se decidio por hacer un logotipo de un foco verde con una hoja dentro, representando la energia con el foco y el ahorro con la hoja y el color verde.
 
+![LogoChapter3](Imagenes/Logo.jpg)
+##### b. Typography
+- Se utilizan fuentes como Inter en todo el proyecto con diversos tamaños ya que su estilo sencillo transmite una vibra sencilla y minimalista.
+##### c. Colors
+- Se utilizan distintos colores, teniendo como principales el verde (48AF6A) y blanco. El verde porque representa el objetivo del aplicativo
 ### 3.1.2. Information Architecture
-
 #### 3.1.2.1. Organization Systems
+- **Jerarquía Visual:** En la aplicación móvil, el Dashboard prioriza el consumo total y el costo estimado en la parte superior, relegando el detalle de los dispositivos individuales a una sección inferior.
+- **Organización Secuencial:** La Landing Page presenta la información en un flujo narrativo lógico: Inicio (Hero) -> Funcionamiento -> Planes de Servicio -> Casos de Éxito -> Contacto.
+- **Organización Matricial:** Se utiliza en la sección de planes de la web para permitir al usuario comparar características y precios de forma paralela.
 
-#### 3.1.2.2. Labelling Systems
+#### 3.1.2.2. Labeling Systems
+Se aplican etiquetas bilingües claras y minimalistas para evitar confusiones en la navegación:
+- **Navegación Web:** "Home", "How it works", "Plans" y "Success cases".
+- **Acciones:** "Get Started", "Go to App" y "Learn More".
+- **Dominio Energético:** "Total Consumption", "Smart Schedules", "Energy Usage" y "Peak Hours".
 
 #### 3.1.2.3. SEO Tags and Meta Tags
+La solución incluye metadatos esenciales para el posicionamiento y la accesibilidad:
+- **Título:** PowerSense - Monitoreo Energético Inteligente.
+- **Descripción:** Plataforma IoT para la gestión eficiente del consumo eléctrico y automatización del hogar.
+- **Internacionalización:** Configuración dinámica de etiquetas de idioma para soportar inglés y español, mejorando el alcance en motores de búsqueda.
 
 #### 3.1.2.4. Searching Systems
+- **Navegación por Anclas:** Dada la estructura de una sola página del sitio web, se utilizan identificadores únicos para que el menú global dirija al usuario a secciones específicas instantáneamente.
+- **Filtros de Datos:** En el módulo de reportes de la aplicación, se implementan filtros por nombre de dispositivo, categoría y rangos de fecha para facilitar la localización de datos históricos.
 
 #### 3.1.2.5. Navigation Systems
+- **Global Navigation:** Un encabezado persistente en la web permite el acceso constante a la propuesta de valor y al portal de la aplicación.
+- **Bottom Navigation Bar:** La aplicación móvil utiliza una barra de navegación inferior con acceso a las cuatro áreas core: Home (Métricas), Devices (Control), Reports (Análisis) y Profile (Configuración).
 
 ### 3.1.3. Landing Page UI Design
-
 #### 3.1.3.1. Landing Page Wireframe
-
 #### 3.1.3.2. Landing Page Mock-up
-
 ### 3.1.4. Mobile Applications UX/UI Design
-
 #### 3.1.4.1. Mobile Applications Wireframes
-
+- Dashboard
+![WireframeDash](Imagenes/wireframe1.jpg)
+- Dispositivos
+![WireframeDis](Imagenes/wireframeDispo.jpg)
+- Programar
+![WireframeProg](Imagenes/wireframeProg.jpg)
+- Reporte
+![WireframeRep](Imagenes/wireframeRep.jpg)
+- Alerta
+![WireframeAler](Imagenes/wireframeAler.jpg)
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
 #### 3.1.4.3. Mobile Applications Mock-ups
@@ -1100,4 +1574,10 @@ Durante este Sprint se alcanzó el despliegue del Landing Page con sus secciones
 - Organización en Github: https://github.com/Apps-Moviles-PowerSense
 - Landing desplegado: https://powersenselanding-3mxrjrrtg-johnnygz41s-projects.vercel.app
 - Backend Desplegado: https://powersense.azurewebsites.net/swagger-ui/index.html 
+- Report: https://github.com/Apps-Moviles-PowerSense/Report
+- Landing: https://github.com/Apps-Moviles-PowerSense/Landing-Page
+- Frontend: https://github.com/Apps-Moviles-PowerSense/Frontend
+- Backend: https://github.com/Apps-Moviles-PowerSense/Backend
+- Swagger: https://powersense.azurewebsites.net/swagger-ui/index.html
+- Figma: https://www.figma.com/design/gpIV82TEIiyByP47cZEcAG/Figma-basics?node-id=1825-2&t=YWosvdlbsaAKIkGm-1
 
