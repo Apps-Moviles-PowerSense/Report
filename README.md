@@ -1506,54 +1506,54 @@ La solución incluye metadatos esenciales para el posicionamiento y la accesibil
 #### 3.1.3.1. Landing Page Wireframe
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/blwW1Ip.jpeg" width="90%" />
-  <img src="https://i.imgur.com/jUOEB7J.png" width="90%" />
-  <img src="https://i.imgur.com/swhzUFv.png" width="90%" />
-  <img src="https://i.imgur.com/0DGaWa2.png" width="90%" />
-  <img src="https://i.imgur.com/fipGm38.png" width="90%" />
-  <img src="https://i.imgur.com/I9K7Wr9.png" width="90%" />
+  <img src="https://i.imgur.com/blwW1Ip.jpeg" width="90%"/>
+  <img src="https://i.imgur.com/jUOEB7J.png" width="90%"/>
+  <img src="https://i.imgur.com/swhzUFv.png" width="90%"/>
+  <img src="https://i.imgur.com/0DGaWa2.png" width="90%"/>
+  <img src="https://i.imgur.com/fipGm38.png" width="90%"/>
+  <img src="https://i.imgur.com/I9K7Wr9.png" width="90%"/>
 </div>
 
 #### 3.1.3.2. Landing Page Mock-up
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/D8VAjaU.png" width="90%" />
+  <img src="https://i.imgur.com/D8VAjaU.png" width="90%"/>
 </div>
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/KEk6XLo.png" width="90%" />
+  <img src="https://i.imgur.com/KEk6XLo.png" width="90%"/>
 </div>
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/g0cTqJL.png" width="90%" />
+  <img src="https://i.imgur.com/g0cTqJL.png" width="90%"/>
 </div>
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/DgkdQiF.png" width="90%" />
+  <img src="https://i.imgur.com/DgkdQiF.png" width="90%"/>
 </div>
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/bpD8zHJ.png" width="90%" />
+  <img src="https://i.imgur.com/bpD8zHJ.png" width="90%"/>
 </div>
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/PAdL4Bk.png" width="90%" />
+  <img src="https://i.imgur.com/PAdL4Bk.png" width="90%"/>
 </div>
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/EwpbPdB.png" width="90%" />
+  <img src="https://i.imgur.com/EwpbPdB.png" width="90%"/>
 </div>
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/JxfaWFt.png" width="90%" />
+  <img src="https://i.imgur.com/JxfaWFt.png" width="90%"/>
 </div>
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/RUGK2nz.png" width="90%" />
+  <img src="https://i.imgur.com/RUGK2nz.png" width="90%"/>
 </div>
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/qwgaMPn.png" width="90%" />
+  <img src="https://i.imgur.com/qwgaMPn.png" width="90%"/>
 </div>
 
 <div style="text-align: center;">
