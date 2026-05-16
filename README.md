@@ -1039,8 +1039,61 @@ Endpoints REST para solicitar la creación y exportación de reportes.
 
 ### 2.6.5. Bounded Context: Alerts
 #### 2.6.5.1. Domain Layer
+
+Define las notificaciones críticas de seguridad y consumo del sistema.
+
+## Aggregate Root
+
+### Alert
+Entidad principal de la notificación.
+
+**Atributos:**
+- id
+- deviceId
+- message
+- timestamp
+- isRead
+
+## Value Objects / Context-specific terminology
+
+### ThresholdExcess
+Estado en el que el consumo registrado supera el límite definido por el usuario para un periodo o dispositivo.
+
+### OverheatingWarning
+Alerta crítica de seguridad que indica que un dispositivo ha superado su temperatura operativa segura.
+
+## Business Policies
+
+### Deduplication Rule
+Regla de negocio que evita el envío de alertas duplicadas o spam.
+
+> Ejemplo: no enviar 10 alertas de sobrecalentamiento por minuto al mismo dispositivo.
+
 #### 2.6.5.2. Interface Layer
+
+## Frontend
+
+### AlertsView y DashboardView
+Interfaz donde el usuario visualiza, lee y elimina las alertas entrantes.
+
+## Backend
+
+### AlertsController
+Endpoints REST para consultar el historial de alertas, marcarlas como leídas o eliminarlas.
+
+
 #### 2.6.5.3. Application Layer
+
+## Command Handlers
+
+- IssueAlertHandler (desencadenado internamente)
+- DeleteAlertHandler (acción del usuario)
+
+## Event Handlers
+
+- AlertIssuedHandler
+- AlertDeletedHandler
+
 #### 2.6.5.4 Infrastructure Layer
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
