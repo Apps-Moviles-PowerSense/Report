@@ -231,6 +231,7 @@ En términos operativos, el consumo eléctrico representa un costo fijo importan
 
 ## 2.1. Competidores
 A continuacion, se presenta una tabla que contiene a los competidores mas relevantes para nuestra IoS (IoT + Software/IA para monitoreo y optimización del consumo eléctrico).
+
 | id | Nombre | Descripcion | Caracteristicas | Distribucion | Logo |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Smelpro | - Soluciones IoT e Inteligencia Artificial para Industria 4.0.<br><br> - Aplicaciones energéticas: monitoreo en tiempo real, detección de fallas, optimización de los costos operativos y mantenimiento predictivo.<br><br> - Sectores: manufactura, logística, minería, energía y agua. | - Monitoreo del consumo electrico en tiempo real.<br><br> - Detección de fallas y mantenimiento predictivo con uso de I.A.<br><br> - Optimización de los costos operativos.<br><br> - Soporte para LoRaWAN, Sigfox y redes celulares.<br><br> - Dashboards personalizados| - Ventas B2B directas.<br> - Integradores y proyectos llave en mano	 | ![Smelpro](Imagenes/smelpro.png) |
