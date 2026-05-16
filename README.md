@@ -935,6 +935,9 @@ Backend:
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
+![scheduling database diagram](Imagenes/db-diagrams/scheduling.png)
+
+
 ### 2.6.3. Bounded Context: Devices
 #### 2.6.3.1. Domain Layer
 
@@ -1018,6 +1021,8 @@ Backend:
 ![devices backend class diagram](Imagenes/class-diagrams/backend/devices.png)
 
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
+
+![devices database diagram](Imagenes/db-diagrams/devices.png)
 
 ### 2.6.4. Bounded Context: Reports
 #### 2.6.4.1. Domain Layer
@@ -1187,6 +1192,9 @@ Backend:
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
+![alerts database diagram](Imagenes/db-diagrams/alerts.png)
+
+
 ### 2.6.6. Bounded Context: Auth
 
 > **Propósito:**  Gestión de identidad, autenticación del usuario.
@@ -1343,7 +1351,8 @@ Backend:
 
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
 
-![auth database diagram](Imagenes/db-diagrams/auth-db-diagram.png)
+![auth database diagram](Imagenes/db-diagrams/auth.png)
+
 
 # Bibliografía
 - Sierra Praeli, Y. (28 de abril de 2024). Territorios contaminados: la transición energética no avanza en la Amazonía de Perú. Mongabay Latam.
