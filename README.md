@@ -905,8 +905,59 @@ Gestión de los flujos de trabajo de los horarios.
 
 ### 2.6.3. Bounded Context: Devices
 #### 2.6.3.1. Domain Layer
+
+Define el modelo estructural para las empresas y sus sedes dentro del sistema.
+
+## Aggregate Root
+
+### CompanyBranch
+Representación virtual de un departamento de una MYPE donde se encuentran instalados uno o más dispositivos IoT.
+
+**Atributos:**
+- id
+- companyId
+- branchName
+- location
+
+## Domain Services
+
+### EnterpriseCommandService
+Gestiona la lógica para agregar, actualizar o eliminar sedes empresariales.
+
+## Business Policies
+
+### Uniqueness Rule
+Regla de negocio que asegura que no puedan existir dos departamentos/sedes con el mismo nombre exacto dentro de una misma MYPE.
+
 #### 2.6.3.2. Interface Layer
+
+## Frontend (Mobile/Web)
+
+### ConfigurationView
+Interfaz de usuario donde el administrador de la MYPE gestiona las sedes de su empresa.
+
+## Backend (API)
+
+### EnterpriseController
+Endpoints REST para administrar los departamentos de la compañía.
+
 #### 2.6.3.3. Application Layer
+
+Orquesta las operaciones sobre los departamentos de la empresa.
+
+## Command Handlers
+
+- AddCompanyBranchHandler
+- UpdateCompanyBranchHandler
+- DeleteCompanyBranchHandler
+
+## Event Handlers
+
+- CompanyBranchAddedHandler
+- CompanyBranchUpdatedHandler
+- CompanyBranchDeletedHandler
+
+
 #### 2.6.3.4 Infrastructure Layer
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
@@ -920,8 +971,64 @@ Gestión de los flujos de trabajo de los horarios.
 
 ### 2.6.4. Bounded Context: Reports
 #### 2.6.4.1. Domain Layer
+
+Núcleo que consolida métricas para el análisis de consumo.
+
+## Aggregate Root
+
+### Report
+Documento digital que consolida las métricas de consumo, costos y ahorros en un periodo determinado.
+
+**Atributos:**
+- id
+- userId
+- periodStart
+- periodEnd
+- totalConsumption
+- totalCost
+
+## Value Objects
+
+### ExportFormat
+Representa el formato externo (ej. PDF o CSV) para uso administrativo.
+
+## Domain Services
+
+### ReportGenerationService
+Servicio que agrupa las estadísticas consolidadas y construye el reporte.
+
+## Business Policies
+
+### Access Control
+Regla que asegura que un usuario o MYPE solo pueda generar y exportar reportes de sus propios dispositivos o sedes.
+
 #### 2.6.4.2. Interface Layer
+
+## Frontend
+
+### DashboardView
+Vista que resume datos estadísticos rápidos.
+
+### ReportsView
+UI dedicada a la solicitud, visualización y exportación detallada de reportes.
+
+## Backend
+
+### ReportingController
+Endpoints REST para solicitar la creación y exportación de reportes.
+
 #### 2.6.4.3. Application Layer
+
+## Command Handlers
+
+- CreateReportHandler
+- ExportReportHandler
+
+## Event Handlers
+
+- ReportCreatedHandler
+- ReportExportedHandler
+
 #### 2.6.4.4 Infrastructure Layer
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
