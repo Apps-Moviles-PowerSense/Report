@@ -839,7 +839,12 @@ Backend:
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+Como el backend trabaja sin una capa Domain para este Context, el lado de Frontend tampoco posee una capa Domain definida, por lo tanto ya no es necesario la visualización de un diagrama de clases para ambos casos.
+
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
+(No se tienen entidades en la capa Domain para modelarlas en una base de datos)
 
 ### 2.6.2. Bounded Context: Sheduling
 #### 2.6.2.1. Domain Layer
@@ -1103,8 +1108,11 @@ Backend:
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
+Como el backend trabaja sin una capa Domain para este Context, el lado de Frontend tampoco posee una capa Domain definida, por lo tanto ya no es necesario la visualización de un diagrama de clases para ambos casos.
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
+
+(No se tienen entidades en la capa Domain para modelarlas en una base de datos)
 
 ### 2.6.5. Bounded Context: Alerts
 #### 2.6.5.1. Domain Layer
