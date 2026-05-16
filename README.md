@@ -503,7 +503,7 @@ Aunque hay interés en implementar medidas de eficiencia o generación propia, l
 
 En esta sección se detalla el desarrollo del Big Picture Event Storming, una técnica colaborativa orientada a explorar el dominio de nuestro negocio de manera integral. A través de este proceso identificamos los Domain Events más significativos y los organizamos cronológicamente para visualizar la linea de vida del sistema. Este enfoque no solo nos permitió mapear los flujos de la aplicación, sino también establecer un Lenguaje Ubicuo común entre el equipo y detectar tempranamente cuellos de botella u oportunidades de optimización en la gestión energética de hogares y MYPES.
 
-![big picture event storming](Imagenes/big-picture-event-storming.png)
+![big picture event storming](Imagenes/bp-es/big-picture-event-storming.png)
 
 ### 2.3.6. Ubiquitous Language
 
@@ -828,6 +828,15 @@ En esta capa se implementan los medios de acceso a servicios externos y la persi
 **EnergyConsumptionRepositoryImpl:** Gestiona la persistencia de los registros históricos de consumo energético
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+Frontend:
+
+![dashboard frontend component](Imagenes/c4/components/frontend/dashboard.png)
+
+Backend:
+
+![dashboard backend component](Imagenes/c4/components/backend/dashboard.png)
+
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
@@ -904,14 +913,30 @@ Esta capa soporta la persistencia de las reglas de automatización temporal.
 **ScheduleDao / ScheduleEntity:** Clases de persistencia local utilizando la biblioteca Room para permitir la visualización de calendarios sin conexión en la aplicación móvil.
 
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+Frontend:
+
+![scheduling frontend component](Imagenes/c4/components/frontend/scheduling.png)
+
+Backend:
+
+![scheduling backend component](Imagenes/c4/components/backend/scheduling.png)
+
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
+**Frontend:**
+
+![scheduling frontend class diagram](Imagenes/class-diagrams/frontend/scheduling.png)
+
 **Backend:**
 
-![scheduling frontend class diagram](Imagenes/class-diagrams/scheduling-backend-class-diagram.png)
+![scheduling backend class diagram](Imagenes/class-diagrams/backend/scheduling.png)
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
+
+![scheduling database diagram](Imagenes/db-diagrams/scheduling.png)
+
 
 ### 2.6.3. Bounded Context: Devices
 #### 2.6.3.1. Domain Layer
@@ -975,14 +1000,29 @@ Orquesta las operaciones sobre los departamentos de la empresa.
 **BranchMapper:** Clase encargada de la traducción entre las entidades de base de datos y los objetos de dominio.
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+Frontend:
+
+![devices frontend component](Imagenes/c4/components/frontend/devices.png)
+
+Backend:
+
+![devices backend component](Imagenes/c4/components/backend/devices.png)
+
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
 
+**Frontend:**
+
+![devices frontend class diagram](Imagenes/class-diagrams/frontend/devices.png)
+
 **Backend:**
 
-![devices frontend class diagram](Imagenes/class-diagrams/devices-backend-class-diagram.png)
+![devices backend class diagram](Imagenes/class-diagrams/backend/devices.png)
 
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
+
+![devices database diagram](Imagenes/db-diagrams/devices.png)
 
 ### 2.6.4. Bounded Context: Reports
 #### 2.6.4.1. Domain Layer
@@ -1051,6 +1091,15 @@ Endpoints REST para solicitar la creación y exportación de reportes.
 **ReportRepositoryImpl:** Repositorio para la gestión de metadatos de reportes generados anteriormente.
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+Frontend:
+
+![reports frontend component](Imagenes/c4/components/frontend/reports.png)
+
+Backend:
+
+![reports backend component](Imagenes/c4/components/backend/reports.png)
+
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
@@ -1121,14 +1170,30 @@ Endpoints REST para consultar el historial de alertas, marcarlas como leídas o 
 **AlertRepositoryImpl:** Implementación que registra el historial de alertas emitidas y gestiona su estado de lectura en la base de datos.
 
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+Frontend:
+
+![alerts frontend component](Imagenes/c4/components/frontend/alerts.png)
+
+Backend:
+
+![alerts backend component](Imagenes/c4/components/backend/alerts.png)
+
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
 
+**Frontend:**
+
+![alerts frontend class diagram](Imagenes/class-diagrams/frontend/alerts.png)
+
 **Backend:**
 
-![alerts frontend class diagram](Imagenes/class-diagrams/alerts-backend-class-diagram.png)
+![alerts backend class diagram](Imagenes/class-diagrams/backend/alerts.png)
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
+
+![alerts database diagram](Imagenes/db-diagrams/alerts.png)
+
 
 ### 2.6.6. Bounded Context: Auth
 
@@ -1265,28 +1330,29 @@ Endpoints REST para consultar el historial de alertas, marcarlas como leídas o 
 
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
 
-**Frontend:**
+Frontend:
 
-![iam frontend component diagram](Imagenes/c4/components/iam-frontend-component-diagram.png)
+![auth frontend component](Imagenes/c4/components/frontend/auth.png)
 
-**Backend:**
+Backend:
 
-![iam frontend component diagram](Imagenes/c4/components/iam-backend-component-diagram.png)
+![auth backend component](Imagenes/c4/components/backend/auth.png)
 
 #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
 
 **Frontend:**
 
-![auth frontend class diagram](Imagenes/class-diagrams/auth-frontend-class-diagram.png)
+![auth frontend class diagram](Imagenes/class-diagrams/frontend/auth.png)
 
 **Backend:**
 
-![auth frontend class diagram](Imagenes/class-diagrams/auth-backend-class-diagram.png)
+![auth backend class diagram](Imagenes/class-diagrams/backend/auth.png)
 
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
 
-![auth database diagram](Imagenes/db-diagrams/auth-db-diagram.png)
+![auth database diagram](Imagenes/db-diagrams/auth.png)
+
 
 # Capítulo III: Solution UI/UX Design
 
