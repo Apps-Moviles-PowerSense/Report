@@ -1572,6 +1572,8 @@ Durante este Sprint se alcanzó el despliegue del Landing Page con sus secciones
 
 # Anexos
 - Organización en Github: https://github.com/Apps-Moviles-PowerSense
+- Landing desplegado: https://powersenselanding-3mxrjrrtg-johnnygz41s-projects.vercel.app
+- Backend Desplegado: https://powersense.azurewebsites.net/swagger-ui/index.html 
 - Report: https://github.com/Apps-Moviles-PowerSense/Report
 - Landing: https://github.com/Apps-Moviles-PowerSense/Landing-Page
 - Frontend: https://github.com/Apps-Moviles-PowerSense/Frontend
