@@ -951,6 +951,11 @@ La solución incluye metadatos esenciales para el posicionamiento y la accesibil
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
 
+![wireframe1](Imagenes/wireframes/wireframe-1.png)
+![wireframe2](Imagenes/wireframes/wireframe-2.png)
+![wireframe3](Imagenes/wireframes/wireframe-3.png)
+![wireframe4](Imagenes/wireframes/wireframe-4.png)
+![wireframe5](Imagenes/wireframes/wireframe-5.png)
 
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
