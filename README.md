@@ -304,7 +304,9 @@ La base de nuestros supuestos iniciales, hemos definido las siguientes hipótesi
 
 #### 1.2.2.4. Lean UX Canvas
 
-
+<p align="center">
+  <img src="Imagenes/Lean_Ux_Canvas.jpg" alt="Lean_Ux" />
+</p>
 
 ## 1.3. Segmentos Objetivo
 
