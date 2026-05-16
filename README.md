@@ -36,7 +36,7 @@
 
 ### **Fecha:** Abril, 2026
 
-</div>
+
 
 ## Registro de versiones del informe
 | Versión | Fecha | Autor | Descripción de modificación |
@@ -1512,6 +1512,7 @@ La solución incluye metadatos esenciales para el posicionamiento y la accesibil
   <img src="https://i.imgur.com/0DGaWa2.png" width="90%" />
   <img src="https://i.imgur.com/fipGm38.png" width="90%" />
   <img src="https://i.imgur.com/I9K7Wr9.png" width="90%" />
+</div>
 
 #### 3.1.3.2. Landing Page Mock-up
 
@@ -1556,15 +1557,15 @@ La solución incluye metadatos esenciales para el posicionamiento y la accesibil
 </div>
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/nLC9u16.png" width="90%" />
+  <img src="https://i.imgur.com/nLC9u16.png" width="90%"/>
 </div>
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/ljFAIBC.png" width="90%" />
+  <img src="https://i.imgur.com/ljFAIBC.png" width="90%"/>
 </div>
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/96cZc2a.png" width="90%" />
+  <img src="https://i.imgur.com/96cZc2a.png" width="90%"/>
 </div>
 
 
