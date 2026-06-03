@@ -1817,6 +1817,24 @@ Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210
 
 - ### Segmento objetivo 2 (Negocios)
 
+Entrevista 1 (Mario Augusto) Inicio: 00:00 - Fin: 4:31 - Duración: 4:31
+<p align="center">
+  <img src="Imagenes/Imagen_entrevista8.png" alt="Imagen_entrevista7" />
+</p>
+
+- Nombre: Mario Augusto
+- Edad: 39 años
+- Distrito de residencia: Pueblo Libre
+
+Resumen de la entrevista: En esta entrevista realizada a Mario Augusto, de 39 años y residente del distrito de Pueblo Libre, nos comenta su experiencia utilizando la aplicación de PowerSense.
+
+Nos dio su opinión respecto a cosas como la interfaz, el despliegue de los datos como el consumo eléctrico que hay en la empresa y las recomendaciones que brindaba la app. 
+Aunque tambien llegó a señalar ciertas carencias como la falta de una opción para desplegar los resultados del consumo eléctrico mediante una hoja de excel, el tamaño de letra que dificulta un poco la comprensión y la falta de una pantalla de inicio que de la bienvenida a la app siendo algo lamentable a sus ojos.
+
+Finaliza expresando optimismo y asombro por las caracteristicas principales que presenta la app y no duda en que su desarrollo será un exito comentando tambien su disposición a compartirlo con amigos asi como a otros negocios donde el consumo eléctrico debe ser medido a detalle.
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQDTD3IZkUNRQJGgV0LuAW6CAYTJ_1LcdZw1ZlpD99VCd_4?e=cmsrqu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 ### 4.3.3. Evaluaciones según heurísticas
 # Bibliografía
 - Sierra Praeli, Y. (28 de abril de 2024). Territorios contaminados: la transición energética no avanza en la Amazonía de Perú. Mongabay Latam.
