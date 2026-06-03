@@ -1796,6 +1796,27 @@ Validar la usabilidad, claridad y funcionalidad de la aplicación PowerSense en 
 
 ### 4.3.2. Registro de Entrevistas
 
+- ### Segmento objetivo 1 (Hogares)
+
+Entrevista 1 (Vitaly Baca) Inicio: 00:00 - Fin: 5:40 - Duración: 5:40
+<p align="center">
+  <img src="Imagenes/Imagen_entrevista7.png" alt="Imagen_entrevista7" />
+</p>
+
+- Nombre: Vitaly Baca
+- Edad: 22 años
+- Distrito de residencia: Lurin
+
+Resumen de la entrevista: En esta entrevista realizada a Vitaly Baca, de 22 años y residente del distrito de Lurin, nos comenta su experiencia utilizando la aplicación de PowerSense. 
+
+Entre los aspectos que se le cuestionó fueron apartados como su experiencia usandolo, la facilidad que tuvo para comprender el funcionamiento de la aplicación al mostrarle el consumo electrico asi como el total en soles que supone, si pudo administrar el apagado como el encedido de sus dispositivos vinculados a la app, la utilidad de las recomendaciones dadas por la app, los cambios que podria realizar y la posibilidad de recomendar está aplicación a conocidos suyos que les permita controlar su consumo eléctrico.
+
+Finaliza expresando satisfacción por ver una solución a una problematica que muchas personas suelen pasar por alto ya sea por ignorancia o incapacidad de hacer algo para averiguar los detalles.
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQB8vtipl-3YRYWigama3ImOAQUb7ZvhSd3FFo1w6muUfaw?e=tsZueg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+- ### Segmento objetivo 2 (Negocios)
+
 ### 4.3.3. Evaluaciones según heurísticas
 # Bibliografía
 - Sierra Praeli, Y. (28 de abril de 2024). Territorios contaminados: la transición energética no avanza en la Amazonía de Perú. Mongabay Latam.
