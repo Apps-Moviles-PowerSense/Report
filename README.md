@@ -50,7 +50,7 @@
 
 [Repositorio del Landing Page](https://github.com/Apps-Moviles-PowerSense/Landing-Page) <br>
 
-[Repositorio del Fronted](https://github.com/Apps-Moviles-PowerSense/Frontend)
+[Repositorio del Fronted](https://github.com/Apps-Moviles-PowerSense/Frontend-Kotlin)
 
 [Repositorio del Backend](https://github.com/Apps-Moviles-PowerSense/Backend)
 
@@ -1848,7 +1848,7 @@ Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210
 - Backend Desplegado: https://powersense.azurewebsites.net/swagger-ui/index.html 
 - Report: https://github.com/Apps-Moviles-PowerSense/Report
 - Landing: https://github.com/Apps-Moviles-PowerSense/Landing-Page
-- Frontend: https://github.com/Apps-Moviles-PowerSense/Frontend
+- Frontend: https://github.com/Apps-Moviles-PowerSense/Frontend-Kotlin
 - Backend: https://github.com/Apps-Moviles-PowerSense/Backend
 - Swagger: https://powersense.azurewebsites.net/swagger-ui/index.html
 - Figma: https://www.figma.com/design/gpIV82TEIiyByP47cZEcAG/Figma-basics?node-id=1825-2&t=YWosvdlbsaAKIkGm-1
