@@ -1836,6 +1836,20 @@ Finaliza expresando optimismo y asombro por las caracteristicas principales que 
 Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQDTD3IZkUNRQJGgV0LuAW6CAYTJ_1LcdZw1ZlpD99VCd_4?e=cmsrqu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ### 4.3.3. Evaluaciones según heurísticas
+A partir de las entrevistas realizadas es posible elaborar una evaluación heurística relacionando los comentarios de los usuarios con las 10 heurísticas de usabilidad de Jakob Nielsen.
+
+| Heurística de Nielsen | Evidencia de las entrevistas | Evaluación | Severidad |
+|---|---|---|---|
+| **Visibilidad del estado del sistema** | Ambos usuarios tardaron un poco en comprender el consumo eléctrico y el costo en soles mostrado por la aplicación. | La información principal es clara y visible, sin embargo hay usuarios que tardan un poco en comprenderlo. | 1 - Problema menor |
+| **Correspondencia entre el sistema y el mundo real** | Los usuarios entendieron fácilmente conceptos como consumo, costo y control de dispositivos. | Se utiliza un lenguaje familiar para el usuario. | 0 - Sin problemas |
+| **Control y libertad del usuario** | Vitaly pudo encender y apagar los dispositivos vinculados sin dificultades. | La aplicación brinda control sobre las acciones principales. | 0 - Sin problemas |
+| **Consistencia y estándares** | No se reportaron inconsistencias en navegación o funcionamiento. | La interfaz mantiene un comportamiento uniforme. | 0 - Sin problemas |
+| **Prevención de errores** | No se identificaron errores durante el uso del prototipo. | No existen evidencias suficientes para detectar problemas. | 0 - Sin problemas |
+| **Reconocimiento antes que recuerdo** | La visualización del consumo y las recomendaciones tardaron en ser comprendidas. | La información presentada en las recomendaciones debe ser más intuitiva y fácil de identificar. | 2 - Problema moderado |
+| **Flexibilidad y eficiencia de uso** | Mario sugirió incorporar la exportación de resultados a Excel para facilitar el análisis del consumo empresarial. | Falta una función avanzada útil para usuarios de negocios. | 3 - Problema importante |
+| **Diseño estético y minimalista** | Mario indicó que el tamaño de la letra dificulta parcialmente la lectura y que falta una pantalla de bienvenida. | Existen oportunidades de mejora en la presentación visual. | 2 - Problema moderado |
+| **Ayudar a reconocer y recuperarse de errores** | No se reportaron situaciones de error durante las pruebas. | No se identificaron inconvenientes en este aspecto. | 0 - Sin problemas |
+| **Ayuda y documentación** | Ambos usuarios pudieron utilizar la aplicación sin requerir instrucciones adicionales, aunque una pantalla inicial podría orientar mejor a nuevos usuarios. | Sería conveniente añadir una guía o introducción rápida. | 2 - Problema moderado |
 # Bibliografía
 - Sierra Praeli, Y. (28 de abril de 2024). Territorios contaminados: la transición energética no avanza en la Amazonía de Perú. Mongabay Latam.
   (https://es.mongabay.com/2024/04/territorios-contaminados-transicion-energetica-no-avanza-amazonia-peru/)
