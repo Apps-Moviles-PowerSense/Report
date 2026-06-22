@@ -15,11 +15,11 @@
 <h3 align="center">Nombre del Startup: 	SODA </h3>
 <p align="center"><strong>Nombre del producto: 	PowerSense</strong></p>
 
-<p align="center"><strong>Ciclo académico: 2026-01</strong></p>
+<p align="center"><strong>Ciclo académico: 2026-10</strong></p>
 
 <p align="center"><strong>Código del curso: 1ACC0238</strong></p>
 
-<p align="center"><strong>NRC del curso: 2610</strong></p>
+<p align="center"><strong>NRC del curso: 3646</strong></p>
 
 <br>
 
@@ -36,7 +36,7 @@
 
 ### **Fecha:** Abril, 2026
 
-</div>
+
 
 ## Registro de versiones del informe
 | Versión | Fecha | Autor | Descripción de modificación |
@@ -50,7 +50,9 @@
 
 [Repositorio del Landing Page](https://github.com/Apps-Moviles-PowerSense/Landing-Page) <br>
 
-[Repositorio del Fronted](https://github.com/Apps-Moviles-PowerSense/Frontend)
+[Repositorio del Fronted Kotlin](https://github.com/Apps-Moviles-PowerSense/Frontend-Kotlin)
+
+[Repositorio del Fronted Flutter](https://github.com/Apps-Moviles-PowerSense/Frontend---Flutter)
 
 [Repositorio del Backend](https://github.com/Apps-Moviles-PowerSense/Backend)
 
@@ -97,21 +99,111 @@
         - 2.5.3. [Software Architecture](#253-software-architecture)
       		- 2.5.3.1. [Software Architecture Context Level Diagrams](#2531-software-architecture-context-level-diagrams)
         	- 2.5.3.2. [Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
-         	- 2.5.3.3. [Software Architecture Deployment Level Diagrams](#2532-software-architecture-container-level-diagrams)
+         	- 2.5.3.3. [Software Architecture Deployment Level Diagrams](#2533-software-architecture-container-level-diagrams)
     - 2.6. [Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
-        - 2.6.1. [Bounded Context: Dashboard](#261-bounded-context-dashboard)
-       		- 2.6.1.1. [Domain Layer](#2611-domain-layer)
-           	- 2.6.1.2. [Interface Layer](#2612-interface-layer)
-           	- 2.6.1.3. [Application Layer](#2613-application-layer)
+    	- 2.6.1. [Bounded Context: Dashboard](#261-bounded-context-dashboard)
+     		- 2.6.1.1. [Domain Layer](#2611-domain-layer)
+       		- 2.6.1.2. [Interface Layer](#2612-interface-layer)
+            - 2.6.1.3. [Application Layer](#2613-application-layer)
             - 2.6.1.4. [Infrastructure Layer](#2614-infrastructure-layer)
-           	- 2.6.1.5. [Bounded Context Software Architecture Component Level Diagrams](#2615-bounded-context-software-architecture-component-level-diagrams)
+            - 2.6.1.5. [Bounded Context Software Architecture Component Level Diagrams](#2615-bounded-context-software-architecture-component-level-diagrams)
             - 2.6.1.6. [Bounded Context Software Architecture Code Level Diagrams](#2616-bounded-context-software-architecture-code-level-diagrams)
-              - 2.6.1.6.1. [Bounded Context Domain Layer Class Diagrams](#26161-bounded-context-domain-layer-class-diagrams)
+            	- 2.6.1.6.1 [Bounded Context Domain Layer Class Diagrams](#26161-bounded-context-domain-layer-class-diagrams)
+             	- 2.6.1.6.2 [Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagram)
+    	- 2.6.2. [Bounded Context: Scheduling](#262-bounded-context-scheduling)
+     		- 2.6.2.1. [Domain Layer](#2621-domain-layer)
+       		- 2.6.2.2. [Interface Layer](#2622-interface-layer)
+            - 2.6.2.3. [Application Layer](#2623-application-layer)
+            - 2.6.2.4. [Infrastructure Layer](#2624-infrastructure-layer)
+            - 2.6.2.5. [Bounded Context Software Architecture Component Level Diagrams](#2625-bounded-context-software-architecture-component-level-diagrams)
+            - 2.6.2.6. [Bounded Context Software Architecture Code Level Diagrams](#2626-bounded-context-software-architecture-code-level-diagrams)
+            	- 2.6.2.6.1 [Bounded Context Domain Layer Class Diagrams](#26261-bounded-context-domain-layer-class-diagrams)
+             	- 2.6.2.6.2 [Bounded Context Database Design Diagram](#26262-bounded-context-database-design-diagram)        
+    	- 2.6.3. [Bounded Context: Devices](#263-bounded-context-devices)
+     		- 2.6.3.1. [Domain Layer](#2631-domain-layer)
+       		- 2.6.3.2. [Interface Layer](#2632-interface-layer)
+            - 2.6.3.3. [Application Layer](#2633-application-layer)
+            - 2.6.3.4. [Infrastructure Layer](#2634-infrastructure-layer)
+            - 2.6.3.5. [Bounded Context Software Architecture Component Level Diagrams](#2635-bounded-context-software-architecture-component-level-diagrams)
+            - 2.6.3.6. [Bounded Context Software Architecture Code Level Diagrams](#2636-bounded-context-software-architecture-code-level-diagrams)
+            	- 2.6.3.6.1 [Bounded Context Domain Layer Class Diagrams](#26361-bounded-context-domain-layer-class-diagrams)
+             	- 2.6.3.6.2 [Bounded Context Database Design Diagram](#26362-bounded-context-database-design-diagram)      
+    	- 2.6.4. [Bounded Context: Reports](#264-bounded-context-reports)
+     		- 2.6.4.1. [Domain Layer](#2641-domain-layer)
+       		- 2.6.4.2. [Interface Layer](#2642-interface-layer)
+            - 2.6.4.3. [Application Layer](#2643-application-layer)
+            - 2.6.4.4. [Infrastructure Layer](#2644-infrastructure-layer)
+            - 2.6.4.5. [Bounded Context Software Architecture Component Level Diagrams](#2645-bounded-context-software-architecture-component-level-diagrams)
+            - 2.6.4.6. [Bounded Context Software Architecture Code Level Diagrams](#2656-bounded-context-software-architecture-code-level-diagrams)
+            	- 2.6.4.6.1 [Bounded Context Domain Layer Class Diagrams](#26561-bounded-context-domain-layer-class-diagrams)
+             	- 2.6.4.6.2 [Bounded Context Database Design Diagram](#26562-bounded-context-database-design-diagram)   
+    	- 2.6.5. [Bounded Context: Alerts](#265-bounded-context-alerts)
+     		- 2.6.5.1. [Domain Layer](#2651-domain-layer)
+       		- 2.6.5.2. [Interface Layer](#2652-interface-layer)
+            - 2.6.5.3. [Application Layer](#2653-application-layer)
+            - 2.6.5.4. [Infrastructure Layer](#2654-infrastructure-layer)
+            - 2.6.5.5. [Bounded Context Software Architecture Component Level Diagrams](#2655-bounded-context-software-architecture-component-level-diagrams)
+            - 2.6.5.6. [Bounded Context Software Architecture Code Level Diagrams](#2656-bounded-context-software-architecture-code-level-diagrams)
+            	- 2.6.5.6.1 [Bounded Context Domain Layer Class Diagrams](#26561-bounded-context-domain-layer-class-diagrams)
+             	- 2.6.5.6.2 [Bounded Context Database Design Diagram](#26562-bounded-context-database-design-diagram) 
+		- 2.6.6. [Bounded Context: Auth](#266-bounded-context-auth)
+     		- 2.6.6.1. [Domain Layer](#2661-domain-layer)
+     		- 2.6.6.2. [Interface Layer](#2662-interface-layer)
+     		- 2.6.6.3. [Application Layer](#2663-application-layer)
+     		- 2.6.6.4. [Infrastructure Layer](#2664-infrastructure-layer)
+     		- 2.6.6.5. [Bounded Context Software Architecture Component Level Diagrams](#2665-bounded-context-software-architecture-component-level-diagrams)
+     		- 2.6.6.6. [Bounded Context Software Architecture Code Level Diagrams](#2666-bounded-context-software-architecture-code-level-diagrams)
+     			- 2.6.6.6.1. [Bounded Context Domain Layer Class Diagrams](#26661-bounded-context-domain-layer-class-diagrams)
+     			- 2.6.6.6.2. [Bounded Context Database Design Diagram](#26662-bounded-context-database-design-diagram)
+- [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)
+	- 3.1. [Product design](#31-product-design)
+		- 3.1.1. [Style Guidelines](#311-style-guidelines)
+			- 3.1.1.1. [General Style Guidelines](#3111-general-style-guidelines)
+		- 3.1.2. [Information Architecture](#312-information-architecture)
+			- 3.1.2.1. [Organization Systems](#3121-organization-systems)
+			- 3.1.2.2. [Labeling Systems](#3122-labeling-systems)
+			- 3.1.2.3. [SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
+			- 3.1.2.4. [Searching Systems](#3124-searching-systems)
+			- 3.1.2.5. [Navigation Systems](#3125-navigation-systems)
+		- 3.1.3. [Landing Page UI Design](#313-landing-page-ui-design)
+			- 3.1.3.1. [Landing Page Wireframe](#3131-landing-page-wireframe)
+			- 3.1.3.2. [Landing Page Mock-up](#3132-landing-page-mock-up)
+		- 3.1.4. [Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
+			- 3.1.4.1. [Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
+			- 3.1.4.2. [Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
+			- 3.1.4.3. [Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
+			- 3.1.4.4. [Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
+			- 3.1.4.5. [Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
+- [Capítulo IV: Product Implementation & Validation](#capítulo-iv-product-implementation--validation)
+	- 4.1. [Software Configuration Management](#41-software-configuration-management)
+		- 4.1.1. [Software Development Environment Configuration](#411-software-development-environment-configuration)
+		- 4.1.2. [Source Code Management](#412-source-code-management)
+		- 4.1.3. [Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)
+		- 4.1.4. [Software Deployment Configuration](#414-software-deployment-configuration)
+	- 4.2. [Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
+		- 4.2.1. [Sprint 1](#421-sprint-1)
+			- 4.2.1.1. [Sprint Planning 1](#4211-sprint-planning-1)
+			- 4.2.1.2. [Sprint Backlog 1](#4212-sprint-backlog-1)
+			- 4.2.1.3. [Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
+			- 4.2.1.4. [Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
+			- 4.2.1.5. [Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
+			- 4.2.1.6. [Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
+			- 4.2.1.7. [Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
+			- 4.2.1.8. [Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+	- 4.3. [Validation Interviews](#43-validation-interviews)
+		- 4.3.1. [Diseño de Entrevistas](#431-diseño-de-entrevistas)
+		- 4.3.2. [Registro de Entrevistas](#432-registro-de-entrevistas)
+		- 4.3.3. [Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
+
+
 # Student Outcome
+
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software** | <br>**Daniel Aquino AV1:**<br> Sesiones de Event Storming para identificar los eventos del dominio, comandos y actores clave. Se delimitaron las fronteras lógicas del sistema, analizando la responsabilidad de cada contexto. Se diseño la interacción detallada entre los agregados y servicios mediante el modelado de flujo de mensajes. Se establecieron los contratos de integración entre los contextos identificados. <br>**Daniel Aquino TB1:**<br> Sesiones de desarrollo de backend y despliegue de este con servicion de Azure. Sesiones para el desarrollo del diagrama de componentes clase y base de datos de diferentes bounde context <br> <br> **Giuliano Peláez AV1:** <br>Investigación de métricas de consumo eléctrico y normativas de OSINERGMIN. Aplicación del proceso Lean UX para definir el Problem Statement y los Assumptions. Redacción de las Hypothesis Statements para validar el impacto de la solución IoT. <br> <br> **Johnny Ojanama AV1:** <br> Investigación sobre las distintas competencias que presenta el startup y su análisis competitivo para poder ver sus pros, contras, fuerzas y debilidades. Aplicación del proceso Lean UX para diseñar y completar el Lean UX Canvas. <br> <br> **Kael Lagos AV1:** <br> Supervisión del cumplimiento de las indicaciones dadas en el aula virtual, corrección de la estructura inicial del informe, grabación de una de las primeras entrevistas, definición de los segmentos que abarcaremos y diseño de las preguntas para las entrevistas. <br> <br> **Kael Lagos TP:** <br> Adición de las entrevistas pertenecientes al capítulo 2, desarrollo del Domain Layer, Interface Layer, Application Layer y correción de estructura del informe para que cumpla con las indicaciones dadas. <br> <br> **Juan Carlos Pastor AV1:** <br> Supervisión del cumplimiento dentro del grupo, ideas, organización, envio, dirección y control. Diseño de web, y aplicación móvil, cumpliendo heurísticas. <br> | La actualización de los datos e información tomados en cuenta para el desarrollo del proyecto requiere de una extensa investigación tomando en cuenta aspectos como la problemática, las posibles soluciones, las caracteristicas que debe tener el proyecto para cumplir con las expectativas de los usuarios ya sea a nivel de hogar o en un negocio.
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software** |  <br>**Daniel Aquino AV1:**<br> Diagramas de Big Picture Event Storming. Design Level Event Storming. Candidate Context Discovery. Bounded Context Canvases. Domain Message Flow Modeling. Context Mapping. Software Architecture Context Level Diagrams. Software Architecture Container Level Diagrams. Software Architecture Deployment Diagram.  <br>**Daniel Aquino TB1:**<br> Diagrama de clase de capa dominio de diferentes bounded context, tanto para backend como firnted. Diagrama C4 de componentes para los bounded context. Subida del Backend al repositorio de la organización. Despligue del Backend usando los servicios de Azure mediante Web Apps y MySQL Flexible Server  <br> <br> **Giuliano Peláez AV1:** <br> Estructuración del Startup Profile, definiendo la misión y visión enfocadas en la eficiencia energética. Documentación de antecedentes y problemática del sector energético en Lima Metropolitana para sustentar la viabilidad del proyecto. <br> <br> **Johnny Ojanama AV1:** <br> Creación del esqueleto base del proyecto. Lean UX Canvas. Respondiendo y definiendo las 5W y 2 H. Análisis competitivo y Estrategias y tácticas frente a competidores. <br> <br> **Kael Lagos AV1:** <br> Actualización del contenido del proyecto tomando en cuenta la nueva metodología del curso asi como la estructura que debe tener. Documentación de hipotesis ante las problematicas. Revisión de los videos pertenecientes a las entrevistas asegurandose de que la información sea útil y precisa para el desarrollo de los demás puntos del informe referente al proyecto. <br> <br> **Kael Lagos TP:** <br> Correción del posicionamiento de los elementos visuales del informe respetando la estructura inicial, desarrollo de los puntos del capítulo 4 e implementación de citas en el apartado de bibliografia. <br> <br> **Juan Carlos Pastor AV1:** <br> Creación y organización de archivos y diseño gráfico.  |La elaboración de este primer avance representa la etapa de planteamiento del problema así como de las posibles soluciones que pueden a ver con tal de resolver la problematica, en ese sentido debemos plantear correctamente la situación para así tener una buena base con la cual empezar a desarrollar lo demás.|
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software** | <br>**Daniel Aquino AV1:**<br> Sesiones de Event Storming para identificar los eventos del dominio, comandos y actores clave. Se delimitaron las fronteras lógicas del sistema, analizando la responsabilidad de cada contexto. Se diseño la interacción detallada entre los agregados y servicios mediante el modelado de flujo de mensajes. Se establecieron los contratos de integración entre los contextos identificados. <br>**Daniel Aquino TB1:**<br> Sesiones de desarrollo de backend y despliegue de este con servicion de Azure. Sesiones para el desarrollo del diagrama de componentes clase y base de datos de diferentes bounde context. <br>**Daniel Aquino AV2:**<br> Sesiones para el desarrollo de la aplicación android usando Android Studio como IDE para desarrollo. <br> <br> **Giuliano Peláez AV1:** <br>Investigación de métricas de consumo eléctrico y normativas de OSINERGMIN. Aplicación del proceso Lean UX para definir el Problem Statement y los Assumptions. Redacción de las Hypothesis Statements para validar el impacto de la solución IoT. <br> **Giuliano Peláez TB1:** <br> Estudio de frameworks para la validación continua de productos de software y redacción técnica estructurada. Sesiones de alineamiento y planificación para la ejecución del Sprint 1, aplicando metodologías ágiles para asegurar que los servicios y su respectiva evidencia documental se registren bajo los estándares del proyecto. <br> <br> **Johnny Ojanama AV1:** <br> Investigación sobre las distintas competencias que presenta el startup y su análisis competitivo para poder ver sus pros, contras, fuerzas y debilidades. Aplicación del proceso Lean UX para diseñar y completar el Lean UX Canvas. <br> **Johnny Ojanama TB1:** <br> Indagación de nuevas tendencias en diseño de interfaces móviles y evaluación de frameworks modernos para el desarrollo web frontend. Conceptualización técnica para la construcción de la Landing Page, priorizando la experiencia de usuario y la adaptabilidad (responsiveness) del diseño en la navegación. <br> <br> **Kael Lagos AV1:** <br> Supervisión del cumplimiento de las indicaciones dadas en el aula virtual, corrección de la estructura inicial del informe, grabación de una de las primeras entrevistas, definición de los segmentos que abarcaremos y diseño de las preguntas para las entrevistas. <br> **Kael Lagos TB1:** <br> Profundización teórica en patrones de arquitectura de software para la correcta separación y estructuración del Interface Layer y Domain Layer. Análisis cualitativo avanzado de las entrevistas por segmento para extraer requisitos tangibles y revisión de herramientas de diseño para la elaboración de Mockups de alta fidelidad. <br> <br> **Juan Carlos Pastor AV1:** <br> Supervisión del cumplimiento dentro del grupo, ideas, organización, envio, dirección y control. Diseño de web, y aplicación móvil, cumpliendo heurísticas. <br> **Juan Carlos Pastor TB1:** <br> Análisis y actualización sobre lineamientos avanzados de UX/UI y diseño centrado en el usuario. Dirección estratégica de las sesiones creativas para los Mobile Wireframes y la Landing Page, asegurando que la capa Frontend mantenga coherencia visual y cumpla con los objetivos de negocio establecidos. <br> | La actualización de los datos e información tomados en cuenta para el desarrollo del proyecto requiere de una extensa investigación tomando en cuenta aspectos como la problemática, las posibles soluciones, las caracteristicas que debe tener el proyecto para cumplir con las expectativas de los usuarios ya sea a nivel de hogar o en un negocio. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software** |  <br>**Daniel Aquino AV1:**<br> Diagramas de Big Picture Event Storming. Design Level Event Storming. Candidate Context Discovery. Bounded Context Canvases. Domain Message Flow Modeling. Context Mapping. Software Architecture Context Level Diagrams. Software Architecture Container Level Diagrams. Software Architecture Deployment Diagram.  <br>**Daniel Aquino TB1:**<br> Diagrama de clase de capa dominio de diferentes bounded context, tanto para backend como firnted. Diagrama C4 de componentes para los bounded context. Subida del Backend al repositorio de la organización. Despligue del Backend usando los servicios de Azure mediante Web Apps y MySQL Flexible Server. <br>**Daniel Aquino AV2:**<br> Desarrollo del modulo de Profile, Schedules, Auth, Alerts, Devices y Dashboard.  <br> <br> **Giuliano Peláez AV1:** <br> Estructuración del Startup Profile, definiendo la misión y visión enfocadas en la eficiencia energética. Documentación de antecedentes y problemática del sector energético en Lima Metropolitana para sustentar la viabilidad del proyecto. <br> **Giuliano Peláez TB1:** <br> Elaboración detallada de la documentación de servicios (Services Documentation Evidence). Ejecución, seguimiento y cierre de las tareas correspondientes al Sprint 1. Aplicación de pruebas de validación del producto (Product Implementation & Validation), garantizando la calidad y estabilidad del software entregado en esta iteración. <br> <br> **Johnny Ojanama AV1:** <br> Creación del esqueleto base del proyecto. Lean UX Canvas. Respondiendo y definiendo las 5W y 2 H. Análisis competitivo y Estrategias y tácticas frente a competidores. <br> **Johnny Ojanama TB1:** <br> Construcción e implementación del código FrontEnd dedicado a la Landing Page del producto. Diseño, exportación y refinamiento de los Mobile Wireframes, detallando los flujos de interacción del usuario final. Redacción de la documentación técnica correspondiente a estas implementaciones visuales. <br> <br> **Kael Lagos AV1:** <br> Actualización del contenido del proyecto tomando en cuenta la nueva metodología del curso asi como la estructura que debe tener. Documentación de hipotesis ante las problematicas. Revisión de los videos pertenecientes a las entrevistas asegurandose de que la información sea útil y precisa para el desarrollo de los demás puntos del informe referente al proyecto. <br> **Kael Lagos TB1:** <br> Codificación y estructuración lógica de los componentes pertenecientes al Interface Layer y Domain Layer dentro de la arquitectura del software. Diseño final e iteración de los Mockups interactivos de la aplicación. Integración directa de los hallazgos obtenidos en la implementación de las entrevistas por segmento hacia el diseño del producto. <br> <br> **Juan Carlos Pastor AV1:** <br> Creación y organización de archivos y diseño gráfico.  <br> **Juan Carlos Pastor TB1:** <br> Desarrollo consolidado de las vistas del Frontend y maquetación final de la Landing Page principal. Creación de los Mobile Wireframes definitivos integrando los principios de Design UX para optimizar la retención de usuarios. Supervisión general y auditoría de los entregables para garantizar la correcta integración técnica de todo el equipo. <br> | La elaboración de este primer avance representa la etapa de planteamiento del problema así como de las posibles soluciones que pueden a ver con tal de resolver la problematica, en ese sentido debemos plantear correctamente la situación para así tener una buena base con la cual empezar a desarrollar lo demás. |
 ---
 
 # Capítulo I: Introducción
@@ -214,7 +306,9 @@ La base de nuestros supuestos iniciales, hemos definido las siguientes hipótesi
 
 #### 1.2.2.4. Lean UX Canvas
 
-
+<p align="center">
+  <img src="Imagenes/Lean_Ux_Canvas.jpg" alt="Lean_Ux" />
+</p>
 
 ## 1.3. Segmentos Objetivo
 
@@ -238,6 +332,7 @@ En términos operativos, el consumo eléctrico representa un costo fijo importan
 
 ## 2.1. Competidores
 A continuacion, se presenta una tabla que contiene a los competidores mas relevantes para nuestra IoS (IoT + Software/IA para monitoreo y optimización del consumo eléctrico).
+
 | id | Nombre | Descripcion | Caracteristicas | Distribucion | Logo |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Smelpro | - Soluciones IoT e Inteligencia Artificial para Industria 4.0.<br><br> - Aplicaciones energéticas: monitoreo en tiempo real, detección de fallas, optimización de los costos operativos y mantenimiento predictivo.<br><br> - Sectores: manufactura, logística, minería, energía y agua. | - Monitoreo del consumo electrico en tiempo real.<br><br> - Detección de fallas y mantenimiento predictivo con uso de I.A.<br><br> - Optimización de los costos operativos.<br><br> - Soporte para LoRaWAN, Sigfox y redes celulares.<br><br> - Dashboards personalizados| - Ventas B2B directas.<br> - Integradores y proyectos llave en mano	 | ![Smelpro](Imagenes/smelpro.png) |
@@ -272,53 +367,53 @@ Para evaluar el atractivo y la practicidad de el servicio y producto PowerSense 
 
 ### Diseño de entrevista – Primer segmento objetivo (Hogar):
 
-¿En qué momentos del día suele usar más electricidad?
+1.- ¿En qué momentos del día suele usar más electricidad?
 
-¿Qué dispositivos eléctricos son indispensables en su hogar y por qué?
+2.- ¿Qué dispositivos eléctricos son indispensables en su hogar y por qué?
 
-¿Ha sentido que paga más luz de lo que debería? ¿Cómo lo percibe?
+3.- ¿Ha sentido que paga más luz de lo que debería? ¿Cómo lo percibe?
 
-¿Suele comparar el monto de su recibo actual con el de meses anteriores? ¿Qué observa en esas comparaciones?
+4.- ¿Suele comparar el monto de su recibo actual con el de meses anteriores? ¿Qué observa en esas comparaciones?
 
-¿En su hogar suelen hablar o discutir sobre el gasto en electricidad?
+5.- ¿En su hogar suelen hablar o discutir sobre el gasto en electricidad?
 
-¿Ha tenido que limitar el uso de algún aparato eléctrico por el costo de la electricidad?
+6.- ¿Ha tenido que limitar el uso de algún aparato eléctrico por el costo de la electricidad?
 
-¿Qué estrategias usa actualmente para intentar reducir el gasto en electricidad?
+7.- ¿Qué estrategias usa actualmente para intentar reducir el gasto en electricidad?
 
-¿Cómo se informa (si es que lo hace) sobre su consumo eléctrico?
+8.- ¿Cómo se informa (si es que lo hace) sobre su consumo eléctrico?
 
-¿Qué impacto tiene el gasto en electricidad dentro del presupuesto familiar?
+9.- ¿Qué impacto tiene el gasto en electricidad dentro del presupuesto familiar?
 
 ### Diseño de entrevista – Segundo segmento objetivo (Negocios):
 
-¿Cuál es su nombre y cargo dentro de la empresa?
+1.- ¿Cuál es su nombre y cargo dentro de la empresa?
 
-¿Cómo se llama su negocio y a qué rubro se dedica (ej. comercio, gastronomía, servicios, manufactura, etc.)?
+2.- ¿Cómo se llama su negocio y a qué rubro se dedica (ej. comercio, gastronomía, servicios, manufactura, etc.)?
 
-¿En qué distrito o zona se encuentra ubicada su empresa?
+3.- ¿En qué distrito o zona se encuentra ubicada su empresa?
 
-¿Cuántos años tiene funcionando su negocio?
+4.- ¿Cuántos años tiene funcionando su negocio?
 
-¿Cuál es el horario de funcionamiento habitual de su negocio?
+5.- ¿Cuál es el horario de funcionamiento habitual de su negocio?
 
-¿En qué meses del año siente que gasta más electricidad? ¿Por qué cree que ocurre eso?
+6.- ¿En qué meses del año siente que gasta más electricidad? ¿Por qué cree que ocurre eso?
 
-¿Qué equipos o procesos consumen más energía en su operación diaria?
+7.- ¿Qué equipos o procesos consumen más energía en su operación diaria?
 
-¿Qué equipos, maquinarias o procesos son más indispensables para su negocio?
+8.- ¿Qué equipos, maquinarias o procesos son más indispensables para su negocio?
 
-¿Qué equipos cree que consumen más energía?
+9.- ¿Qué equipos cree que consumen más energía?
 
-¿Han tenido fallas en los equipos o servicios debido a picos de consumo eléctrico?
+10.- ¿Han tenido fallas en los equipos o servicios debido a picos de consumo eléctrico?
 
-¿Qué estrategias o medidas ha probado para reducir el gasto en electricidad?
+11.- ¿Qué estrategias o medidas ha probado para reducir el gasto en electricidad?
 
-¿Cómo afecta el pago de la electricidad en su rentabilidad mensual o anual?
+12.- ¿Cómo afecta el pago de la electricidad en su rentabilidad mensual o anual?
 
-¿Considera que sus clientes valoran si su empresa adopta prácticas sostenibles?
+13.- ¿Considera que sus clientes valoran si su empresa adopta prácticas sostenibles?
 
-¿Qué impacto tendría en su negocio poder optimizar los recursos energéticos sin sacrificar productividad?
+14.- ¿Qué impacto tendría en su negocio poder optimizar los recursos energéticos sin sacrificar productividad?
 
 ### 2.2.2. Registro de entrevistas
 
@@ -846,7 +941,12 @@ Backend:
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+Como el backend trabaja sin una capa Domain para este Context, el lado de Frontend tampoco posee una capa Domain definida, por lo tanto ya no es necesario la visualización de un diagrama de clases para ambos casos.
+
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
+(No se tienen entidades en la capa Domain para modelarlas en una base de datos)
 
 ### 2.6.2. Bounded Context: Sheduling
 #### 2.6.2.1. Domain Layer
@@ -1110,8 +1210,11 @@ Backend:
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
+Como el backend trabaja sin una capa Domain para este Context, el lado de Frontend tampoco posee una capa Domain definida, por lo tanto ya no es necesario la visualización de un diagrama de clases para ambos casos.
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
+
+(No se tienen entidades en la capa Domain para modelarlas en una base de datos)
 
 ### 2.6.5. Bounded Context: Alerts
 #### 2.6.5.1. Domain Layer
@@ -1407,22 +1510,97 @@ La solución incluye metadatos esenciales para el posicionamiento y la accesibil
 
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/blwW1Ip.jpeg" width="90%"/>
+  <img src="https://i.imgur.com/jUOEB7J.png" width="90%"/>
+  <img src="https://i.imgur.com/swhzUFv.png" width="90%"/>
+  <img src="https://i.imgur.com/0DGaWa2.png" width="90%"/>
+  <img src="https://i.imgur.com/fipGm38.png" width="90%"/>
+  <img src="https://i.imgur.com/I9K7Wr9.png" width="90%"/>
+</div>
+
 #### 3.1.3.2. Landing Page Mock-up
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/D8VAjaU.png" width="90%"/>
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/KEk6XLo.png" width="90%"/>
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/g0cTqJL.png" width="90%"/>
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/DgkdQiF.png" width="90%"/>
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/bpD8zHJ.png" width="90%"/>
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/PAdL4Bk.png" width="90%"/>
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/EwpbPdB.png" width="90%"/>
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/JxfaWFt.png" width="90%"/>
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/RUGK2nz.png" width="90%"/>
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/qwgaMPn.png" width="90%"/>
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/nLC9u16.png" width="90%"/>
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/ljFAIBC.png" width="90%"/>
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/96cZc2a.png" width="90%"/>
+</div>
+
+
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
-- Dashboard
-![WireframeDash](Imagenes/wireframe1.jpg)
-- Dispositivos
-![WireframeDis](Imagenes/wireframeDispo.jpg)
-- Programar
-![WireframeProg](Imagenes/wireframeProg.jpg)
-- Reporte
-![WireframeRep](Imagenes/wireframeRep.jpg)
-- Alerta
-![WireframeAler](Imagenes/wireframeAler.jpg)
+
+![wireframe1](Imagenes/wireframes/wireframe-1.png)
+![wireframe2](Imagenes/wireframes/wireframe-2.png)
+![wireframe3](Imagenes/wireframes/wireframe-3.png)
+![wireframe4](Imagenes/wireframes/wireframe-4.png)
+![wireframe5](Imagenes/wireframes/wireframe-5.png)
+
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
+![wireflow 1](Imagenes/wireflow-diagrams/wireflow-1.jpg)
+
 #### 3.1.4.3. Mobile Applications Mock-ups
+
+- Dashboard
+![MockupDash](Imagenes/mockups/mockup1.jpg)
+- Dispositivos
+![MockupDis](Imagenes/mockups/mockupDispo.jpg)
+- Programar
+![MockupProg](Imagenes/mockups/mockupProg.jpg)
+- Reporte
+![MockupRep](Imagenes/mockups/mockupRep.jpg)
+- Alerta
+![MockupAler](Imagenes/mockups/mockupAler.jpg)
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
@@ -1707,8 +1885,60 @@ Validar la usabilidad, claridad y funcionalidad de la aplicación PowerSense en 
 
 ### 4.3.2. Registro de Entrevistas
 
-### 4.3.3. Evaluaciones según heurísticas
+- ### Segmento objetivo 1 (Hogares)
 
+Entrevista 1 (Vitaly Baca) Inicio: 00:00 - Fin: 5:40 - Duración: 5:40
+<p align="center">
+  <img src="Imagenes/Imagen_entrevista7.png" alt="Imagen_entrevista7" />
+</p>
+
+- Nombre: Vitaly Baca
+- Edad: 22 años
+- Distrito de residencia: Lurin
+
+Resumen de la entrevista: En esta entrevista realizada a Vitaly Baca, de 22 años y residente del distrito de Lurin, nos comenta su experiencia utilizando la aplicación de PowerSense. 
+
+Entre los aspectos que se le cuestionó fueron apartados como su experiencia usandolo, la facilidad que tuvo para comprender el funcionamiento de la aplicación al mostrarle el consumo electrico asi como el total en soles que supone, si pudo administrar el apagado como el encedido de sus dispositivos vinculados a la app, la utilidad de las recomendaciones dadas por la app, los cambios que podria realizar y la posibilidad de recomendar está aplicación a conocidos suyos que les permita controlar su consumo eléctrico.
+
+Finaliza expresando satisfacción por ver una solución a una problematica que muchas personas suelen pasar por alto ya sea por ignorancia o incapacidad de hacer algo para averiguar los detalles.
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQB8vtipl-3YRYWigama3ImOAQUb7ZvhSd3FFo1w6muUfaw?e=tsZueg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+- ### Segmento objetivo 2 (Negocios)
+
+Entrevista 1 (Mario Augusto) Inicio: 00:00 - Fin: 4:31 - Duración: 4:31
+<p align="center">
+  <img src="Imagenes/Imagen_entrevista8.png" alt="Imagen_entrevista7" />
+</p>
+
+- Nombre: Mario Augusto
+- Edad: 39 años
+- Distrito de residencia: Pueblo Libre
+
+Resumen de la entrevista: En esta entrevista realizada a Mario Augusto, de 39 años y residente del distrito de Pueblo Libre, nos comenta su experiencia utilizando la aplicación de PowerSense.
+
+Nos dio su opinión respecto a cosas como la interfaz, el despliegue de los datos como el consumo eléctrico que hay en la empresa y las recomendaciones que brindaba la app. 
+Aunque tambien llegó a señalar ciertas carencias como la falta de una opción para desplegar los resultados del consumo eléctrico mediante una hoja de excel, el tamaño de letra que dificulta un poco la comprensión y la falta de una pantalla de inicio que de la bienvenida a la app siendo algo lamentable a sus ojos.
+
+Finaliza expresando optimismo y asombro por las caracteristicas principales que presenta la app y no duda en que su desarrollo será un exito comentando tambien su disposición a compartirlo con amigos asi como a otros negocios donde el consumo eléctrico debe ser medido a detalle.
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210104_upc_edu_pe/IQDTD3IZkUNRQJGgV0LuAW6CAYTJ_1LcdZw1ZlpD99VCd_4?e=cmsrqu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+### 4.3.3. Evaluaciones según heurísticas
+A partir de las entrevistas realizadas es posible elaborar una evaluación heurística relacionando los comentarios de los usuarios con las 10 heurísticas de usabilidad de Jakob Nielsen.
+
+| Heurística de Nielsen | Evidencia de las entrevistas | Evaluación | Severidad |
+|---|---|---|---|
+| **Visibilidad del estado del sistema** | Ambos usuarios tardaron un poco en comprender el consumo eléctrico y el costo en soles mostrado por la aplicación. | La información principal es clara y visible, sin embargo hay usuarios que tardan un poco en comprenderlo. | 1 - Problema menor |
+| **Correspondencia entre el sistema y el mundo real** | Los usuarios entendieron fácilmente conceptos como consumo, costo y control de dispositivos. | Se utiliza un lenguaje familiar para el usuario. | 0 - Sin problemas |
+| **Control y libertad del usuario** | Vitaly pudo encender y apagar los dispositivos vinculados sin dificultades. | La aplicación brinda control sobre las acciones principales. | 0 - Sin problemas |
+| **Consistencia y estándares** | No se reportaron inconsistencias en navegación o funcionamiento. | La interfaz mantiene un comportamiento uniforme. | 0 - Sin problemas |
+| **Prevención de errores** | No se identificaron errores durante el uso del prototipo. | No existen evidencias suficientes para detectar problemas. | 0 - Sin problemas |
+| **Reconocimiento antes que recuerdo** | La visualización del consumo y las recomendaciones tardaron en ser comprendidas. | La información presentada en las recomendaciones debe ser más intuitiva y fácil de identificar. | 2 - Problema moderado |
+| **Flexibilidad y eficiencia de uso** | Mario sugirió incorporar la exportación de resultados a Excel para facilitar el análisis del consumo empresarial. | Falta una función avanzada útil para usuarios de negocios. | 3 - Problema importante |
+| **Diseño estético y minimalista** | Mario indicó que el tamaño de la letra dificulta parcialmente la lectura y que falta una pantalla de bienvenida. | Existen oportunidades de mejora en la presentación visual. | 2 - Problema moderado |
+| **Ayudar a reconocer y recuperarse de errores** | No se reportaron situaciones de error durante las pruebas. | No se identificaron inconvenientes en este aspecto. | 0 - Sin problemas |
+| **Ayuda y documentación** | Ambos usuarios pudieron utilizar la aplicación sin requerir instrucciones adicionales, aunque una pantalla inicial podría orientar mejor a nuevos usuarios. | Sería conveniente añadir una guía o introducción rápida. | 2 - Problema moderado |
 # Bibliografía
 - Sierra Praeli, Y. (28 de abril de 2024). Territorios contaminados: la transición energética no avanza en la Amazonía de Perú. Mongabay Latam.
   (https://es.mongabay.com/2024/04/territorios-contaminados-transicion-energetica-no-avanza-amazonia-peru/)
@@ -1719,11 +1949,15 @@ Validar la usabilidad, claridad y funcionalidad de la aplicación PowerSense en 
 # Anexos
 - Organización en Github: https://github.com/Apps-Moviles-PowerSense
 - Landing desplegado: https://powersenselanding-3mxrjrrtg-johnnygz41s-projects.vercel.app
-- Backend Desplegado: https://powersense.azurewebsites.net/swagger-ui/index.html 
+- Backend Desplegado: http://34.28.139.66:8080/swagger-ui/index.html 
 - Report: https://github.com/Apps-Moviles-PowerSense/Report
 - Landing: https://github.com/Apps-Moviles-PowerSense/Landing-Page
-- Frontend: https://github.com/Apps-Moviles-PowerSense/Frontend
+- Frontend Kotlin: https://github.com/Apps-Moviles-PowerSense/Frontend-Kotlin
+- Frontend Flutter: https://github.com/Apps-Moviles-PowerSense/Frontend---Flutter
 - Backend: https://github.com/Apps-Moviles-PowerSense/Backend
-- Swagger: https://powersense.azurewebsites.net/swagger-ui/index.html
+- Swagger: http://34.28.139.66:8080/swagger-ui/index.html
 - Figma: https://www.figma.com/design/gpIV82TEIiyByP47cZEcAG/Figma-basics?node-id=1825-2&t=YWosvdlbsaAKIkGm-1
+
+usuario prueba kotlin: test@test.com
+constraseña prueba kotlin: 123456
 
