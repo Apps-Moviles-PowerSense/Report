@@ -1680,7 +1680,7 @@ Se elaboraron pruebas unitarias en el Backend para validar que las reglas de neg
 ---
 
 ### 4.2.2.5. Execution Evidence for Sprint Review
-
+![Database Inyectiopn](Imagenes/prueba1.png)
 
 ---
 
