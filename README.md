@@ -1630,6 +1630,54 @@ Validar la usabilidad, claridad y funcionalidad de la aplicación PowerSense en 
 - AutoSolar Perú. (s. f.). Consumo energético familiar en Perú.
   (https://autosolar.pe/ahorro-de-energia/consumo-energetico-familiar-en-peru)
 
+## 4.2.2. Sprint 2
+
+En este segundo Sprint, el equipo centró sus esfuerzos en el desarrollo del núcleo de valor de PowerSense: el monitoreo en tiempo real y el control remoto de los dispositivos IoT. Se trabajó en la integración del Frontend móvil con los nuevos endpoints del Backend, permitiendo a los usuarios visualizar su consumo en un Dashboard interactivo y accionar sus electrodomésticos desde la aplicación.
+
+---
+
+### 4.2.2.1. Sprint Planning 2
+
+A continuación, se detallan los objetivos y la organización definidos durante la reunión de planificación del Sprint 2.
+
+| Campo | Descripción |
+|---|---|
+| Sprint # | Sprint 2 |
+| Date | 2026-05-10 |
+| Time | 10:00 AM |
+| Location | Microsoft Teams (Reunión Virtual) |
+| Prepared By | Pastor Napa, Juan Carlos |
+| Attendees | Aquino Solorzano, Daniel / Lagos Rivera, Kael / Ojanama Abanto, Johnny / Pastor Napa, Juan Carlos / Pelaez Vargas, Giuliano Angel Peláez Vargas |
+| Sprint n – 1 Review Summary | Se completó con éxito el despliegue del Landing Page y la autenticación básica. Se identificó la necesidad de mejorar la coordinación en la integración Frontend-Backend para evitar bloqueos. |
+| Sprint n – 1 Retrospective Summary | Acción de mejora: Definir los contratos de la API (Swagger) en los primeros dos días del Sprint para que el equipo de Frontend pueda trabajar con Mock Datas si es necesario. |
+| Sprint Goal | Desarrollar e integrar el núcleo de monitoreo y control de la aplicación. Esto incluye la visualización del consumo en el Dashboard en tiempo real, la gestión de dispositivos registrados y la capacidad de encender/apagar equipos de forma remota mediante la API REST. |
+| Sprint Velocity | 21 Story Points |
+| Sum of Story Points | HU11, HU13, HU17, HU36, HU37, HU38 |
+
+---
+
+### 4.2.2.2. Sprint Backlog 2
+
+El siguiente cuadro detalla las tareas técnicas asignadas para cumplir con el Sprint Goal.
+
+| User Story | Work-Item / Task | Description | Estimation (Hours) | Assigned To |
+|---|---|---|---|---|
+| HU11 - Dashboard en tiempo real | TS11.1 - Integración de UI del Dashboard | Conectar los gráficos circulares y de barras del Frontend móvil con la API de consumo en tiempo real. | 6 | Pastor, Juan Carlos |
+| HU13 - Control remoto de dispositivos | TS13.1 - Lógica de estado ON/OFF | Implementar los interruptores en la UI móvil y la lógica para enviar comandos al backend. | 4 | Lagos, Kael |
+| HU17 - Gestión de dispositivos | TS17.1 - UI de CRUD de Dispositivos | Desarrollar las pantallas en Android (Kotlin) para listar, agregar, editar y eliminar dispositivos. | 6 | Ojanama, Johnny |
+| HU36 - Endpoint consumo energético | TS36.1 - Controlador de Consumo en RT | Programar el endpoint GET que recupere y sume los consumos activos de los dispositivos del usuario. | 5 | Aquino, Daniel |
+| HU37 - Endpoint de control | TS37.1 - Controlador de Actuadores | Crear el endpoint POST que reciba las acciones (ON/OFF) y actualice el estado en la base de datos MySQL. | 5 | Pelaez, Giuliano |
+| HU38 - Endpoint reportes históricos | TS38.1 - Lógica de agregación temporal | Desarrollar el endpoint GET que filtre consumos por rango de fechas (diario/semanal). | 6 | Aquino, Daniel |
+
+---
+
+### 4.2.2.3. Development Evidence for Sprint Review
+
+Durante esta iteración, el repositorio de Frontend (Frontend-Kotlin) recibió los commits correspondientes a las vistas de `DashboardView` y `DeviceStatusView`, implementando el patrón MVVM (Model-View-ViewModel) para observar los cambios en tiempo real del consumo. En el repositorio de Backend, se consolidaron los controladores `MonitoringController` y `DeviceResource`, integrando correctamente la capa de Infraestructura con Spring Data JPA para la persistencia en Azure.
+
+---
+
+
 # Anexos
 - Organización en Github: https://github.com/Apps-Moviles-PowerSense
 - Landing desplegado: https://powersenselanding-3mxrjrrtg-johnnygz41s-projects.vercel.app
