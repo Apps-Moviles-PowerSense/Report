@@ -1569,62 +1569,6 @@ Durante este Sprint se alcanzó el despliegue del Landing Page con sus secciones
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
-## 4.3. Validation Interviews
-
-En está sección se detalla la experiencia de los usuarios al momento de usar la aplicación mediante el registro de entrevistas.
-
-### 4.3.1. Diseño de Entrevistas
-
-Se llevaron a cabo entrevistas que buscan saber sus opiniones sobre como funciona la aplicación y si la Interfaz les fue sencilla de entender.
-
-Para el diseño de entrevistas se consideraron los siguientes aspectos:
-
-### Objetivo de la entrevista
-
-Validar la usabilidad, claridad y funcionalidad de la aplicación PowerSense en distintos perfiles de usuario, evaluando si la visualización de datos de consumo y las herramientas de automatización resultan intuitivas y útiles para reducir el gasto energético.
-
-### Elementos de la validación
-
-- **Aceptación y Usabilidad del Cliente (Frontend):** Evalúa la claridad de las preguntas, alertas e interfaz de usuario. Asegura que la navegación responda al contenido relevante del problema (control y lectura de kWh) sin generar confusión.
-- **Factibilidad Técnica (IoT & IA):** Comprueba que los sensores midan el consumo en tiempo real sin latencia crítica y que los actuadores respondan correctamente al encendido/apagado remoto. Asimismo, valida que los algoritmos de IA devuelvan recomendaciones lógicas y coherentes.
-- **Viabilidad del Negocio (Retorno de Inversión):** Mide si el valor percibido por el ahorro potencial (los ~S/ 50 mensuales calculados) justifica la adquisición o alquiler del hardware por parte de hogares y PYMEs.
-- **Aplicación:** Interacción guiada por el prototipo móvil para evaluar la navegación, la interpretación de las alertas de consumo energético y la facilidad para controlar remotamente los dispositivos IoT conectados.
-
-### User Flows a validar
-
-### Para usuarios residenciales (Hogares): 
-
-- Monitoreo en tiempo real: Comprobación de si comprenden las métricas de gasto en kWh y soles.
-- Control remoto: Simulación de apagado de dispositivos en espera y configuración de horarios.
-
-### Para usuarios comerciales (PYMEs):
-
-- Dashboard de gestión: Evaluación de la claridad de los reportes de picos de consumo.
-- Recomendaciones IA: Verificación de si encuentran y entienden los consejos personalizados de ahorro.
-
-### Formato de registro de la entrevista
-
-### Datos del entrevistado:
-
-- Nombre y apellidos
-- Edad
-- Distrito de residencia
-- Rol (hogar o PYME)
-- Dispositivo utilizado
-
-### Preguntas aplicadas
-
-1. ¿Qué te pareció la aplicación PowerSense en general?
-2. ¿Te resultó fácil comprender cuánta energía y dinero estás gastando actualmente?
-3. ¿Pudiste configurar el encendido o apagado remoto de tus aparatos sin problemas?
-4. ¿Fueron claras y útiles las recomendaciones de la Inteligencia Artificial para ahorrar?
-5. ¿Qué cambiarías de los gráficos o de la organización de la aplicación?
-6. ¿Recomendarías esta solución para optimizar el gasto eléctrico en otros hogares o negocios?
-
-### 4.3.2. Registro de Entrevistas
-
-### 4.3.3. Evaluaciones según heurísticas
-
 ## 4.2.2. Sprint 2
 
 En este segundo Sprint, el equipo centró sus esfuerzos en el desarrollo del núcleo de valor de PowerSense: el monitoreo en tiempo real y el control remoto de los dispositivos IoT. Se trabajó en la integración del Frontend móvil con los nuevos endpoints del Backend, permitiendo a los usuarios visualizar su consumo en un Dashboard interactivo y accionar sus electrodomésticos desde la aplicación.
@@ -1707,6 +1651,63 @@ La canalización de CI/CD configurada en GitHub Actions ejecutó exitosamente el
 ### 4.2.2.8. Team Collaboration Insights during Sprint
 
 La acción de mejora definida en la retrospectiva del Sprint 1 rindió frutos: la publicación anticipada de los contratos (JSON Responses) en Swagger permitió a los desarrolladores de Frontend avanzar con la maquetación de las vistas del Dashboard sin tener que esperar a que el Backend finalizara la lógica de base de datos. Se realizaron reuniones rápidas (Daily Stand-ups) para solucionar pequeños conflictos de mapeo de datos entre el DTO del backend y el modelo en Kotlin, resolviendo los cuellos de botella el mismo día.
+
+
+## 4.3. Validation Interviews
+
+En está sección se detalla la experiencia de los usuarios al momento de usar la aplicación mediante el registro de entrevistas.
+
+### 4.3.1. Diseño de Entrevistas
+
+Se llevaron a cabo entrevistas que buscan saber sus opiniones sobre como funciona la aplicación y si la Interfaz les fue sencilla de entender.
+
+Para el diseño de entrevistas se consideraron los siguientes aspectos:
+
+### Objetivo de la entrevista
+
+Validar la usabilidad, claridad y funcionalidad de la aplicación PowerSense en distintos perfiles de usuario, evaluando si la visualización de datos de consumo y las herramientas de automatización resultan intuitivas y útiles para reducir el gasto energético.
+
+### Elementos de la validación
+
+- **Aceptación y Usabilidad del Cliente (Frontend):** Evalúa la claridad de las preguntas, alertas e interfaz de usuario. Asegura que la navegación responda al contenido relevante del problema (control y lectura de kWh) sin generar confusión.
+- **Factibilidad Técnica (IoT & IA):** Comprueba que los sensores midan el consumo en tiempo real sin latencia crítica y que los actuadores respondan correctamente al encendido/apagado remoto. Asimismo, valida que los algoritmos de IA devuelvan recomendaciones lógicas y coherentes.
+- **Viabilidad del Negocio (Retorno de Inversión):** Mide si el valor percibido por el ahorro potencial (los ~S/ 50 mensuales calculados) justifica la adquisición o alquiler del hardware por parte de hogares y PYMEs.
+- **Aplicación:** Interacción guiada por el prototipo móvil para evaluar la navegación, la interpretación de las alertas de consumo energético y la facilidad para controlar remotamente los dispositivos IoT conectados.
+
+### User Flows a validar
+
+### Para usuarios residenciales (Hogares): 
+
+- Monitoreo en tiempo real: Comprobación de si comprenden las métricas de gasto en kWh y soles.
+- Control remoto: Simulación de apagado de dispositivos en espera y configuración de horarios.
+
+### Para usuarios comerciales (PYMEs):
+
+- Dashboard de gestión: Evaluación de la claridad de los reportes de picos de consumo.
+- Recomendaciones IA: Verificación de si encuentran y entienden los consejos personalizados de ahorro.
+
+### Formato de registro de la entrevista
+
+### Datos del entrevistado:
+
+- Nombre y apellidos
+- Edad
+- Distrito de residencia
+- Rol (hogar o PYME)
+- Dispositivo utilizado
+
+### Preguntas aplicadas
+
+1. ¿Qué te pareció la aplicación PowerSense en general?
+2. ¿Te resultó fácil comprender cuánta energía y dinero estás gastando actualmente?
+3. ¿Pudiste configurar el encendido o apagado remoto de tus aparatos sin problemas?
+4. ¿Fueron claras y útiles las recomendaciones de la Inteligencia Artificial para ahorrar?
+5. ¿Qué cambiarías de los gráficos o de la organización de la aplicación?
+6. ¿Recomendarías esta solución para optimizar el gasto eléctrico en otros hogares o negocios?
+
+### 4.3.2. Registro de Entrevistas
+
+### 4.3.3. Evaluaciones según heurísticas
 
 # Bibliografía
 - Sierra Praeli, Y. (28 de abril de 2024). Territorios contaminados: la transición energética no avanza en la Amazonía de Perú. Mongabay Latam.
