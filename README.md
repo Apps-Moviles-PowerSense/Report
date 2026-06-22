@@ -1463,7 +1463,6 @@ Backend:
 
 ![auth database diagram](Imagenes/db-diagrams/auth.png)
 
-
 # Capítulo III: Solution UI/UX Design
 
 ## 3.1. Product design
@@ -1473,12 +1472,17 @@ Estos lineamientos establecen la identidad visual de PowerSense, una plataforma 
 ##### a. Branding
 - Al buscar dar una identidad visual amigable e intuitiva sobre lo que ofrece PowerSenes, se decidio por hacer un logotipo de un foco verde con una hoja dentro, representando la energia con el foco y el ahorro con la hoja y el color verde.
 
-![LogoChapter3](Imagenes/Logo.jpg)
+<p align="center">
+  <img src="Imagenes/Logo.jpg" alt="LogoChapter3" width="300">
+</p>
+
 ##### b. Typography
 - Se utilizan fuentes como Inter en todo el proyecto con diversos tamaños ya que su estilo sencillo transmite una vibra sencilla y minimalista.
 ##### c. Colors
 - Se utilizan distintos colores, teniendo como principales el verde (48AF6A) y blanco. El verde porque representa el objetivo del aplicativo
+
 ### 3.1.2. Information Architecture
+
 #### 3.1.2.1. Organization Systems
 - **Jerarquía Visual:** En la aplicación móvil, el Dashboard prioriza el consumo total y el costo estimado en la parte superior, relegando el detalle de los dispositivos individuales a una sección inferior.
 - **Organización Secuencial:** La Landing Page presenta la información en un flujo narrativo lógico: Inicio (Hero) -> Funcionamiento -> Planes de Servicio -> Casos de Éxito -> Contacto.
@@ -1678,7 +1682,6 @@ El despliegue de PowerSense se orquesta de la siguiente manera, garantizando la 
 - **Mobile Application:** Los APKs generados se despliegan para testing utilizando Firebase App Distribution, lo que permite a los evaluadores (usuarios de hogar y PYMES) descargar e interactuar con el prototipo final.
 - **Landing Page:** Los archivos estáticos se despliegan automáticamente desde GitHub utilizando servicios como GitHub Pages o Vercel.
 
-
 ## 4.2. Landing Page & Mobile Application Implementation
 
 ### 4.2.1. Sprint 1
@@ -1743,6 +1746,90 @@ Durante este Sprint se alcanzó el despliegue del Landing Page con sus secciones
 ![deplyment evidence sprint 1](Imagenes/deployment-evidence-sprint-1.png)
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
+
+## 4.2.2. Sprint 2
+
+En este segundo Sprint, el equipo centró sus esfuerzos en el desarrollo del núcleo de valor de PowerSense: el monitoreo en tiempo real y el control remoto de los dispositivos IoT. Se trabajó en la integración del Frontend móvil con los nuevos endpoints del Backend, permitiendo a los usuarios visualizar su consumo en un Dashboard interactivo y accionar sus electrodomésticos desde la aplicación.
+
+---
+
+### 4.2.2.1. Sprint Planning 2
+
+A continuación, se detallan los objetivos y la organización definidos durante la reunión de planificación del Sprint 2.
+
+| Campo | Descripción |
+|---|---|
+| Sprint # | Sprint 2 |
+| Date | 2026-05-10 |
+| Time | 10:00 AM |
+| Location | Microsoft Teams (Reunión Virtual) |
+| Prepared By | Pastor Napa, Juan Carlos |
+| Attendees | Aquino Solorzano, Daniel / Lagos Rivera, Kael / Ojanama Abanto, Johnny / Pastor Napa, Juan Carlos / Pelaez Vargas, Giuliano Angel Peláez Vargas |
+| Sprint n – 1 Review Summary | Se completó con éxito el despliegue del Landing Page y la autenticación básica. Se identificó la necesidad de mejorar la coordinación en la integración Frontend-Backend para evitar bloqueos. |
+| Sprint n – 1 Retrospective Summary | Acción de mejora: Definir los contratos de la API (Swagger) en los primeros dos días del Sprint para que el equipo de Frontend pueda trabajar con Mock Datas si es necesario. |
+| Sprint Goal | Desarrollar e integrar el núcleo de monitoreo y control de la aplicación. Esto incluye la visualización del consumo en el Dashboard en tiempo real, la gestión de dispositivos registrados y la capacidad de encender/apagar equipos de forma remota mediante la API REST. |
+| Sprint Velocity | 21 Story Points |
+| Sum of Story Points | HU11, HU13, HU17, HU36, HU37, HU38 |
+
+---
+
+### 4.2.2.2. Sprint Backlog 2
+
+El siguiente cuadro detalla las tareas técnicas asignadas para cumplir con el Sprint Goal.
+
+| User Story | Work-Item / Task | Description | Estimation (Hours) | Assigned To |
+|---|---|---|---|---|
+| HU11 - Dashboard en tiempo real | TS11.1 - Integración de UI del Dashboard | Conectar los gráficos circulares y de barras del Frontend móvil con la API de consumo en tiempo real. | 6 | Pastor, Juan Carlos |
+| HU13 - Control remoto de dispositivos | TS13.1 - Lógica de estado ON/OFF | Implementar los interruptores en la UI móvil y la lógica para enviar comandos al backend. | 4 | Lagos, Kael |
+| HU17 - Gestión de dispositivos | TS17.1 - UI de CRUD de Dispositivos | Desarrollar las pantallas en Android (Kotlin) para listar, agregar, editar y eliminar dispositivos. | 6 | Ojanama, Johnny |
+| HU36 - Endpoint consumo energético | TS36.1 - Controlador de Consumo en RT | Programar el endpoint GET que recupere y sume los consumos activos de los dispositivos del usuario. | 5 | Aquino, Daniel |
+| HU37 - Endpoint de control | TS37.1 - Controlador de Actuadores | Crear el endpoint POST que reciba las acciones (ON/OFF) y actualice el estado en la base de datos MySQL. | 5 | Pelaez, Giuliano |
+| HU38 - Endpoint reportes históricos | TS38.1 - Lógica de agregación temporal | Desarrollar el endpoint GET que filtre consumos por rango de fechas (diario/semanal). | 6 | Aquino, Daniel |
+
+---
+
+### 4.2.2.3. Development Evidence for Sprint Review
+
+Durante esta iteración, el repositorio de Frontend (Frontend-Kotlin) recibió los commits correspondientes a las vistas de `DashboardView` y `DeviceStatusView`, implementando el patrón MVVM (Model-View-ViewModel) para observar los cambios en tiempo real del consumo. En el repositorio de Backend, se consolidaron los controladores `MonitoringController` y `DeviceResource`, integrando correctamente la capa de Infraestructura con Spring Data JPA para la persistencia en Azure.
+
+---
+
+
+### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+Se elaboraron pruebas unitarias en el Backend para validar que las reglas de negocio, como la asignación correcta de un dispositivo a un usuario único, se cumplan. En el Frontend, se ejecutaron pruebas manuales de UI y pruebas de integración para asegurar que los tokens JWT generados en el Sprint 1 se envíen correctamente en las cabeceras (Headers) de las nuevas peticiones HTTP de consumo y control.
+
+---
+
+### 4.2.2.5. Execution Evidence for Sprint Review
+![Database Inyectiopn](Imagenes/prueba1.png)
+
+---
+
+### 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+La documentación en Swagger se actualizó para reflejar los nuevos contratos de integración implementados en este ciclo.
+
+| Endpoint | Verbo HTTP | Parámetros / Request Body | Response de Ejemplo |
+|---|---|---|---|
+| `/api/consumo/realtime` | GET | Token JWT en Authorization Header | `200 OK: {"totalKwh": 15.4, "currentCost": 9.70}` |
+| `/api/dispositivos` | GET | Token JWT en Authorization Header | `200 OK: [{"id": "1", "name": "TV Sala", "state": "ON"}]` |
+| `/api/dispositivos` | POST | `{"name": "...", "type": "..."}` + JWT | `201 Created: {"id": "2", "name": "...", "state": "OFF"}` |
+| `/api/dispositivos/control` | POST | `{"deviceId": "1", "action": "OFF"}` + JWT | `200 OK: {"message": "Dispositivo apagado correctamente"}` |
+| `/api/reportes/historicos` | GET | `?fechaInicio=2026-05-01&fechaFin=2026-05-07` | `200 OK: [{"date": "2026-05-01", "kwh": 2.1}, ...]` |
+
+---
+
+### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+La canalización de CI/CD configurada en GitHub Actions ejecutó exitosamente el build del proyecto Spring Boot y desplegó la nueva versión en Azure App Services. La base de datos MySQL en Azure fue actualizada mediante scripts de migración para soportar la tabla de registros de dispositivos y consumos. Para el Frontend móvil, se generó un nuevo APK (v1.1) distribuido al equipo interno para sus validaciones.
+
+---
+
+### 4.2.2.8. Team Collaboration Insights during Sprint
+
+La acción de mejora definida en la retrospectiva del Sprint 1 rindió frutos: la publicación anticipada de los contratos (JSON Responses) en Swagger permitió a los desarrolladores de Frontend avanzar con la maquetación de las vistas del Dashboard sin tener que esperar a que el Backend finalizara la lógica de base de datos. Se realizaron reuniones rápidas (Daily Stand-ups) para solucionar pequeños conflictos de mapeo de datos entre el DTO del backend y el modelo en Kotlin, resolviendo los cuellos de botella el mismo día.
+
 
 ## 4.3. Validation Interviews
 
@@ -1857,6 +1944,7 @@ A partir de las entrevistas realizadas es posible elaborar una evaluación heur�
   (https://es.mongabay.com/2024/04/territorios-contaminados-transicion-energetica-no-avanza-amazonia-peru/)
 - AutoSolar Perú. (s. f.). Consumo energético familiar en Perú.
   (https://autosolar.pe/ahorro-de-energia/consumo-energetico-familiar-en-peru)
+
 
 # Anexos
 - Organización en Github: https://github.com/Apps-Moviles-PowerSense
