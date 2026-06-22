@@ -1624,11 +1624,6 @@ Validar la usabilidad, claridad y funcionalidad de la aplicación PowerSense en 
 ### 4.3.2. Registro de Entrevistas
 
 ### 4.3.3. Evaluaciones según heurísticas
-# Bibliografía
-- Sierra Praeli, Y. (28 de abril de 2024). Territorios contaminados: la transición energética no avanza en la Amazonía de Perú. Mongabay Latam.
-  (https://es.mongabay.com/2024/04/territorios-contaminados-transicion-energetica-no-avanza-amazonia-peru/)
-- AutoSolar Perú. (s. f.). Consumo energético familiar en Perú.
-  (https://autosolar.pe/ahorro-de-energia/consumo-energetico-familiar-en-peru)
 
 ## 4.2.2. Sprint 2
 
@@ -1676,6 +1671,12 @@ El siguiente cuadro detalla las tareas técnicas asignadas para cumplir con el S
 Durante esta iteración, el repositorio de Frontend (Frontend-Kotlin) recibió los commits correspondientes a las vistas de `DashboardView` y `DeviceStatusView`, implementando el patrón MVVM (Model-View-ViewModel) para observar los cambios en tiempo real del consumo. En el repositorio de Backend, se consolidaron los controladores `MonitoringController` y `DeviceResource`, integrando correctamente la capa de Infraestructura con Spring Data JPA para la persistencia en Azure.
 
 ---
+
+# Bibliografía
+- Sierra Praeli, Y. (28 de abril de 2024). Territorios contaminados: la transición energética no avanza en la Amazonía de Perú. Mongabay Latam.
+  (https://es.mongabay.com/2024/04/territorios-contaminados-transicion-energetica-no-avanza-amazonia-peru/)
+- AutoSolar Perú. (s. f.). Consumo energético familiar en Perú.
+  (https://autosolar.pe/ahorro-de-energia/consumo-energetico-familiar-en-peru)
 
 
 # Anexos
