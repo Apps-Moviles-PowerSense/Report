@@ -1681,7 +1681,6 @@ Se elaboraron pruebas unitarias en el Backend para validar que las reglas de neg
 
 ### 4.2.2.5. Execution Evidence for Sprint Review
 
-El prototipo funcional móvil ahora permite a un usuario autenticado navegar hacia el Dashboard principal, visualizar un mock inicial de su consumo en kWh traducido a soles, y acceder a la lista de "Mis Dispositivos". Al presionar el botón de encendido/apagado en la interfaz, el estado visual del dispositivo cambia inmediatamente tras recibir el código de estado `200 OK` del servidor.
 
 ---
 
