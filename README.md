@@ -34,7 +34,7 @@
 
 <br>
 
-### **Fecha:** Abril, 2026
+### **Fecha:** Junio, 2026
 
 
 
@@ -43,7 +43,7 @@
 |:---:|:---:|:---:|:---|
 | 1.0 | 24.04.2026 | Todo el grupo  | Elaboración de los primeros puntos del informe |
 | 1.1 | 16.05.2026  | Todo el grupo | Elaboracion del Frontend y Backend más documentación adicional en el informe  |
-
+| 1.2 | 21.06.2026  | Todo el grupo | Elaboracion del  aplicativo y validaciones del producto mas la documentacion final del informe|
 
 ## Project Report Collaboration Insights
 [Repositorio de documentacion](https://github.com/Apps-Moviles-PowerSense/Report) <br>
