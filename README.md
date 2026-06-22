@@ -1672,6 +1672,43 @@ Durante esta iteración, el repositorio de Frontend (Frontend-Kotlin) recibió l
 
 ---
 
+
+### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+Se elaboraron pruebas unitarias en el Backend para validar que las reglas de negocio, como la asignación correcta de un dispositivo a un usuario único, se cumplan. En el Frontend, se ejecutaron pruebas manuales de UI y pruebas de integración para asegurar que los tokens JWT generados en el Sprint 1 se envíen correctamente en las cabeceras (Headers) de las nuevas peticiones HTTP de consumo y control.
+
+---
+
+### 4.2.2.5. Execution Evidence for Sprint Review
+
+El prototipo funcional móvil ahora permite a un usuario autenticado navegar hacia el Dashboard principal, visualizar un mock inicial de su consumo en kWh traducido a soles, y acceder a la lista de "Mis Dispositivos". Al presionar el botón de encendido/apagado en la interfaz, el estado visual del dispositivo cambia inmediatamente tras recibir el código de estado `200 OK` del servidor.
+
+---
+
+### 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+La documentación en Swagger se actualizó para reflejar los nuevos contratos de integración implementados en este ciclo.
+
+| Endpoint | Verbo HTTP | Parámetros / Request Body | Response de Ejemplo |
+|---|---|---|---|
+| `/api/consumo/realtime` | GET | Token JWT en Authorization Header | `200 OK: {"totalKwh": 15.4, "currentCost": 9.70}` |
+| `/api/dispositivos` | GET | Token JWT en Authorization Header | `200 OK: [{"id": "1", "name": "TV Sala", "state": "ON"}]` |
+| `/api/dispositivos` | POST | `{"name": "...", "type": "..."}` + JWT | `201 Created: {"id": "2", "name": "...", "state": "OFF"}` |
+| `/api/dispositivos/control` | POST | `{"deviceId": "1", "action": "OFF"}` + JWT | `200 OK: {"message": "Dispositivo apagado correctamente"}` |
+| `/api/reportes/historicos` | GET | `?fechaInicio=2026-05-01&fechaFin=2026-05-07` | `200 OK: [{"date": "2026-05-01", "kwh": 2.1}, ...]` |
+
+---
+
+### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+La canalización de CI/CD configurada en GitHub Actions ejecutó exitosamente el build del proyecto Spring Boot y desplegó la nueva versión en Azure App Services. La base de datos MySQL en Azure fue actualizada mediante scripts de migración para soportar la tabla de registros de dispositivos y consumos. Para el Frontend móvil, se generó un nuevo APK (v1.1) distribuido al equipo interno para sus validaciones.
+
+---
+
+### 4.2.2.8. Team Collaboration Insights during Sprint
+
+La acción de mejora definida en la retrospectiva del Sprint 1 rindió frutos: la publicación anticipada de los contratos (JSON Responses) en Swagger permitió a los desarrolladores de Frontend avanzar con la maquetación de las vistas del Dashboard sin tener que esperar a que el Backend finalizara la lógica de base de datos. Se realizaron reuniones rápidas (Daily Stand-ups) para solucionar pequeños conflictos de mapeo de datos entre el DTO del backend y el modelo en Kotlin, resolviendo los cuellos de botella el mismo día.
+
 # Bibliografía
 - Sierra Praeli, Y. (28 de abril de 2024). Territorios contaminados: la transición energética no avanza en la Amazonía de Perú. Mongabay Latam.
   (https://es.mongabay.com/2024/04/territorios-contaminados-transicion-energetica-no-avanza-amazonia-peru/)
