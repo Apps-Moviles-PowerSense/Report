@@ -50,7 +50,9 @@
 
 [Repositorio del Landing Page](https://github.com/Apps-Moviles-PowerSense/Landing-Page) <br>
 
-[Repositorio del Fronted](https://github.com/Apps-Moviles-PowerSense/Frontend-Kotlin)
+[Repositorio del Fronted Kotlin](https://github.com/Apps-Moviles-PowerSense/Frontend-Kotlin)
+
+[Repositorio del Fronted Flutter](https://github.com/Apps-Moviles-PowerSense/Frontend---Flutter)
 
 [Repositorio del Backend](https://github.com/Apps-Moviles-PowerSense/Backend)
 
@@ -1859,12 +1861,13 @@ A partir de las entrevistas realizadas es posible elaborar una evaluación heur�
 # Anexos
 - Organización en Github: https://github.com/Apps-Moviles-PowerSense
 - Landing desplegado: https://powersenselanding-3mxrjrrtg-johnnygz41s-projects.vercel.app
-- Backend Desplegado: https://powersense.azurewebsites.net/swagger-ui/index.html 
+- Backend Desplegado: http://34.28.139.66:8080/swagger-ui/index.html 
 - Report: https://github.com/Apps-Moviles-PowerSense/Report
 - Landing: https://github.com/Apps-Moviles-PowerSense/Landing-Page
-- Frontend: https://github.com/Apps-Moviles-PowerSense/Frontend-Kotlin
+- Frontend Kotlin: https://github.com/Apps-Moviles-PowerSense/Frontend-Kotlin
+- Frontend Flutter: https://github.com/Apps-Moviles-PowerSense/Frontend---Flutter
 - Backend: https://github.com/Apps-Moviles-PowerSense/Backend
-- Swagger: https://powersense.azurewebsites.net/swagger-ui/index.html
+- Swagger: http://34.28.139.66:8080/swagger-ui/index.html
 - Figma: https://www.figma.com/design/gpIV82TEIiyByP47cZEcAG/Figma-basics?node-id=1825-2&t=YWosvdlbsaAKIkGm-1
 
 usuario prueba kotlin: test@test.com
