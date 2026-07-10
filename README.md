@@ -1958,6 +1958,306 @@ A partir de las entrevistas realizadas es posible elaborar una evaluación heur�
 | **Diseño estético y minimalista** | Mario indicó que el tamaño de la letra dificulta parcialmente la lectura y que falta una pantalla de bienvenida. | Existen oportunidades de mejora en la presentación visual. | 2 - Problema moderado |
 | **Ayudar a reconocer y recuperarse de errores** | No se reportaron situaciones de error durante las pruebas. | No se identificaron inconvenientes en este aspecto. | 0 - Sin problemas |
 | **Ayuda y documentación** | Ambos usuarios pudieron utilizar la aplicación sin requerir instrucciones adicionales, aunque una pantalla inicial podría orientar mejor a nuevos usuarios. | Sería conveniente añadir una guía o introducción rápida. | 2 - Problema moderado |
+
+# Capítulo V: Product Implementation, Validation & Deployment
+
+## 5.1. Software Configuration Management
+
+Para garantizar la consistencia durante todo el ciclo de vida del proyecto PowerSense, la startup SODA definió convenciones de código, gestión de versiones y configuración de entornos de desarrollo y despliegue.
+
+### 5.1.1. Software Development Environment Configuration
+
+Se especifican las herramientas utilizadas por el equipo para cubrir todas las actividades del ciclo de vida del software:
+
+### Product UX/UI Design
+
+* **Figma**: Herramienta utilizada para diseñar los Wireframes, Mock-ups y Prototipos navegables de la app móvil y la Landing Page.
+  Ruta referencial: [https://www.figma.com/](https://www.figma.com/)
+
+* **UXPressia**: Utilizada para los artefactos de Needfinding (User Personas, Journey Maps).
+  Ruta referencial: [https://uxpressia.com/](https://uxpressia.com/)
+
+### Software Development
+
+* **Android Studio**: IDE oficial para el desarrollo de la aplicación móvil nativa utilizando Kotlin.
+  Ruta referencial: [https://developer.android.com/studio](https://developer.android.com/studio)
+
+* **Flutter**: Framework utilizado en paralelo para el desarrollo de componentes del Frontend móvil, gestionado en el repositorio `Frontend-Flutter`.
+  Ruta referencial: [https://flutter.dev/](https://flutter.dev/)
+
+* **IntelliJ IDEA**: IDE utilizado para el desarrollo del Backend RESTful API con Spring Boot (Java).
+  Ruta referencial: [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/)
+
+* **MySQL Workbench**: Cliente para la gestión y modelado de la base de datos relacional MySQL.
+  Ruta referencial: [https://www.mysql.com/products/workbench/](https://www.mysql.com/products/workbench/)
+
+### Software Documentation & API
+
+* **Swagger**: Herramienta utilizada para documentar y probar los endpoints del Backend de PowerSense.
+  Ruta referencial: [https://swagger.io/](https://swagger.io/)
+
+### Software Deployment
+
+* **Android Studio**: Utilizado también para la distribución y validación de las versiones de prueba de la aplicación móvil.
+
+* **Microsoft Azure**: Proveedor cloud utilizado para el despliegue del Backend (Azure App Services) y de la base de datos (Azure Database for MySQL).
+  Ruta referencial: [https://azure.microsoft.com/](https://azure.microsoft.com/)
+
+### 5.1.2. Source Code Management
+
+El equipo utiliza Git como sistema de control de versiones, centralizado en GitHub. Los repositorios oficiales del proyecto son:
+
+* Organización: [Apps-Moviles-PowerSense](https://github.com/Apps-Moviles-PowerSense)
+* Landing Page: [Landing-Page](https://github.com/Apps-Moviles-PowerSense/Landing-Page)
+* Backend (Web Services): [Backend](https://github.com/Apps-Moviles-PowerSense/Backend)
+* Frontend Web Application: [Frontend](https://github.com/Apps-Moviles-PowerSense/Frontend)
+* Frontend Móvil (Kotlin): [Frontend-Kotlin](https://github.com/Apps-Moviles-PowerSense/Frontend-Kotlin)
+* Frontend Móvil (Flutter): [Frontend - Flutter](https://github.com/Apps-Moviles-PowerSense/Frontend---Flutter)
+
+## Flujo de Trabajo (GitFlow)
+
+Se aplicó el modelo GitFlow con las siguientes ramas:
+
+#### Ramas principales
+
+* **main**: Contiene el código de producción estable. Cada commit aquí representa un release.
+* **develop**: Rama de integración donde se unen las funcionalidades en desarrollo.
+
+#### Ramas de apoyo
+
+* **feature/\<nombre-funcionalidad\>**: Creadas a partir de `develop` para desarrollar cada funcionalidad o capítulo de forma aislada.
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+Para asegurar la legibilidad, mantenibilidad e integración fluida del código entre los desarrolladores, se adoptaron guías de estilo reconocidas para cada tecnología aplicada.
+
+**Mobile (Kotlin):**
+
+* Se utiliza el **Kotlin Style Guide** recomendado oficialmente por Android.
+
+**Backend (Java/Spring Boot):**
+
+* Se aplica la **Google Java Style Guide**.
+* Los endpoints REST siguen una nomenclatura en inglés y sustantivos en plural.
+
+### 5.1.4. Software Deployment Configuration
+
+El despliegue de PowerSense se orquesta de la siguiente manera, garantizando la disponibilidad de todos los componentes:
+
+* **Backend & Database**: El código de Spring Boot se despliega en Azure App Services, conectado a un servidor Azure Database for MySQL administrado.
+* **Mobile Application**: Los APKs generados se distribuyen para testing mediante Firebase App Distribution, permitiendo a los evaluadores (usuarios de hogar y PYMEs) descargar e interactuar con el prototipo.
+* **Landing Page**: Los archivos estáticos se despliegan automáticamente desde GitHub, utilizando servicios como GitHub Pages o Vercel.
+
+Enlace del Backend desplegado (Swagger): [http://34.28.139.66:8080/swagger-ui/index.html](http://34.28.139.66:8080/swagger-ui/index.html)
+
+Enlace de la Landing Page desplegada: [PowerSense Landing](https://powersenselanding-3mxrjrrtg-johnnygz41s-projects.vercel.app)
+
+## 5.2. Landing Page & Mobile Application Implementation
+
+### 5.2.1. Sprint 1
+
+En este primer Sprint, el equipo se enfocó en el desarrollo y despliegue del Landing Page estático para presentar el modelo de negocio al público, así como en la configuración inicial de la arquitectura del Backend y la implementación de los servicios base de seguridad y autenticación.
+
+#### 5.2.1.1. Sprint Planning 1
+
+| Campo | Descripción |
+|---|---|
+| **Sprint #** | Sprint 1 |
+| **Date** | 2026-04-26 |
+| **Time** | 10:00 AM |
+| **Location** | Microsoft Teams (Reunión Virtual) |
+| **Prepared By** | Pastor Napa, Juan Carlos |
+| **Attendees** | Aquino Solorzano, Daniel / Lagos Rivera, Kael / Ojanama Abanto, Johnny / Pastor Napa, Juan Carlos / Pelaez Vargas, Giuliano |
+| **Sprint n-1 Review Summary** | N/A |
+| **Sprint n-1 Retrospective Summary** | N/A |
+| **Sprint Goal** | Lanzar la página de inicio estática principal y establecer los puntos de acceso básicos para la autenticación y el registro, brindando visibilidad temprana del producto a potenciales usuarios de Home y PYME sobre una base segura para la aplicación. |
+| **Sprint Velocity** | 20 Story Points |
+| **Sum of Story Points** | HU1, HU2, HU3, HU4, HU7, HU35 |
+
+#### 5.2.1.2. Sprint Backlog 1
+
+| User Story | Work-Item / Task | Description | Estimación (Horas) | Asignado a |
+|---|---|---|---|---|
+| HU1 - Información general del producto | TS1.1 - Maquetación HTML/CSS Hero Section | Desarrollar la estructura base y estilos de la sección principal del Landing Page. | 4 | Pastor, Juan Carlos |
+| HU2 - Casos de éxito | TS2.1 - Diseño UI/UX y HTML de Casos de Éxito | Implementar la sección de testimonios de hogares. | 3 | Ojanama, Johnny |
+| HU3 - Comparativa de planes | TS3.1 - Implementar Pricing Table | Construir la tabla responsiva comparando los planes. | 5 | Pelaez, Giuliano |
+| HU4 - Contacto | TS4.1 - Formulario de contacto estático | Crear el formulario HTML de contacto con validaciones JS. | 3 | Lagos, Kael |
+| HU5 - Registro de cuenta | TS5.1 - UI Móvil de Registro | Implementar la pantalla de registro en Android con Kotlin. | 6 | Pastor, Juan Carlos |
+| HU7 - Inicio de sesión | TS7.1 - UI Móvil de Login | Implementar la pantalla de inicio de sesión en Android. | 5 | Lagos, Kael |
+| HU35 - Endpoint de autenticación | TS35.1 - Configurar Spring Security y JWT | Configurar el backend para generar y validar tokens JWT y registrar usuarios. | 8 | Aquino, Daniel |
+
+#### 5.2.1.3. Development Evidence for Sprint Review
+
+#### 5.2.1.4. Testing Suite Evidence for Sprint Review
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+
+Durante este Sprint se alcanzó el despliegue del Landing Page con sus secciones informativas y el desarrollo de las pantallas iniciales en la app móvil.
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+| Endpoint | Verbo HTTP | Parámetros / Request Body | Response de Ejemplo |
+|---|---|---|---|
+| `/api/auth/login` | POST | `{"email": "...", "password": "..."}` | `200 OK: {"token": "eyJhbGci..."}` |
+| `/api/auth/register` | POST | `{"firstName": "...", "email": "...", "password": "..."}` | `201 Created: {"message": "User registered"}` |
+| `/api/auth/me` | GET | Token JWT en Authorization Header | `200 OK: {"id": 1, "firstName": "Juan", "email": "juan@example.com"}` |
+| `/api/auth/profile` | PUT | `{"firstName": "...", "lastName": "...", "phone": "..."}` + JWT | `200 OK: {"id": 1, "firstName": "Juan Updated"}` |
+| `/api/auth/verify` | GET | Token JWT en Authorization Header | `200 OK: {"valid": true}` |
+| `/api/auth/refresh` | POST | Token JWT en Authorization Header | `200 OK: {"token": "new_jwt_token..."}` |
+| `/api/auth/logout` | POST | Token JWT en Authorization Header | `200 OK` |
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+### 5.2.2. Sprint 2
+
+En este segundo Sprint, el equipo centró sus esfuerzos en el desarrollo del núcleo de valor de PowerSense: el monitoreo en tiempo real y el control remoto de los dispositivos IoT. Se trabajó en la integración del Frontend móvil con los nuevos endpoints del Backend, permitiendo a los usuarios visualizar su consumo en un Dashboard interactivo y accionar sus electrodomésticos desde la aplicación.
+
+#### 5.2.2.1. Sprint Planning 2
+
+| Campo | Descripción |
+|---|---|
+| **Sprint #** | Sprint 2 |
+| **Date** | 2026-05-10 |
+| **Time** | 10:00 AM |
+| **Location** | Microsoft Teams (Reunión Virtual) |
+| **Prepared By** | Pastor Napa, Juan Carlos |
+| **Attendees** | Aquino Solorzano, Daniel / Lagos Rivera, Kael / Ojanama Abanto, Johnny / Pastor Napa, Juan Carlos / Pelaez Vargas, Giuliano |
+| **Sprint n-1 Review Summary** | Se completó con éxito el despliegue del Landing Page y la autenticación básica. Se identificó la necesidad de mejorar la coordinación en la integración Frontend-Backend para evitar bloqueos. |
+| **Sprint n-1 Retrospective Summary** | Acción de mejora: definir los contratos de la API (Swagger) en los primeros dos días del Sprint para que el equipo de Frontend pueda trabajar con Mock Datas si es necesario. |
+| **Sprint Goal** | Desarrollar e integrar el núcleo de monitoreo y control de la aplicación: visualización del consumo en el Dashboard en tiempo real, gestión de dispositivos registrados y capacidad de encender/apagar equipos de forma remota mediante la API REST. |
+| **Sprint Velocity** | 21 Story Points |
+| **Sum of Story Points** | HU11, HU13, HU17, HU36, HU37, HU38 |
+
+#### 5.2.2.2. Sprint Backlog 2
+
+| User Story | Work-Item / Task | Description | Estimación (Horas) | Asignado a |
+|---|---|---|---|---|
+| HU11 - Dashboard en tiempo real | TS11.1 - Integración de UI del Dashboard | Conectar los gráficos circulares y de barras del Frontend móvil con la API de consumo en tiempo real. | 6 | Pastor, Juan Carlos |
+| HU13 - Control remoto de dispositivos | TS13.1 - Lógica de estado ON/OFF | Implementar los interruptores en la UI móvil y la lógica para enviar comandos al backend. | 4 | Lagos, Kael |
+| HU17 - Gestión de dispositivos | TS17.1 - UI de CRUD de Dispositivos | Desarrollar las pantallas en Android (Kotlin) para listar, agregar, editar y eliminar dispositivos. | 6 | Ojanama, Johnny |
+| HU36 - Endpoint consumo energético | TS36.1 - Controlador de Consumo en RT | Programar el endpoint GET que recupere y sume los consumos activos de los dispositivos del usuario. | 5 | Aquino, Daniel |
+| HU37 - Endpoint de control | TS37.1 - Controlador de Actuadores | Crear el endpoint POST que reciba las acciones (ON/OFF) y actualice el estado en la base de datos MySQL. | 5 | Pelaez, Giuliano |
+| HU38 - Endpoint reportes históricos | TS38.1 - Lógica de agregación temporal | Desarrollar el endpoint GET que filtre consumos por rango de fechas (diario/semanal). | 6 | Aquino, Daniel |
+
+#### 5.2.2.3. Development Evidence for Sprint Review
+
+Durante esta iteración, el repositorio de Frontend (Frontend-Kotlin) recibió los commits correspondientes a las vistas `DashboardView` y `DeviceStatusView`, implementando el patrón MVVM (Model-View-ViewModel) para observar los cambios en tiempo real del consumo. En paralelo, en el repositorio `Frontend-Flutter` se desarrollaron componentes complementarios del Frontend móvil. En el repositorio de Backend, se consolidaron los controladores `MonitoringController` y `DeviceResource`, integrando correctamente la capa de Infraestructura con Spring Data JPA para la persistencia en Azure.
+
+#### 5.2.2.4. Testing Suite Evidence for Sprint Review
+
+Se elaboraron pruebas unitarias en el Backend para validar reglas de negocio, como la asignación correcta de un dispositivo a un usuario único. En el Frontend se ejecutaron pruebas manuales de UI y pruebas de integración para asegurar que los tokens JWT generados en el Sprint 1 se envíen correctamente en las cabeceras (Headers) de las nuevas peticiones HTTP de consumo y control.
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+| Endpoint | Verbo HTTP | Parámetros / Request Body | Response de Ejemplo |
+|---|---|---|---|
+| `/api/consumo/realtime` | GET | Token JWT en Authorization Header | `200 OK: {"totalKwh": 15.4, "currentCost": 9.70}` |
+| `/api/dispositivos` | GET | Token JWT en Authorization Header | `200 OK: [{"id": "1", "name": "TV Sala", "state": "ON"}]` |
+| `/api/dispositivos` | POST | `{"name": "...", "type": "..."}` + JWT | `201 Created: {"id": "2", "name": "...", "state": "OFF"}` |
+| `/api/dispositivos/control` | POST | `{"deviceId": "1", "action": "OFF"}` + JWT | `200 OK: {"message": "Dispositivo apagado correctamente"}` |
+| `/api/reportes/historicos` | GET | `?fechaInicio=2026-05-01&fechaFin=2026-05-07` | `200 OK: [{"date": "2026-05-01", "kwh": 2.1}, ...]` |
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+La canalización de CI/CD configurada en GitHub Actions ejecutó exitosamente el build del proyecto Spring Boot y desplegó la nueva versión en Azure App Services. La base de datos MySQL en Azure fue actualizada mediante scripts de migración para soportar la tabla de registros de dispositivos y consumos. Para el Frontend móvil se generó un nuevo APK (v1.1) distribuido al equipo interno para sus validaciones.
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+La acción de mejora definida en la retrospectiva del Sprint 1 rindió frutos: la publicación anticipada de los contratos (JSON Responses) en Swagger permitió a los desarrolladores de Frontend avanzar con la maquetación de las vistas del Dashboard sin tener que esperar a que el Backend finalizara la lógica de base de datos. Se realizaron Daily Stand-ups para resolver pequeños conflictos de mapeo de datos entre el DTO del backend y el modelo en Kotlin, solucionando los cuellos de botella el mismo día.
+
+Cabe señalar que, si bien Kael Lagos tuvo tareas asignadas en el Sprint Backlog (TS7.1 en el Sprint 1 y TS13.1 en el Sprint 2), a la fecha de este informe no se registran commits suyos en los repositorios del proyecto.
+
+## 5.3. Validation Interviews
+
+En esta sección se detalla la experiencia de los usuarios al momento de usar la aplicación, mediante el registro de entrevistas.
+
+### 5.3.1. Diseño de Entrevistas
+
+Se llevaron a cabo entrevistas para conocer la opinión de los usuarios sobre el funcionamiento de la aplicación y si la interfaz les resultó sencilla de entender.
+
+**Objetivo de la entrevista:** Validar la usabilidad, claridad y funcionalidad de la aplicación PowerSense en distintos perfiles de usuario, evaluando si la visualización de datos de consumo y las herramientas de automatización resultan intuitivas y útiles para reducir el gasto energético.
+
+**Elementos de la validación:**
+
+* **Aceptación y Usabilidad del Cliente (Frontend):** Evalúa la claridad de las preguntas, alertas e interfaz de usuario, asegurando que la navegación responda al contenido relevante del problema (control y lectura de kWh) sin generar confusión.
+* **Factibilidad Técnica (IoT & IA):** Comprueba que los sensores midan el consumo en tiempo real sin latencia crítica y que los actuadores respondan correctamente al encendido/apagado remoto, validando además que las recomendaciones de IA sean lógicas y coherentes.
+* **Viabilidad del Negocio (Retorno de Inversión):** Mide si el valor percibido por el ahorro potencial (~S/ 50 mensuales) justifica la adquisición o alquiler del hardware por parte de hogares y PYMEs.
+
+**User Flows validados:**
+
+* *Usuarios residenciales (Hogares):* Control remoto — simulación de apagado de dispositivos en espera y configuración de horarios.
+* *Usuarios comerciales (PYMEs):* Dashboard de gestión — claridad de los reportes de picos de consumo; recomendaciones IA — comprensión de los consejos personalizados de ahorro.
+
+**Preguntas aplicadas:**
+
+1. ¿Qué te pareció la aplicación PowerSense en general?
+2. ¿Te resultó fácil comprender cuánta energía y dinero estás gastando actualmente?
+3. ¿Pudiste configurar el encendido o apagado remoto de tus aparatos sin problemas?
+4. ¿Fueron claras y útiles las recomendaciones de la Inteligencia Artificial para ahorrar?
+5. ¿Qué cambiarías de los gráficos o de la organización de la aplicación?
+6. ¿Recomendarías esta solución para optimizar el gasto eléctrico en otros hogares o negocios?
+
+### 5.3.2. Registro de Entrevistas
+
+**Segmento objetivo 1 (Hogares)**
+
+Entrevista 1 (Vitaly Baca) — Inicio: 00:00 - Fin: 5:40 - Duración: 5:40
+
+* Nombre: Vitaly Baca
+* Edad: 22 años
+* Distrito de residencia: Lurín
+
+**Resumen de la entrevista:** Vitaly Baca comenta su experiencia usando PowerSense, destacando la facilidad para comprender el consumo eléctrico y su equivalente en soles, así como la posibilidad de administrar el encendido y apagado de sus dispositivos vinculados. Valoró la utilidad de las recomendaciones y expresó satisfacción por contar con una solución a una problemática que muchas personas suelen pasar por alto.
+
+**Segmento objetivo 2 (Negocios)**
+
+Entrevista 1 (Mario Augusto) — Inicio: 00:00 - Fin: 4:31 - Duración: 4:31
+
+* Nombre: Mario Augusto
+* Edad: 39 años
+* Distrito de residencia: Pueblo Libre
+
+**Resumen de la entrevista:** Mario Augusto valoró la interfaz, el despliegue de datos de consumo eléctrico de su empresa y las recomendaciones brindadas por la app. Señaló como carencias la falta de exportación de resultados a Excel, un tamaño de letra que dificulta la lectura, y la ausencia de una pantalla de bienvenida. Finalizó expresando optimismo sobre el producto y su disposición a recomendarlo.
+
+### 5.3.3. Evaluaciones según heurísticas
+
+A partir de las entrevistas realizadas se elaboró una evaluación heurística relacionando los comentarios de los usuarios con las 10 heurísticas de usabilidad de Jakob Nielsen.
+
+| Heurística de Nielsen | Evidencia de las entrevistas | Evaluación | Severidad |
+|---|---|---|---|
+| Visibilidad del estado del sistema | Ambos usuarios tardaron un poco en comprender el consumo eléctrico y el costo en soles mostrado por la app. | Información clara y visible, aunque algunos usuarios tardan en comprenderla. | 1 - Problema menor |
+| Correspondencia entre el sistema y el mundo real | Los usuarios entendieron fácilmente conceptos como consumo, costo y control de dispositivos. | Se utiliza un lenguaje familiar para el usuario. | 0 - Sin problemas |
+| Control y libertad del usuario | Vitaly pudo encender y apagar los dispositivos vinculados sin dificultades. | La aplicación brinda control sobre las acciones principales. | 0 - Sin problemas |
+| Consistencia y estándares | No se reportaron inconsistencias en navegación o funcionamiento. | La interfaz mantiene un comportamiento uniforme. | 0 - Sin problemas |
+| Prevención de errores | No se identificaron errores durante el uso del prototipo. | No hay evidencia suficiente para detectar problemas. | 0 - Sin problemas |
+| Reconocimiento antes que recuerdo | La visualización del consumo y las recomendaciones tardaron en ser comprendidas. | La información de las recomendaciones debe ser más intuitiva. | 2 - Problema moderado |
+| Flexibilidad y eficiencia de uso | Mario sugirió incorporar exportación de resultados a Excel para el análisis empresarial. | Falta una función avanzada útil para usuarios de negocios. | 3 - Problema importante |
+| Diseño estético y minimalista | Mario indicó que el tamaño de letra dificulta la lectura y falta una pantalla de bienvenida. | Existen oportunidades de mejora visual. | 2 - Problema moderado |
+| Ayudar a reconocer y recuperarse de errores | No se reportaron situaciones de error durante las pruebas. | No se identificaron inconvenientes. | 0 - Sin problemas |
+| Ayuda y documentación | Ambos usuarios usaron la app sin instrucciones adicionales, aunque una pantalla inicial orientaría mejor a nuevos usuarios. | Sería conveniente añadir una guía o introducción rápida. | 2 - Problema moderado |
+
+## 5.4. Video About-the-Product
+
+#### Conclusiones
+
+- Se consolidó el entorno de desarrollo móvil utilizando Kotlin en Android Studio, y el Backend con Spring Boot en IntelliJ IDEA, logrando una integración estable mediante contratos definidos previamente en Swagger.
+
+- El uso de Azure App Services y Azure Database for MySQL permitió un despliegue escalable y disponible del Backend y la base de datos del proyecto.
+
+- La adopción temprana de contratos de API en Swagger facilitó que el equipo de Frontend avanzara en paralelo al desarrollo del Backend, reduciendo bloqueos entre sprints.
+
+- Se implementaron las funcionalidades núcleo de la aplicación: autenticación con JWT, dashboard de consumo en tiempo real y control remoto de dispositivos IoT.
+
+- Las entrevistas de validación, tanto con usuarios de hogar como de negocio, confirmaron que la propuesta de valor es comprendida y valorada, aunque se identificaron oportunidades de mejora en accesibilidad visual y funciones de exportación de datos.
+
+- La evaluación heurística según Nielsen no evidenció problemas críticos, situando las observaciones principales en los niveles de severidad menor a moderado.
+
+- Se recomienda reforzar el registro de evidencia de desarrollo y testing en los sprints donde esta información no fue documentada, así como dar seguimiento a la participación de todos los integrantes en los repositorios de código.
+
 # Bibliografía
 - Sierra Praeli, Y. (28 de abril de 2024). Territorios contaminados: la transición energética no avanza en la Amazonía de Perú. Mongabay Latam.
   (https://es.mongabay.com/2024/04/territorios-contaminados-transicion-energetica-no-avanza-amazonia-peru/)
