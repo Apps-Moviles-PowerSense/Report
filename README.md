@@ -1604,6 +1604,21 @@ La solución incluye metadatos esenciales para el posicionamiento y la accesibil
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
+**User Goal #1 (Hogares):**
+Ver las programaciones activas que tiene el usuario.
+
+![user-goal-1](Imagenes/user-flow/user-goal-1.png) 
+
+En la primera instancia, el usuario se encuentra en la vista por defecto de la aplicación, la cual es la vista del Dashboard. A partir de aqui, el usuario realiza el paso 1, dirigiendose hacia la pestaña de Programación. En dicha pestaña, el usuario realizaría el paso 2 para poder scrollear y poder ver el contenido completo que ofrece esta vista. De esta forma el usuario puede revisar que programaciones tiene activas, además de poder gestionarlas.
+
+
+**User Goal #2 (MYPES):**
+Ver los reportes generados para la empresa.
+
+![user-goal-2](Imagenes/user-flow/user-goal-2.png) 
+
+En la primera vista, el usuario se posiciona en la vista del Dashboard, para luego realizar el primer paso, haciendo tap en la pestaña de Reportes. En esta primera parte de la pestaña el usuario puede seleccionar el filtro de como quiere que se genere el reporte, además, puede ver métricas como su consumo total y el costo total. En el paso 2, el usuario logra ver lo gráficos de su consumo mensual más la comparativa por departamentos. Finalmente, en el paso 3, el usuario puede ver una seccion para ver y descargar un historial de reportes, tanto en formato PDF como CSV.
+
 #### 3.1.4.5. Mobile Applications Prototyping
 
 # Capítulo IV: Product Implementation & Validation
