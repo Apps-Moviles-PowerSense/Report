@@ -1621,6 +1621,10 @@ En la primera vista, el usuario se posiciona en la vista del Dashboard, para lue
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
+En esta sección se muestra el flujo completo de navegación entre pestañas que ofrece la aplicación. En primera instancia tenemos la vista de Dashboard. A partir de esta vista el usuario puede scrollear en la misma para ver las diferentes secciones que ofrece esta pesataña. Por otro lado, el usuario también puede dirigirse a otras pestañas mediante la barra de navegación inferior. Mediante esta puede dirigirse a Dispositivos, Programación, Reportes y Alertas. Cabe mencionar que en cada vista el usuario también puede scrollear en la misma para poder visualizar todas las secciones y funcionalidades que ofrece cada vista por separado.
+
+![prototyping](Imagenes/prototyping.png)
+
 # Capítulo IV: Product Implementation & Validation
 
 ## 4. Product Implementation & Validation
